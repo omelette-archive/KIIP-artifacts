@@ -1,0 +1,104 @@
+{
+  "artifact": "07-dashboard/dashboard.html",
+  "headSha": "5b04cab7b90f2e85009703de02a31e07d0b6d70c",
+  "metadata": {
+    "snapshotId": "dashboard-5ce041f759c933ea1c8b",
+    "schemaVersion": "dashboard-snapshot-v1",
+    "generatedAt": "2026-08-12T05:47:10.076Z",
+    "sourceMaxFetchedAt": "2026-08-12T04:55:30.665Z",
+    "stage": "alpha",
+    "inputScope": "full"
+  },
+  "versions": [
+    {
+      "sha": "7182c518e018baab177aaf53ecd3eb0f50bdfca4",
+      "shortSha": "7182c518e018",
+      "committedAt": "2026-08-12T14:48:06+09:00",
+      "subject": "feat: accept designated-goods name containment"
+    },
+    {
+      "sha": "ba353016fab5856bd204d1d9c6935d1be96c05f4",
+      "shortSha": "ba353016fab5",
+      "committedAt": "2026-08-12T14:35:46+09:00",
+      "subject": "fix: show regional metrics without address coverage gate"
+    },
+    {
+      "sha": "166ef64ddd0f575bdd3dad599c792be9647567c5",
+      "shortSha": "166ef64ddd0f",
+      "committedAt": "2026-08-12T14:19:56+09:00",
+      "subject": "feat: 알파 대시보드 샘플을 검토대기 원물명 검색 포함 최신 실행으로 갱신"
+    },
+    {
+      "sha": "1bab6489515a3fb3cc90994e8f4e9ce8221c676c",
+      "shortSha": "1bab6489515a",
+      "committedAt": "2026-08-12T13:40:04+09:00",
+      "subject": "feat: run deep query-fact alpha pipeline"
+    },
+    {
+      "sha": "b153e245ced1e69560140bf70630ef20fd1cbebc",
+      "shortSha": "b153e245ced1",
+      "committedAt": "2026-08-12T11:24:37+09:00",
+      "subject": "feat: simplify dashboard and resume partial queries"
+    },
+    {
+      "sha": "8609056cd409f4cd73d8f0db16a13b366c93038e",
+      "shortSha": "8609056cd409",
+      "committedAt": "2026-08-12T11:11:59+09:00",
+      "subject": "feat: add dashboard data journey and trademark showcase"
+    },
+    {
+      "sha": "1e1127b765bc6c6bab99450391580449c582b706",
+      "shortSha": "1e1127b765bc",
+      "committedAt": "2026-08-12T10:27:10+09:00",
+      "subject": "feat: surface alpha pipeline progress in dashboard"
+    },
+    {
+      "sha": "b77d083affd8e8cf809b12b7b6f9b727d5ac45c6",
+      "shortSha": "b77d083affd8",
+      "committedAt": "2026-08-11T15:43:08+09:00",
+      "subject": "fix: 미검증 전국 상표의 지역 집계 차단"
+    },
+    {
+      "sha": "e7835267c1018ad273a288cb2c6a745caaee2287",
+      "shortSha": "e7835267c101",
+      "committedAt": "2026-08-11T15:22:26+09:00",
+      "subject": "fix: 전체 알파 파이프라인 실데이터 병목 보강"
+    },
+    {
+      "sha": "4bcb972c96a802ded3e9bf5e5180fcef1d4d473d",
+      "shortSha": "4bcb972c96a8",
+      "committedAt": "2026-08-11T11:34:30+09:00",
+      "subject": "feat: 대시보드 판정 기준 상단 노출 + 실제 출원 상표명·지정상품 근거 표시"
+    },
+    {
+      "sha": "18ca18d74d2abebe44913d4f54a60162062a71e7",
+      "shortSha": "18ca18d74d2a",
+      "committedAt": "2026-08-11T11:13:36+09:00",
+      "subject": "fix: 고시명칭 기준 지역 특산품 집계 고정"
+    },
+    {
+      "sha": "2d3b31fc0a13ab83f05bf01203e53b674336cb95",
+      "shortSha": "2d3b31fc0a13",
+      "committedAt": "2026-08-11T11:09:44+09:00",
+      "subject": "fix: 대시보드 \"품목\"을 고시명칭 기준으로 정정 — 브랜드명 노출 버그 수정"
+    },
+    {
+      "sha": "e2c9bb99bc6ca14fba8c953d17c88df7e69fc172",
+      "shortSha": "e2c9bb99bc6c",
+      "committedAt": "2026-08-11T10:49:58+09:00",
+      "subject": "feat: 대시보드에 레퍼런스 구조(탭·랭킹) 반영 — 새 데이터 수집 없이"
+    },
+    {
+      "sha": "ca0a491588350d49788146de9e2bdcb8f50f320e",
+      "shortSha": "ca0a49158835",
+      "committedAt": "2026-08-11T10:45:11+09:00",
+      "subject": "feat: 레퍼런스 기반 지도·조회 화면 보강"
+    },
+    {
+      "sha": "8b363e5c0167a6f97dc72f7d42cb2fe6308c05db",
+      "shortSha": "8b363e5c0167",
+      "committedAt": "2026-08-11T10:23:50+09:00",
+      "subject": "feat: 단일 HTML 대시보드 산출물 추가"
+    }
+  ]
+}

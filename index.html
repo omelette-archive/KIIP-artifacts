@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KIIP 알파 대시보드 최신본, 버전 이력, 피드백 창구">
+  <title>KIIP 현재 산출물</title>
+  <style>
+    :root { color-scheme: light; --ink:#17211c; --muted:#647068; --line:#dce4df; --paper:#fff; --wash:#f2f6f3; --brand:#087f5b; --warn:#9a6700; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:linear-gradient(145deg,#eef6f0 0,#f9fbfa 42%,#edf3f6 100%); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(1040px,calc(100% - 32px)); margin:0 auto; padding:64px 0 80px; }
+    h1,h2 { line-height:1.2; letter-spacing:-.03em; }
+    h1 { margin:14px 0 16px; font-size:clamp(2rem,5vw,3.8rem); }
+    h2 { margin:0 0 16px; font-size:1.25rem; }
+    p { margin:0 0 16px; }
+    a { color:var(--brand); }
+    .eyebrow,.badge { display:inline-flex; align-items:center; gap:7px; border-radius:999px; font-weight:700; }
+    .eyebrow { color:var(--brand); text-transform:uppercase; letter-spacing:.08em; font-size:.76rem; }
+    .badge { padding:5px 10px; color:var(--warn); background:#fff5cf; font-size:.8rem; }
+    .lede { max-width:760px; color:#405048; font-size:1.08rem; }
+    .actions { display:flex; flex-wrap:wrap; gap:10px; margin:28px 0 46px; }
+    .button { display:inline-block; padding:12px 17px; border:1px solid var(--line); border-radius:10px; background:var(--paper); color:var(--ink); text-decoration:none; font-weight:700; box-shadow:0 8px 24px #183b2a0c; }
+    .button.primary { color:#fff; border-color:var(--brand); background:var(--brand); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+    .card { padding:22px; border:1px solid var(--line); border-radius:16px; background:#ffffffd9; box-shadow:0 14px 40px #183b2a0a; }
+    .meta { display:grid; grid-template-columns:auto 1fr; gap:7px 14px; margin:0; }
+    .meta dt { color:var(--muted); }
+    .meta dd { margin:0; overflow-wrap:anywhere; }
+    .version-list { margin:0; padding:0; list-style:none; }
+    .version-list li { display:grid; grid-template-columns:minmax(92px,auto) 1fr; gap:8px 14px; padding:14px 0; border-top:1px solid var(--line); }
+    .version-list li:first-child { border-top:0; padding-top:0; }
+    .version-list a { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-weight:700; }
+    .version-list small { display:block; color:var(--muted); }
+    .notice { margin-top:18px; padding:14px 16px; border-left:4px solid #e1a800; background:#fff9e5; }
+    footer { margin-top:42px; color:var(--muted); font-size:.9rem; }
+    @media (max-width:560px) { main { padding-top:38px; } .version-list li { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body><main>
+      <span class="eyebrow">KIIP · 현재까지의 산출물</span>
+      <h1>지역 브랜드 인사이트<br>알파 대시보드</h1>
+      <p class="lede">지금까지 연결된 특산품·상표 데이터와 분석 결과를 한 파일로 확인하는 검토용 산출물입니다. 최신본과 과거 버전을 같은 주소 체계에서 열 수 있습니다.</p>
+      <div class="actions">
+        <a class="button primary" href="./latest/">최신 알파 대시보드 열기</a>
+        <a class="button" href="./versions/">버전 내역</a>
+        <a class="button" href="https://github.com/omelette-archive/KIIP/issues/new?template=artifact-feedback.yml">피드백 남기기</a>
+      </div>
+      <div class="grid">
+        <section class="card">
+          <h2>현재 빌드</h2>
+          <dl class="meta">
+            <dt>단계</dt><dd><span class="badge">ALPHA · 검토용</span></dd>
+            <dt>스냅샷</dt><dd>dashboard-5ce041f759c933ea1c8b</dd>
+            <dt>생성일</dt><dd>2026-08-12</dd>
+            <dt>데이터 기준</dt><dd>2026-08-12</dd>
+            <dt>계약</dt><dd>dashboard-snapshot-v1</dd>
+            <dt>배포 커밋</dt><dd><a href="https://github.com/omelette-archive/KIIP/commit/5b04cab7b90f2e85009703de02a31e07d0b6d70c">5b04cab7b90f</a></dd>
+          </dl>
+          <p class="notice">배포 전 알파 테스트 결과입니다. 미완료 수집과 차단된 지표는 화면의 경고·출처 표시와 함께 해석해 주세요.</p>
+        </section>
+        <section class="card">
+          <h2>최근 버전</h2>
+          <ul class="version-list"><li>
+        <div><a href="./versions/7182c518e018/">7182c518e018</a><small>2026-08-12</small></div>
+        <div>feat: accept designated-goods name containment<small><a href="https://github.com/omelette-archive/KIIP/commit/7182c518e018baab177aaf53ecd3eb0f50bdfca4">변경 내용 확인</a></small></div>
+      </li>
+<li>
+        <div><a href="./versions/ba353016fab5/">ba353016fab5</a><small>2026-08-12</small></div>
+        <div>fix: show regional metrics without address coverage gate<small><a href="https://github.com/omelette-archive/KIIP/commit/ba353016fab5856bd204d1d9c6935d1be96c05f4">변경 내용 확인</a></small></div>
+      </li>
+<li>
+        <div><a href="./versions/166ef64ddd0f/">166ef64ddd0f</a><small>2026-08-12</small></div>
+        <div>feat: 알파 대시보드 샘플을 검토대기 원물명 검색 포함 최신 실행으로 갱신<small><a href="https://github.com/omelette-archive/KIIP/commit/166ef64ddd0f575bdd3dad599c792be9647567c5">변경 내용 확인</a></small></div>
+      </li>
+<li>
+        <div><a href="./versions/1bab6489515a/">1bab6489515a</a><small>2026-08-12</small></div>
+        <div>feat: run deep query-fact alpha pipeline<small><a href="https://github.com/omelette-archive/KIIP/commit/1bab6489515a3fb3cc90994e8f4e9ce8221c676c">변경 내용 확인</a></small></div>
+      </li>
+<li>
+        <div><a href="./versions/b153e245ced1/">b153e245ced1</a><small>2026-08-12</small></div>
+        <div>feat: simplify dashboard and resume partial queries<small><a href="https://github.com/omelette-archive/KIIP/commit/b153e245ced1e69560140bf70630ef20fd1cbebc">변경 내용 확인</a></small></div>
+      </li></ul>
+          <p><a href="./versions/">전체 버전 보기 →</a></p>
+        </section>
+      </div>
+      <footer>원본 파일: <a href="https://github.com/omelette-archive/KIIP/blob/main/07-dashboard/dashboard.html">07-dashboard/dashboard.html</a> · 자동 게시: GitHub Pages</footer></main></body>
+</html>
