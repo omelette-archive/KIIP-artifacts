@@ -1,15 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5b04cab7b90f2e85009703de02a31e07d0b6d70c",
+  "headSha": "69b498ada56415b6c5df86418d1adea0dd64f1e7",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
     "generatedAt": "2026-08-12T05:47:10.076Z",
     "sourceMaxFetchedAt": "2026-08-12T04:55:30.665Z",
     "stage": "alpha",
-    "inputScope": "full"
+    "inputScope": "full",
+    "observedRegionCount": 124,
+    "regionItemCount": 1692,
+    "nationwideTrademarkCount": 67323,
+    "availableRegionItemCount": 671,
+    "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "69b498ada56415b6c5df86418d1adea0dd64f1e7",
+      "shortSha": "69b498ada564",
+      "committedAt": "2026-08-18T08:29:59+09:00",
+      "subject": "feat: polish public artifact hub and dashboard copy (#69)"
+    },
     {
       "sha": "7182c518e018baab177aaf53ecd3eb0f50bdfca4",
       "shortSha": "7182c518e018",

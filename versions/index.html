@@ -3,104 +3,166 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="KIIP 알파 대시보드의 렌더링 가능한 Git 버전 내역">
-  <title>KIIP 산출물 버전 내역</title>
+  <meta name="description" content="KIIP 지역 특산품 상표 분석 대시보드의 변경 이력">
+  <title>KIIP 대시보드 변경 이력</title>
   <style>
-    :root { color-scheme: light; --ink:#17211c; --muted:#647068; --line:#dce4df; --paper:#fff; --wash:#f2f6f3; --brand:#087f5b; --warn:#9a6700; }
+    :root { color-scheme:light; --ink:#16221c; --muted:#68736d; --line:#dbe4de; --paper:#fff; --wash:#f3f7f4; --brand:#087f5b; --brand-dark:#075c44; --warn:#8a5b00; }
     * { box-sizing:border-box; }
-    body { margin:0; color:var(--ink); background:linear-gradient(145deg,#eef6f0 0,#f9fbfa 42%,#edf3f6 100%); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
-    main { width:min(1040px,calc(100% - 32px)); margin:0 auto; padding:64px 0 80px; }
+    body { margin:0; color:var(--ink); background:#f5f8f6; font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(1120px,calc(100% - 32px)); margin:0 auto; padding:0 0 72px; }
     h1,h2 { line-height:1.2; letter-spacing:-.03em; }
-    h1 { margin:14px 0 16px; font-size:clamp(2rem,5vw,3.8rem); }
+    h1 { margin:10px 0 16px; font-size:clamp(2.15rem,5vw,4.4rem); }
     h2 { margin:0 0 16px; font-size:1.25rem; }
     p { margin:0 0 16px; }
     a { color:var(--brand); }
+    .site-header { display:flex; align-items:center; justify-content:space-between; min-height:72px; border-bottom:1px solid var(--line); }
+    .site-brand { color:var(--ink); text-decoration:none; font-weight:800; letter-spacing:-.02em; }
+    .site-brand span { color:var(--muted); font-weight:600; }
+    nav { display:flex; gap:22px; }
+    nav a { color:#3d4b43; text-decoration:none; font-size:.92rem; font-weight:650; }
+    .hero { display:grid; grid-template-columns:minmax(0,1.5fr) minmax(300px,.75fr); gap:46px; align-items:center; padding:74px 0 56px; }
     .eyebrow,.badge { display:inline-flex; align-items:center; gap:7px; border-radius:999px; font-weight:700; }
     .eyebrow { color:var(--brand); text-transform:uppercase; letter-spacing:.08em; font-size:.76rem; }
-    .badge { padding:5px 10px; color:var(--warn); background:#fff5cf; font-size:.8rem; }
+    .badge { padding:5px 10px; color:var(--warn); background:#fff3c4; font-size:.8rem; }
     .lede { max-width:760px; color:#405048; font-size:1.08rem; }
-    .actions { display:flex; flex-wrap:wrap; gap:10px; margin:28px 0 46px; }
-    .button { display:inline-block; padding:12px 17px; border:1px solid var(--line); border-radius:10px; background:var(--paper); color:var(--ink); text-decoration:none; font-weight:700; box-shadow:0 8px 24px #183b2a0c; }
+    .actions { display:flex; flex-wrap:wrap; gap:10px; margin:28px 0 0; }
+    .button { display:inline-block; padding:12px 17px; border:1px solid var(--line); border-radius:9px; background:var(--paper); color:var(--ink); text-decoration:none; font-weight:700; }
     .button.primary { color:#fff; border-color:var(--brand); background:var(--brand); }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
-    .card { padding:22px; border:1px solid var(--line); border-radius:16px; background:#ffffffd9; box-shadow:0 14px 40px #183b2a0a; }
+    .button.primary:hover { background:var(--brand-dark); }
+    .status-card { padding:24px; border:1px solid #cfe0d6; border-radius:18px; background:var(--paper); box-shadow:0 20px 55px #173b2910; }
+    .status-line { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:20px; }
+    .live { display:flex; align-items:center; gap:8px; color:var(--brand-dark); font-weight:800; }
+    .live::before { width:9px; height:9px; border-radius:50%; background:#15a36f; content:""; box-shadow:0 0 0 4px #dcf5e9; }
     .meta { display:grid; grid-template-columns:auto 1fr; gap:7px 14px; margin:0; }
     .meta dt { color:var(--muted); }
     .meta dd { margin:0; overflow-wrap:anywhere; }
-    .version-list { margin:0; padding:0; list-style:none; }
-    .version-list li { display:grid; grid-template-columns:minmax(92px,auto) 1fr; gap:8px 14px; padding:14px 0; border-top:1px solid var(--line); }
-    .version-list li:first-child { border-top:0; padding-top:0; }
-    .version-list a { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-weight:700; }
-    .version-list small { display:block; color:var(--muted); }
-    .notice { margin-top:18px; padding:14px 16px; border-left:4px solid #e1a800; background:#fff9e5; }
+    .section { margin-top:26px; }
+    .section-heading { display:flex; justify-content:space-between; gap:20px; align-items:end; margin-bottom:16px; }
+    .section-heading h2 { margin:0; font-size:1.55rem; }
+    .section-heading p { margin:0; color:var(--muted); }
+    .metrics { display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--line); border-radius:16px; background:var(--paper); overflow:hidden; }
+    .metric { padding:23px; border-left:1px solid var(--line); }
+    .metric:first-child { border-left:0; }
+    .metric strong { display:block; font-size:1.8rem; line-height:1.2; letter-spacing:-.04em; }
+    .metric span { display:block; margin-top:6px; color:var(--muted); font-size:.88rem; }
+    .card { padding:24px; border:1px solid var(--line); border-radius:16px; background:var(--paper); }
+    .table-wrap { overflow-x:auto; }
+    table { width:100%; border-collapse:collapse; }
+    th,td { padding:14px 12px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+    th { color:var(--muted); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; }
+    td:first-child a { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-weight:750; }
+    td small { display:block; color:var(--muted); }
+    tbody tr:last-child td { border-bottom:0; }
+    .guide-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .guide-grid a { display:block; min-height:142px; padding:22px; border:1px solid var(--line); border-radius:14px; background:var(--paper); color:var(--ink); text-decoration:none; }
+    .guide-grid a:hover { border-color:#9fc5b3; }
+    .guide-grid strong { display:block; margin-bottom:8px; }
+    .guide-grid span { color:var(--muted); font-size:.92rem; }
+    .notice { margin-top:16px; padding:13px 15px; border-radius:9px; color:#5f4708; background:#fff7d8; font-size:.9rem; }
     footer { margin-top:42px; color:var(--muted); font-size:.9rem; }
-    @media (max-width:560px) { main { padding-top:38px; } .version-list li { grid-template-columns:1fr; } }
+    code { padding:2px 5px; border-radius:5px; background:#eaf0ec; }
+    @media (max-width:800px) { .hero { grid-template-columns:1fr; padding-top:50px; } .metrics { grid-template-columns:repeat(2,1fr); } .metric:nth-child(3) { border-left:0; border-top:1px solid var(--line); } .metric:nth-child(4) { border-top:1px solid var(--line); } .guide-grid { grid-template-columns:1fr; } }
+    @media (max-width:560px) { .site-header { align-items:flex-start; flex-direction:column; justify-content:center; gap:6px; padding:14px 0; } nav { gap:14px; } .hero { padding:40px 0; } .metrics { grid-template-columns:1fr; } .metric { border-left:0; border-top:1px solid var(--line); } .metric:first-child { border-top:0; } .section-heading { align-items:start; flex-direction:column; } }
   </style>
 </head>
 <body><main>
-      <span class="eyebrow">KIIP · 산출물 기록</span>
-      <h1>대시보드 버전 내역</h1>
-      <p class="lede">각 항목은 <code>07-dashboard/dashboard.html</code>가 변경된 Git 커밋입니다. 버전 링크는 당시 HTML을 그대로 렌더링합니다.</p>
-      <div class="actions"><a class="button primary" href="../latest/">최신본 열기</a><a class="button" href="../">산출물 허브</a><a class="button" href="https://github.com/omelette-archive/KIIP/issues/new?template=artifact-feedback.yml">피드백 남기기</a></div>
-      <section class="card"><ul class="version-list"><li>
-        <div><a href="./7182c518e018/">7182c518e018</a><small>2026-08-12</small></div>
-        <div>feat: accept designated-goods name containment<small><a href="https://github.com/omelette-archive/KIIP/commit/7182c518e018baab177aaf53ecd3eb0f50bdfca4">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./ba353016fab5/">ba353016fab5</a><small>2026-08-12</small></div>
-        <div>fix: show regional metrics without address coverage gate<small><a href="https://github.com/omelette-archive/KIIP/commit/ba353016fab5856bd204d1d9c6935d1be96c05f4">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./166ef64ddd0f/">166ef64ddd0f</a><small>2026-08-12</small></div>
-        <div>feat: 알파 대시보드 샘플을 검토대기 원물명 검색 포함 최신 실행으로 갱신<small><a href="https://github.com/omelette-archive/KIIP/commit/166ef64ddd0f575bdd3dad599c792be9647567c5">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./1bab6489515a/">1bab6489515a</a><small>2026-08-12</small></div>
-        <div>feat: run deep query-fact alpha pipeline<small><a href="https://github.com/omelette-archive/KIIP/commit/1bab6489515a3fb3cc90994e8f4e9ce8221c676c">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./b153e245ced1/">b153e245ced1</a><small>2026-08-12</small></div>
-        <div>feat: simplify dashboard and resume partial queries<small><a href="https://github.com/omelette-archive/KIIP/commit/b153e245ced1e69560140bf70630ef20fd1cbebc">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./8609056cd409/">8609056cd409</a><small>2026-08-12</small></div>
-        <div>feat: add dashboard data journey and trademark showcase<small><a href="https://github.com/omelette-archive/KIIP/commit/8609056cd409f4cd73d8f0db16a13b366c93038e">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./1e1127b765bc/">1e1127b765bc</a><small>2026-08-12</small></div>
-        <div>feat: surface alpha pipeline progress in dashboard<small><a href="https://github.com/omelette-archive/KIIP/commit/1e1127b765bc6c6bab99450391580449c582b706">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./b77d083affd8/">b77d083affd8</a><small>2026-08-11</small></div>
-        <div>fix: 미검증 전국 상표의 지역 집계 차단<small><a href="https://github.com/omelette-archive/KIIP/commit/b77d083affd8e8cf809b12b7b6f9b727d5ac45c6">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./e7835267c101/">e7835267c101</a><small>2026-08-11</small></div>
-        <div>fix: 전체 알파 파이프라인 실데이터 병목 보강<small><a href="https://github.com/omelette-archive/KIIP/commit/e7835267c1018ad273a288cb2c6a745caaee2287">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./4bcb972c96a8/">4bcb972c96a8</a><small>2026-08-11</small></div>
-        <div>feat: 대시보드 판정 기준 상단 노출 + 실제 출원 상표명·지정상품 근거 표시<small><a href="https://github.com/omelette-archive/KIIP/commit/4bcb972c96a802ded3e9bf5e5180fcef1d4d473d">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./18ca18d74d2a/">18ca18d74d2a</a><small>2026-08-11</small></div>
-        <div>fix: 고시명칭 기준 지역 특산품 집계 고정<small><a href="https://github.com/omelette-archive/KIIP/commit/18ca18d74d2abebe44913d4f54a60162062a71e7">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./2d3b31fc0a13/">2d3b31fc0a13</a><small>2026-08-11</small></div>
-        <div>fix: 대시보드 &quot;품목&quot;을 고시명칭 기준으로 정정 — 브랜드명 노출 버그 수정<small><a href="https://github.com/omelette-archive/KIIP/commit/2d3b31fc0a13ab83f05bf01203e53b674336cb95">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./e2c9bb99bc6c/">e2c9bb99bc6c</a><small>2026-08-11</small></div>
-        <div>feat: 대시보드에 레퍼런스 구조(탭·랭킹) 반영 — 새 데이터 수집 없이<small><a href="https://github.com/omelette-archive/KIIP/commit/e2c9bb99bc6ca14fba8c953d17c88df7e69fc172">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./ca0a49158835/">ca0a49158835</a><small>2026-08-11</small></div>
-        <div>feat: 레퍼런스 기반 지도·조회 화면 보강<small><a href="https://github.com/omelette-archive/KIIP/commit/ca0a491588350d49788146de9e2bdcb8f50f320e">변경 내용 확인</a></small></div>
-      </li>
-<li>
-        <div><a href="./8b363e5c0167/">8b363e5c0167</a><small>2026-08-11</small></div>
-        <div>feat: 단일 HTML 대시보드 산출물 추가<small><a href="https://github.com/omelette-archive/KIIP/commit/8b363e5c0167a6f97dc72f7d42cb2fe6308c05db">변경 내용 확인</a></small></div>
-      </li></ul></section>
-      <footer>Git 이력: <a href="https://github.com/omelette-archive/KIIP/commits/main/07-dashboard/dashboard.html">GitHub에서 확인</a></footer></main></body>
+      <header class="site-header"><a class="site-brand" href="../">KIIP <span>/ 공개 산출물</span></a><nav><a href="../latest/">대시보드</a><a href="./">변경 이력</a><a href="https://github.com/omelette-archive/KIIP/issues/new?template=artifact-feedback.yml">피드백</a></nav></header>
+      <section class="hero"><div><span class="eyebrow">VERSION HISTORY</span><h1>대시보드<br>변경 이력</h1><p class="lede">결과 화면이 바뀐 시점과 내용을 확인하고, 당시 공개된 HTML을 그대로 열어 비교할 수 있습니다.</p><div class="actions"><a class="button primary" href="../latest/">현재 결과 보기 →</a><a class="button" href="../">산출물 홈</a></div></div><aside class="status-card"><h2>버전 기준</h2><p><code>07-dashboard/dashboard.html</code>가 변경된 Git 커밋을 한 버전으로 기록합니다.</p><p class="notice">버전 링크는 당시 화면을 재현하며, Git 링크는 변경된 파일과 커밋 설명을 보여줍니다.</p></aside></section>
+      <section class="section card"><div class="table-wrap"><table><thead><tr><th>버전</th><th>날짜</th><th>변경 내용</th><th>Git</th></tr></thead><tbody><tr>
+        <td><a href="./69b498ada564/">69b498ada564</a></td>
+        <td>2026-08-18</td>
+        <td>feat: polish public artifact hub and dashboard copy (#69)</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/69b498ada56415b6c5df86418d1adea0dd64f1e7">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./7182c518e018/">7182c518e018</a></td>
+        <td>2026-08-12</td>
+        <td>feat: accept designated-goods name containment</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/7182c518e018baab177aaf53ecd3eb0f50bdfca4">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./ba353016fab5/">ba353016fab5</a></td>
+        <td>2026-08-12</td>
+        <td>fix: show regional metrics without address coverage gate</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/ba353016fab5856bd204d1d9c6935d1be96c05f4">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./166ef64ddd0f/">166ef64ddd0f</a></td>
+        <td>2026-08-12</td>
+        <td>feat: 알파 대시보드 샘플을 검토대기 원물명 검색 포함 최신 실행으로 갱신</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/166ef64ddd0f575bdd3dad599c792be9647567c5">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./1bab6489515a/">1bab6489515a</a></td>
+        <td>2026-08-12</td>
+        <td>feat: run deep query-fact alpha pipeline</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/1bab6489515a3fb3cc90994e8f4e9ce8221c676c">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./b153e245ced1/">b153e245ced1</a></td>
+        <td>2026-08-12</td>
+        <td>feat: simplify dashboard and resume partial queries</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/b153e245ced1e69560140bf70630ef20fd1cbebc">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./8609056cd409/">8609056cd409</a></td>
+        <td>2026-08-12</td>
+        <td>feat: add dashboard data journey and trademark showcase</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/8609056cd409f4cd73d8f0db16a13b366c93038e">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./1e1127b765bc/">1e1127b765bc</a></td>
+        <td>2026-08-12</td>
+        <td>feat: surface alpha pipeline progress in dashboard</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/1e1127b765bc6c6bab99450391580449c582b706">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./b77d083affd8/">b77d083affd8</a></td>
+        <td>2026-08-11</td>
+        <td>fix: 미검증 전국 상표의 지역 집계 차단</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/b77d083affd8e8cf809b12b7b6f9b727d5ac45c6">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./e7835267c101/">e7835267c101</a></td>
+        <td>2026-08-11</td>
+        <td>fix: 전체 알파 파이프라인 실데이터 병목 보강</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/e7835267c1018ad273a288cb2c6a745caaee2287">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./4bcb972c96a8/">4bcb972c96a8</a></td>
+        <td>2026-08-11</td>
+        <td>feat: 대시보드 판정 기준 상단 노출 + 실제 출원 상표명·지정상품 근거 표시</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/4bcb972c96a802ded3e9bf5e5180fcef1d4d473d">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./18ca18d74d2a/">18ca18d74d2a</a></td>
+        <td>2026-08-11</td>
+        <td>fix: 고시명칭 기준 지역 특산품 집계 고정</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/18ca18d74d2abebe44913d4f54a60162062a71e7">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./2d3b31fc0a13/">2d3b31fc0a13</a></td>
+        <td>2026-08-11</td>
+        <td>fix: 대시보드 &quot;품목&quot;을 고시명칭 기준으로 정정 — 브랜드명 노출 버그 수정</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/2d3b31fc0a13ab83f05bf01203e53b674336cb95">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./e2c9bb99bc6c/">e2c9bb99bc6c</a></td>
+        <td>2026-08-11</td>
+        <td>feat: 대시보드에 레퍼런스 구조(탭·랭킹) 반영 — 새 데이터 수집 없이</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/e2c9bb99bc6ca14fba8c953d17c88df7e69fc172">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./ca0a49158835/">ca0a49158835</a></td>
+        <td>2026-08-11</td>
+        <td>feat: 레퍼런스 기반 지도·조회 화면 보강</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/ca0a491588350d49788146de9e2bdcb8f50f320e">변경 보기</a></td>
+      </tr>
+<tr>
+        <td><a href="./8b363e5c0167/">8b363e5c0167</a></td>
+        <td>2026-08-11</td>
+        <td>feat: 단일 HTML 대시보드 산출물 추가</td>
+        <td><a href="https://github.com/omelette-archive/KIIP/commit/8b363e5c0167a6f97dc72f7d42cb2fe6308c05db">변경 보기</a></td>
+      </tr></tbody></table></div></section>
+      <footer>전체 Git 이력은 <a href="https://github.com/omelette-archive/KIIP/commits/main/07-dashboard/dashboard.html">원본 저장소</a>에서 확인할 수 있습니다.</footer></main></body>
 </html>
