@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "69b498ada56415b6c5df86418d1adea0dd64f1e7",
+  "headSha": "4fcffbac4fd7c4bc7d3b2267f4781bbc8f37009d",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,18 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "b76b9bc9709e5c763cc386ba2ffa11a0a7aeeb44",
+      "shortSha": "b76b9bc9709e",
+      "committedAt": "2026-08-18T09:12:19+09:00",
+      "subject": "chore: 병합 후 단독 대시보드 HTML 재생성"
+    },
+    {
+      "sha": "80358f1627127fe52bf4e00b23e336cca5b9f0df",
+      "shortSha": "80358f162712",
+      "committedAt": "2026-08-18T09:07:34+09:00",
+      "subject": "feat: 품목 정규화 판정 출처(verdictSource)를 전 구간에 노출하고 자동 확정 감사 리포트 추가"
+    },
     {
       "sha": "69b498ada56415b6c5df86418d1adea0dd64f1e7",
       "shortSha": "69b498ada564",
