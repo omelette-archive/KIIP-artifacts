@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "208b9a86da71229e5270f1f93ba879790058b3ef",
+  "headSha": "d3f7a6c3fc081c0c61a3d60f3b4167b296ac3262",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "d6a3a87c71d3339533b4f1a0004aaa5670501c69",
+      "shortSha": "d6a3a87c71d3",
+      "committedAt": "2026-08-19T15:39:10+09:00",
+      "subject": "feat(dashboard): improve item and crop comparison readability"
+    },
     {
       "sha": "bb39a05d7ba16341dc44194ab84263dcb20d6bda",
       "shortSha": "bb39a05d7ba1",
