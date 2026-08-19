@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ada20234eeace3c52df11e8bea16dda8154f7ac7",
+  "headSha": "55e36b7a48d603c3891782d88a77a02cd2a69da1",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "d3f9d550bb9b19790abc77bc1798a8489d969a4d",
+      "shortSha": "d3f9d550bb9b",
+      "committedAt": "2026-08-19T15:03:25+09:00",
+      "subject": "feat: 알파 테스트 문구를 걷어내고, 지역 확인 전 상표는 잠정치로 표시"
+    },
     {
       "sha": "95944a1ffeccec02e452b75d809519808b903051",
       "shortSha": "95944a1ffecc",
