@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "85f324aa14282efb2672732b83cad187fd5c1d30",
+  "headSha": "45bb292a23b23d5a7a0d5e5d28c2682971080502",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "2a42b53f080620530a90243f33dc406775a7e13a",
+      "shortSha": "2a42b53f0806",
+      "committedAt": "2026-08-19T09:29:47+09:00",
+      "subject": "fix: 품목별 조회를 고시명칭 기준으로 재그룹 — 미분류 원물명 노출 제거"
+    },
     {
       "sha": "b76b9bc9709e5c763cc386ba2ffa11a0a7aeeb44",
       "shortSha": "b76b9bc9709e",
