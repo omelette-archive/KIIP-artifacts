@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "58b00915a8384d2f99e56c6c0859ec47c71d688d",
+  "headSha": "140da2f74a348bae05c5ad4ad2c5ad0046171dd2",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "ffc1efa91a2e269f568581b89743354b0244f8ed",
+      "shortSha": "ffc1efa91a2e",
+      "committedAt": "2026-08-19T09:57:19+09:00",
+      "subject": "fix: 모호한 상태 문구 \"지역 귀속/상표 검증 중\"을 \"데이터 검토 중\"으로 통일"
+    },
     {
       "sha": "826fc015e24498fd1bad5a2538af83a6f33570c7",
       "shortSha": "826fc015e244",
