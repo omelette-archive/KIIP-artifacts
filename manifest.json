@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "e59b431ae496df18c1a3b628b0f7125d0462cfe3",
+  "headSha": "49cf19c7fb788a1bfee35b4b5e05ad423b459d4e",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "aba35ded205f907da27019b9b6624087822fbd0d",
+      "shortSha": "aba35ded205f",
+      "committedAt": "2026-08-19T15:21:45+09:00",
+      "subject": "fix: \"사람 검토\" 표현을 \"개별 검토\"로 통일, 품목별 조회 표 가독성 개선"
+    },
     {
       "sha": "e9e067fb94121a96d08d9fd063ad0964788760b4",
       "shortSha": "e9e067fb9412",
