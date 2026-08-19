@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "140da2f74a348bae05c5ad4ad2c5ad0046171dd2",
+  "headSha": "75f277decbcca7e49b79674a57238eeedccb9d88",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "8b426791d58da8087679e82972d5e99c246a5c50",
+      "shortSha": "8b426791d58d",
+      "committedAt": "2026-08-19T10:23:39+09:00",
+      "subject": "fix: 전국 지도 라벨 크기와 레이어 보완"
+    },
     {
       "sha": "ffc1efa91a2e269f568581b89743354b0244f8ed",
       "shortSha": "ffc1efa91a2e",
