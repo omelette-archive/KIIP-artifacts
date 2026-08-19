@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "d3f7a6c3fc081c0c61a3d60f3b4167b296ac3262",
+  "headSha": "1b8abb1e4dff6d1e3759006a5dd713790a75a61c",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "70f4fe97b5af52c8dc39b0e7afb81409f88c03b6",
+      "shortSha": "70f4fe97b5af",
+      "committedAt": "2026-08-19T16:06:24+09:00",
+      "subject": "revert: 전국 검색 건수를 지역 수치로 섞어 보여주던 표시를 되돌림 (v2, PR #97 기준)"
+    },
     {
       "sha": "d6a3a87c71d3339533b4f1a0004aaa5670501c69",
       "shortSha": "d6a3a87c71d3",
