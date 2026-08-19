@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "49cf19c7fb788a1bfee35b4b5e05ad423b459d4e",
+  "headSha": "208b9a86da71229e5270f1f93ba879790058b3ef",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "bb39a05d7ba16341dc44194ab84263dcb20d6bda",
+      "shortSha": "bb39a05d7ba1",
+      "committedAt": "2026-08-19T15:38:37+09:00",
+      "subject": "fix: \"잠정치\" 표현 정리, 품목별 조회 상위 100개+지역 접기, 특화작목 비교 수치화"
+    },
     {
       "sha": "aba35ded205f907da27019b9b6624087822fbd0d",
       "shortSha": "aba35ded205f",
