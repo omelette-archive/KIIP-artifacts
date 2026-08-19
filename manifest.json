@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "1b8abb1e4dff6d1e3759006a5dd713790a75a61c",
+  "headSha": "2036e861f8efbaa9cc8cf2594538f14e138a37cd",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,18 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "2410fbb28187bb220ecb76327737151434133c1d",
+      "shortSha": "2410fbb28187",
+      "committedAt": "2026-08-19T16:21:33+09:00",
+      "subject": "fix: 지자체 상세 특산품 탭에서 검토대기 원물명·상호를 제외"
+    },
+    {
+      "sha": "c3e8ffc822ce068754eeb97027b25baeffb98232",
+      "shortSha": "c3e8ffc822ce",
+      "committedAt": "2026-08-19T16:11:45+09:00",
+      "subject": "fix: 지역 상표 건수 집계에서 고시명칭 미확정 원물명·상호를 제외"
+    },
     {
       "sha": "70f4fe97b5af52c8dc39b0e7afb81409f88c03b6",
       "shortSha": "70f4fe97b5af",
