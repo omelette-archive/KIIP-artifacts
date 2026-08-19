@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "7b2dd4fa50f905017aa4a2ac5b7705a4c2ebdf07",
+  "headSha": "9768623ffb80d5342fde1d8e22a72d23f3cef1da",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "03a90a0bdcc5cf2f070d57768d15550dc108af5d",
+      "shortSha": "03a90a0bdcc5",
+      "committedAt": "2026-08-19T13:39:20+09:00",
+      "subject": "fix: \"지역 소재 출원인 비율\" 지표 제거, 지도 경고 문구 정리"
+    },
     {
       "sha": "b9fda9a41c3bf50e088f8435377fe11db0d1ae03",
       "shortSha": "b9fda9a41c3b",
