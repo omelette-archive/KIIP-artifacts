@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "9768623ffb80d5342fde1d8e22a72d23f3cef1da",
+  "headSha": "c31725cabb7491583b0901a324ef1421ae2a1a61",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "e268ac62a30e14427a9c9b849139696fc2786315",
+      "shortSha": "e268ac62a30e",
+      "committedAt": "2026-08-19T13:58:39+09:00",
+      "subject": "feat: 지도 \"브랜드 공백\"을 \"출원율\" 지표로 교체하고 요약·지역별 출원율 노출"
+    },
     {
       "sha": "03a90a0bdcc5cf2f070d57768d15550dc108af5d",
       "shortSha": "03a90a0bdcc5",
