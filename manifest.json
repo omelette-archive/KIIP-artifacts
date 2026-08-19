@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "55e36b7a48d603c3891782d88a77a02cd2a69da1",
+  "headSha": "e59b431ae496df18c1a3b628b0f7125d0462cfe3",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "e9e067fb94121a96d08d9fd063ad0964788760b4",
+      "shortSha": "e9e067fb9412",
+      "committedAt": "2026-08-19T15:12:41+09:00",
+      "subject": "fix: 품목별 조회 표 단순화, 판정 기준 섹션을 데이터 개요 탭으로 이동"
+    },
     {
       "sha": "d3f9d550bb9b19790abc77bc1798a8489d969a4d",
       "shortSha": "d3f9d550bb9b",
