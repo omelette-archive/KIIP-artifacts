@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c31725cabb7491583b0901a324ef1421ae2a1a61",
+  "headSha": "ada20234eeace3c52df11e8bea16dda8154f7ac7",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -16,10 +16,28 @@
   },
   "versions": [
     {
+      "sha": "95944a1ffeccec02e452b75d809519808b903051",
+      "shortSha": "95944a1ffecc",
+      "committedAt": "2026-08-19T14:03:09+09:00",
+      "subject": "Reconcile specialty filing rate display"
+    },
+    {
+      "sha": "16000974e91fc7fdbfc44cd7b0949888a8dfc9b6",
+      "shortSha": "16000974e91f",
+      "committedAt": "2026-08-19T14:00:13+09:00",
+      "subject": "Add specialty application coverage metrics"
+    },
+    {
       "sha": "e268ac62a30e14427a9c9b849139696fc2786315",
       "shortSha": "e268ac62a30e",
       "committedAt": "2026-08-19T13:58:39+09:00",
       "subject": "feat: 지도 \"브랜드 공백\"을 \"출원율\" 지표로 교체하고 요약·지역별 출원율 노출"
+    },
+    {
+      "sha": "df7a15c785717dfa1192ecd4a6cbd210ee2d1215",
+      "shortSha": "df7a15c78571",
+      "committedAt": "2026-08-19T13:45:03+09:00",
+      "subject": "Clarify dashboard trademark metrics"
     },
     {
       "sha": "03a90a0bdcc5cf2f070d57768d15550dc108af5d",
