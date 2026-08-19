@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "75f277decbcca7e49b79674a57238eeedccb9d88",
+  "headSha": "7b2dd4fa50f905017aa4a2ac5b7705a4c2ebdf07",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "b9fda9a41c3bf50e088f8435377fe11db0d1ae03",
+      "shortSha": "b9fda9a41c3b",
+      "committedAt": "2026-08-19T13:31:41+09:00",
+      "subject": "fix: 품목별 조회·상표 매칭 결과 지표 라벨을 명확하게 설명"
+    },
     {
       "sha": "8b426791d58da8087679e82972d5e99c246a5c50",
       "shortSha": "8b426791d58d",
