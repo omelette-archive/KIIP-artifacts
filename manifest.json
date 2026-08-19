@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "bf730c0abf4fed1d458cf5f82230f0a6820f5e48",
+  "headSha": "58b00915a8384d2f99e56c6c0859ec47c71d688d",
   "metadata": {
     "snapshotId": "dashboard-5ce041f759c933ea1c8b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,18 @@
     "addressVerificationRate": 0.6444
   },
   "versions": [
+    {
+      "sha": "826fc015e24498fd1bad5a2538af83a6f33570c7",
+      "shortSha": "826fc015e244",
+      "committedAt": "2026-08-19T09:51:08+09:00",
+      "subject": "fix: 단일 HTML 검색의 한글 IME 조합 보존"
+    },
+    {
+      "sha": "8f87a9773ffcecdeaba0b9e809150e834fdd3a50",
+      "shortSha": "8f87a9773ffc",
+      "committedAt": "2026-08-19T09:45:23+09:00",
+      "subject": "fix: 지도 특산품명과 상표 예시 분리"
+    },
     {
       "sha": "58e0211ed4e90a9ece0a0bdad7df82acb2c3cae0",
       "shortSha": "58e0211ed4e9",
