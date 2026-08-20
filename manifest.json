@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c41373f8170a410b7d1f465a82b5e4ac9ade3b35",
+  "headSha": "2068f79f25b2078a64f0ca0c2e492423485e3118",
   "metadata": {
-    "snapshotId": "dashboard-a08d55dcac0a80425115",
+    "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-20T00:24:37.450Z",
-    "sourceMaxFetchedAt": "2026-08-20T00:20:21.130Z",
+    "generatedAt": "2026-08-20T01:27:37.338Z",
+    "sourceMaxFetchedAt": "2026-08-20T01:26:12.911Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 124,
     "regionItemCount": 1692,
-    "nationwideTrademarkCount": 120495,
-    "availableRegionItemCount": 1463,
-    "addressVerificationRate": 0.5066
+    "nationwideTrademarkCount": 174078,
+    "availableRegionItemCount": 1615,
+    "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "37f6f0e48d6db25f6e7e9200c89d55ddbd32628d",
+      "shortSha": "37f6f0e48d6d",
+      "committedAt": "2026-08-20T10:29:47+09:00",
+      "subject": "data: 포도·오리 등 나머지 49개 partial 검색어를 제한적 완료로 재수집(판정 완료 744개)"
+    },
     {
       "sha": "226817c16aeeb00f6fc9993a5dbe17a0453df484",
       "shortSha": "226817c16aee",
