@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "b8c513c463224360a8fd7db98e5fbec1ead7242d",
+  "headSha": "46ad3036aaf0126bc2ae8130cd5549bdc03b4389",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "be446213fde968c4c6f8be006abaaf831c81a148",
+      "shortSha": "be446213fde9",
+      "committedAt": "2026-08-20T17:55:38+09:00",
+      "subject": "fix: 특산품 출원율 분모를 판정 완료가 아니라 확인 특산품 전체로 변경"
+    },
     {
       "sha": "b8c513c463224360a8fd7db98e5fbec1ead7242d",
       "shortSha": "b8c513c46322",
