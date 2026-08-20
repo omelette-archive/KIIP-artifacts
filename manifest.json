@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2068f79f25b2078a64f0ca0c2e492423485e3118",
+  "headSha": "ccaca3d6ca08b1c7128634b2afa8cd524b89efa8",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -11,10 +11,16 @@
     "observedRegionCount": 124,
     "regionItemCount": 1692,
     "nationwideTrademarkCount": 174078,
-    "availableRegionItemCount": 1615,
+    "availableRegionItemCount": 1617,
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "119a1a275fddd8ffb0617b08355de9975eb331b1",
+      "shortSha": "119a1a275fdd",
+      "committedAt": "2026-08-20T16:25:31+09:00",
+      "subject": "feat: 원물명+지정상품 매칭 AI 검토를 확인 특산품에 병합(212개 항목)"
+    },
     {
       "sha": "37f6f0e48d6db25f6e7e9200c89d55ddbd32628d",
       "shortSha": "37f6f0e48d6d",
