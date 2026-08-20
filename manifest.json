@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "be97e0a184aa4e105c611341e3717fa7e2d9cdd5",
+  "headSha": "b8c513c463224360a8fd7db98e5fbec1ead7242d",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "b8c513c463224360a8fd7db98e5fbec1ead7242d",
+      "shortSha": "b8c513c46322",
+      "committedAt": "2026-08-20T17:42:01+09:00",
+      "subject": "fix: simplify nationwide map label callouts"
+    },
     {
       "sha": "94b62d9f797c20452d7f1cf0d269f17753b2cf34",
       "shortSha": "94b62d9f797c",
