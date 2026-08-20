@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ccaca3d6ca08b1c7128634b2afa8cd524b89efa8",
+  "headSha": "be97e0a184aa4e105c611341e3717fa7e2d9cdd5",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,18 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "94b62d9f797c20452d7f1cf0d269f17753b2cf34",
+      "shortSha": "94b62d9f797c",
+      "committedAt": "2026-08-20T17:16:39+09:00",
+      "subject": "feat: 미출원 특산품 탭 추가"
+    },
+    {
+      "sha": "e987a2b3ba1ad9d7133556019512a0586ec3ec43",
+      "shortSha": "e987a2b3ba1a",
+      "committedAt": "2026-08-20T17:05:31+09:00",
+      "subject": "feat: add regional specialty filing rate dashboard"
+    },
     {
       "sha": "119a1a275fddd8ffb0617b08355de9975eb331b1",
       "shortSha": "119a1a275fdd",
