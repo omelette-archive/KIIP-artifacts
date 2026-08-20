@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2036e861f8efbaa9cc8cf2594538f14e138a37cd",
+  "headSha": "c41373f8170a410b7d1f465a82b5e4ac9ade3b35",
   "metadata": {
-    "snapshotId": "dashboard-5ce041f759c933ea1c8b",
+    "snapshotId": "dashboard-a08d55dcac0a80425115",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-12T05:47:10.076Z",
-    "sourceMaxFetchedAt": "2026-08-12T04:55:30.665Z",
+    "generatedAt": "2026-08-20T00:24:37.450Z",
+    "sourceMaxFetchedAt": "2026-08-20T00:20:21.130Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 124,
     "regionItemCount": 1692,
-    "nationwideTrademarkCount": 67323,
-    "availableRegionItemCount": 671,
-    "addressVerificationRate": 0.6444
+    "nationwideTrademarkCount": 120495,
+    "availableRegionItemCount": 1463,
+    "addressVerificationRate": 0.5066
   },
   "versions": [
+    {
+      "sha": "226817c16aeeb00f6fc9993a5dbe17a0453df484",
+      "shortSha": "226817c16aee",
+      "committedAt": "2026-08-20T09:26:40+09:00",
+      "subject": "data: 사과 등 246개 partial 검색어 중 183개 재수집해 지역 집계 판정 완료 638개로 확대"
+    },
     {
       "sha": "2410fbb28187bb220ecb76327737151434133c1d",
       "shortSha": "2410fbb28187",
