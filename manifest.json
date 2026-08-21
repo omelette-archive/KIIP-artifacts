@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6db5b08359ca8d3f657d92c311fe684cc298d16e",
+  "headSha": "f6132f2cc27231144dd88d2d3028348e1811b9c3",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "f6132f2cc27231144dd88d2d3028348e1811b9c3",
+      "shortSha": "f6132f2cc272",
+      "committedAt": "2026-08-21T09:28:21+09:00",
+      "subject": "fix: clarify dashboard map labels and layout"
+    },
     {
       "sha": "6db5b08359ca8d3f657d92c311fe684cc298d16e",
       "shortSha": "6db5b08359ca",
