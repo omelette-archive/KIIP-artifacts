@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "76006a271ad3ddff7633e91d235a92a12e2aa30c",
+  "headSha": "6db5b08359ca8d3f657d92c311fe684cc298d16e",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "6db5b08359ca8d3f657d92c311fe684cc298d16e",
+      "shortSha": "6db5b08359ca",
+      "committedAt": "2026-08-21T09:10:48+09:00",
+      "subject": "fix: hide legacy map callout lines"
+    },
     {
       "sha": "76006a271ad3ddff7633e91d235a92a12e2aa30c",
       "shortSha": "76006a271ad3",
