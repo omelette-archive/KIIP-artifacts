@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6a2910aeaa03c90e1219e278f0fe998891f99eec",
+  "headSha": "e0df70ab9175e5fe35fedfb83de508bb1d2bb7b7",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "e0df70ab9175e5fe35fedfb83de508bb1d2bb7b7",
+      "shortSha": "e0df70ab9175",
+      "committedAt": "2026-08-21T16:07:13+09:00",
+      "subject": "feat: 지역별 출원 탭 특산품 목록에 출원 여부 색상 구분 추가"
+    },
     {
       "sha": "6a2910aeaa03c90e1219e278f0fe998891f99eec",
       "shortSha": "6a2910aeaa03",
@@ -308,12 +314,6 @@
       "shortSha": "166ef64ddd0f",
       "committedAt": "2026-08-12T14:19:56+09:00",
       "subject": "feat: 알파 대시보드 샘플을 검토대기 원물명 검색 포함 최신 실행으로 갱신"
-    },
-    {
-      "sha": "1bab6489515a3fb3cc90994e8f4e9ce8221c676c",
-      "shortSha": "1bab6489515a",
-      "committedAt": "2026-08-12T13:40:04+09:00",
-      "subject": "feat: run deep query-fact alpha pipeline"
     }
   ]
 }
