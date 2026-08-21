@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "12dba6535b96b315941b7d0a6b3de35d420787d9",
+  "headSha": "16533942d2432dff14517a4d1b9a5a8191805b8e",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "16533942d2432dff14517a4d1b9a5a8191805b8e",
+      "shortSha": "16533942d243",
+      "committedAt": "2026-08-21T16:45:55+09:00",
+      "subject": "fix: '명칭 확인중' 배지 제거 — 고시명칭 미확정은 대개 영구적 상태라 오해 소지"
+    },
     {
       "sha": "12dba6535b96b315941b7d0a6b3de35d420787d9",
       "shortSha": "12dba6535b96",
@@ -308,12 +314,6 @@
       "shortSha": "69b498ada564",
       "committedAt": "2026-08-18T08:29:59+09:00",
       "subject": "feat: polish public artifact hub and dashboard copy (#69)"
-    },
-    {
-      "sha": "7182c518e018baab177aaf53ecd3eb0f50bdfca4",
-      "shortSha": "7182c518e018",
-      "committedAt": "2026-08-12T14:48:06+09:00",
-      "subject": "feat: accept designated-goods name containment"
     }
   ]
 }
