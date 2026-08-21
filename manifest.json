@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "e5fa071670b74beca2f3a7284d6a957ad5c966d6",
+  "headSha": "9b01c567ae06b36547265e8971e41ddf3c4bdf2b",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "9b01c567ae06b36547265e8971e41ddf3c4bdf2b",
+      "shortSha": "9b01c567ae06",
+      "committedAt": "2026-08-21T10:49:27+09:00",
+      "subject": "fix: \"시도 > 시군구\" 합쳐진 지역 필드 분리(남양주시 지도 미표시 수정)"
+    },
     {
       "sha": "e5fa071670b74beca2f3a7284d6a957ad5c966d6",
       "shortSha": "e5fa071670b7",
@@ -308,12 +314,6 @@
       "shortSha": "18ca18d74d2a",
       "committedAt": "2026-08-11T11:13:36+09:00",
       "subject": "fix: 고시명칭 기준 지역 특산품 집계 고정"
-    },
-    {
-      "sha": "2d3b31fc0a13ab83f05bf01203e53b674336cb95",
-      "shortSha": "2d3b31fc0a13",
-      "committedAt": "2026-08-11T11:09:44+09:00",
-      "subject": "fix: 대시보드 \"품목\"을 고시명칭 기준으로 정정 — 브랜드명 노출 버그 수정"
     }
   ]
 }
