@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "f6132f2cc27231144dd88d2d3028348e1811b9c3",
+  "headSha": "3e4626119d8aecda78629c48bb9756d6b20b4f00",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "3e4626119d8aecda78629c48bb9756d6b20b4f00",
+      "shortSha": "3e4626119d8a",
+      "committedAt": "2026-08-21T10:03:34+09:00",
+      "subject": "fix: 법정동코드 미해결 지역을 미출원 특산품 탭에서 제외"
+    },
     {
       "sha": "f6132f2cc27231144dd88d2d3028348e1811b9c3",
       "shortSha": "f6132f2cc272",
