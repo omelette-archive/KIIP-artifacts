@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c0d2cd878717bea557252fde182c6a3fc1899ecf",
+  "headSha": "eef8ba7546ecfe2df105332f2511a4339584138f",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "eef8ba7546ecfe2df105332f2511a4339584138f",
+      "shortSha": "eef8ba7546ec",
+      "committedAt": "2026-08-21T14:40:51+09:00",
+      "subject": "fix: remove ambiguous trademark sample showcase"
+    },
     {
       "sha": "c0d2cd878717bea557252fde182c6a3fc1899ecf",
       "shortSha": "c0d2cd878717",
@@ -308,12 +314,6 @@
       "shortSha": "b153e245ced1",
       "committedAt": "2026-08-12T11:24:37+09:00",
       "subject": "feat: simplify dashboard and resume partial queries"
-    },
-    {
-      "sha": "8609056cd409f4cd73d8f0db16a13b366c93038e",
-      "shortSha": "8609056cd409",
-      "committedAt": "2026-08-12T11:11:59+09:00",
-      "subject": "feat: add dashboard data journey and trademark showcase"
     }
   ]
 }
