@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5cd25f669dd1b6f88c483c0d9e3afdd77e108fde",
+  "headSha": "76006a271ad3ddff7633e91d235a92a12e2aa30c",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "76006a271ad3ddff7633e91d235a92a12e2aa30c",
+      "shortSha": "76006a271ad3",
+      "committedAt": "2026-08-21T09:09:16+09:00",
+      "subject": "revert: restore direct map labels"
+    },
     {
       "sha": "5cd25f669dd1b6f88c483c0d9e3afdd77e108fde",
       "shortSha": "5cd25f669dd1",
