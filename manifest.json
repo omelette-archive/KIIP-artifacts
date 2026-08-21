@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "eef8ba7546ecfe2df105332f2511a4339584138f",
+  "headSha": "6a2910aeaa03c90e1219e278f0fe998891f99eec",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "6a2910aeaa03c90e1219e278f0fe998891f99eec",
+      "shortSha": "6a2910aeaa03",
+      "committedAt": "2026-08-21T16:02:23+09:00",
+      "subject": "fix: 지자체별 조회 탭 \"추가 확인 필요\" 표현을 \"검토중\"으로 변경"
+    },
     {
       "sha": "eef8ba7546ecfe2df105332f2511a4339584138f",
       "shortSha": "eef8ba7546ec",
@@ -308,12 +314,6 @@
       "shortSha": "1bab6489515a",
       "committedAt": "2026-08-12T13:40:04+09:00",
       "subject": "feat: run deep query-fact alpha pipeline"
-    },
-    {
-      "sha": "b153e245ced1e69560140bf70630ef20fd1cbebc",
-      "shortSha": "b153e245ced1",
-      "committedAt": "2026-08-12T11:24:37+09:00",
-      "subject": "feat: simplify dashboard and resume partial queries"
     }
   ]
 }
