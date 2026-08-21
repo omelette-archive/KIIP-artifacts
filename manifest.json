@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5799c0400e223f2607f156add7c9b796dcb59cf2",
+  "headSha": "8a10dc15d44d1dec0f5bcdebf9841c5f77d01298",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "8a10dc15d44d1dec0f5bcdebf9841c5f77d01298",
+      "shortSha": "8a10dc15d44d",
+      "committedAt": "2026-08-21T17:46:06+09:00",
+      "subject": "fix: 남양주시 \"깻잎\" raw_item_goods_matched 승격 누락 보정(0건 -> 7건, 등록 7건)"
+    },
     {
       "sha": "5799c0400e223f2607f156add7c9b796dcb59cf2",
       "shortSha": "5799c0400e22",
@@ -308,12 +314,6 @@
       "shortSha": "58e0211ed4e9",
       "committedAt": "2026-08-19T09:43:50+09:00",
       "subject": "fix: 원물명·검색어를 고시명칭으로 오표시하던 문제 수정, 판정 기준 섹션을 요약 탭에만 노출"
-    },
-    {
-      "sha": "2a42b53f080620530a90243f33dc406775a7e13a",
-      "shortSha": "2a42b53f0806",
-      "committedAt": "2026-08-19T09:29:47+09:00",
-      "subject": "fix: 품목별 조회를 고시명칭 기준으로 재그룹 — 미분류 원물명 노출 제거"
     }
   ]
 }
