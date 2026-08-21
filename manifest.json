@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "4692d06e4f7fe242ef5c28916eec81e08ef97c84",
+  "headSha": "dcee588ce815c0139081e72c86c90d92a5a2f099",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "dcee588ce815c0139081e72c86c90d92a5a2f099",
+      "shortSha": "dcee588ce815",
+      "committedAt": "2026-08-21T17:19:24+09:00",
+      "subject": "docs: 상표 검색 범위가 품목 매핑 NICE류(원물)만이고 서비스류는 미포함임을 명시"
+    },
     {
       "sha": "4692d06e4f7fe242ef5c28916eec81e08ef97c84",
       "shortSha": "4692d06e4f7f",
@@ -308,12 +314,6 @@
       "shortSha": "b76b9bc9709e",
       "committedAt": "2026-08-18T09:12:19+09:00",
       "subject": "chore: 병합 후 단독 대시보드 HTML 재생성"
-    },
-    {
-      "sha": "80358f1627127fe52bf4e00b23e336cca5b9f0df",
-      "shortSha": "80358f162712",
-      "committedAt": "2026-08-18T09:07:34+09:00",
-      "subject": "feat: 품목 정규화 판정 출처(verdictSource)를 전 구간에 노출하고 자동 확정 감사 리포트 추가"
     }
   ]
 }
