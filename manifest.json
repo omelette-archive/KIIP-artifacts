@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "e0df70ab9175e5fe35fedfb83de508bb1d2bb7b7",
+  "headSha": "6b77590599d9d3425e2b0157a293a9d88702832f",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "6b77590599d9d3425e2b0157a293a9d88702832f",
+      "shortSha": "6b77590599d9",
+      "committedAt": "2026-08-21T16:20:38+09:00",
+      "subject": "fix: 출원 상태 배지를 소블록에만 칠하고, 등록 완료 표현/색상·지도 라벨 정리"
+    },
     {
       "sha": "e0df70ab9175e5fe35fedfb83de508bb1d2bb7b7",
       "shortSha": "e0df70ab9175",
@@ -308,12 +314,6 @@
       "shortSha": "ba353016fab5",
       "committedAt": "2026-08-12T14:35:46+09:00",
       "subject": "fix: show regional metrics without address coverage gate"
-    },
-    {
-      "sha": "166ef64ddd0f575bdd3dad599c792be9647567c5",
-      "shortSha": "166ef64ddd0f",
-      "committedAt": "2026-08-12T14:19:56+09:00",
-      "subject": "feat: 알파 대시보드 샘플을 검토대기 원물명 검색 포함 최신 실행으로 갱신"
     }
   ]
 }
