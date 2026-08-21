@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "3e4626119d8aecda78629c48bb9756d6b20b4f00",
+  "headSha": "175772f51d89a94755811e849e2403cfa452071c",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "175772f51d89a94755811e849e2403cfa452071c",
+      "shortSha": "175772f51d89",
+      "committedAt": "2026-08-21T10:06:38+09:00",
+      "subject": "fix: align specialty application-rate denominator labels"
+    },
     {
       "sha": "3e4626119d8aecda78629c48bb9756d6b20b4f00",
       "shortSha": "3e4626119d8a",
@@ -308,12 +314,6 @@
       "shortSha": "ca0a49158835",
       "committedAt": "2026-08-11T10:45:11+09:00",
       "subject": "feat: 레퍼런스 기반 지도·조회 화면 보강"
-    },
-    {
-      "sha": "8b363e5c0167a6f97dc72f7d42cb2fe6308c05db",
-      "shortSha": "8b363e5c0167",
-      "committedAt": "2026-08-11T10:23:50+09:00",
-      "subject": "feat: 단일 HTML 대시보드 산출물 추가"
     }
   ]
 }
