@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "175772f51d89a94755811e849e2403cfa452071c",
+  "headSha": "928f2bec72cda9f9e72be54ad972a06bb550dc29",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "928f2bec72cda9f9e72be54ad972a06bb550dc29",
+      "shortSha": "928f2bec72cd",
+      "committedAt": "2026-08-21T10:13:54+09:00",
+      "subject": "feat: 지재연 공식 로고 삽입, 헤드라인 서체를 세리프에서 산세리프로 통일"
+    },
     {
       "sha": "175772f51d89a94755811e849e2403cfa452071c",
       "shortSha": "175772f51d89",
@@ -308,12 +314,6 @@
       "shortSha": "e2c9bb99bc6c",
       "committedAt": "2026-08-11T10:49:58+09:00",
       "subject": "feat: 대시보드에 레퍼런스 구조(탭·랭킹) 반영 — 새 데이터 수집 없이"
-    },
-    {
-      "sha": "ca0a491588350d49788146de9e2bdcb8f50f320e",
-      "shortSha": "ca0a49158835",
-      "committedAt": "2026-08-11T10:45:11+09:00",
-      "subject": "feat: 레퍼런스 기반 지도·조회 화면 보강"
     }
   ]
 }
