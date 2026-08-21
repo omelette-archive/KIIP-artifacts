@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "46ad3036aaf0126bc2ae8130cd5549bdc03b4389",
+  "headSha": "5cd25f669dd1b6f88c483c0d9e3afdd77e108fde",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "5cd25f669dd1b6f88c483c0d9e3afdd77e108fde",
+      "shortSha": "5cd25f669dd1",
+      "committedAt": "2026-08-21T09:04:06+09:00",
+      "subject": "revert: restore original map callout layout"
+    },
     {
       "sha": "be446213fde968c4c6f8be006abaaf831c81a148",
       "shortSha": "be446213fde9",
