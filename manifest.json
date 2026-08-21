@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "b2a1429ac34973f986630208b5496dc9a8ceefe8",
+  "headSha": "12dba6535b96b315941b7d0a6b3de35d420787d9",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "12dba6535b96b315941b7d0a6b3de35d420787d9",
+      "shortSha": "12dba6535b96",
+      "committedAt": "2026-08-21T16:39:57+09:00",
+      "subject": "fix: 지역별 출원 탭에서 고시명칭 미확정 원물명도 표시(명칭 확인중 표시로 구분)"
+    },
     {
       "sha": "6b77590599d9d3425e2b0157a293a9d88702832f",
       "shortSha": "6b77590599d9",
@@ -308,12 +314,6 @@
       "shortSha": "7182c518e018",
       "committedAt": "2026-08-12T14:48:06+09:00",
       "subject": "feat: accept designated-goods name containment"
-    },
-    {
-      "sha": "ba353016fab5856bd204d1d9c6935d1be96c05f4",
-      "shortSha": "ba353016fab5",
-      "committedAt": "2026-08-12T14:35:46+09:00",
-      "subject": "fix: show regional metrics without address coverage gate"
     }
   ]
 }
