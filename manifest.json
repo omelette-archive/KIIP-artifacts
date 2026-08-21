@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "b27da7276e96f80e5b09cfe93b23acdeae3ebb70",
+  "headSha": "8f301d3bcbb4f3c1832c6fcecc432de172402844",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "8f301d3bcbb4f3c1832c6fcecc432de172402844",
+      "shortSha": "8f301d3bcbb4",
+      "committedAt": "2026-08-21T14:16:14+09:00",
+      "subject": "feat: 출원율을 원형 게이지로 시각화, 지역별 출원율 탭을 지도+패널 좌우 배치로 변경"
+    },
     {
       "sha": "b27da7276e96f80e5b09cfe93b23acdeae3ebb70",
       "shortSha": "b27da7276e96",
@@ -308,12 +314,6 @@
       "shortSha": "1e1127b765bc",
       "committedAt": "2026-08-12T10:27:10+09:00",
       "subject": "feat: surface alpha pipeline progress in dashboard"
-    },
-    {
-      "sha": "b77d083affd8e8cf809b12b7b6f9b727d5ac45c6",
-      "shortSha": "b77d083affd8",
-      "committedAt": "2026-08-11T15:43:08+09:00",
-      "subject": "fix: 미검증 전국 상표의 지역 집계 차단"
     }
   ]
 }
