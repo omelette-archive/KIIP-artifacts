@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "16533942d2432dff14517a4d1b9a5a8191805b8e",
+  "headSha": "4692d06e4f7fe242ef5c28916eec81e08ef97c84",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "4692d06e4f7fe242ef5c28916eec81e08ef97c84",
+      "shortSha": "4692d06e4f7f",
+      "committedAt": "2026-08-21T17:10:15+09:00",
+      "subject": "fix: 지정상품 근거 없는 상표 사례는 숨기고, 지역 확인 사례는 표시 구분"
+    },
     {
       "sha": "16533942d2432dff14517a4d1b9a5a8191805b8e",
       "shortSha": "16533942d243",
@@ -308,12 +314,6 @@
       "shortSha": "80358f162712",
       "committedAt": "2026-08-18T09:07:34+09:00",
       "subject": "feat: 품목 정규화 판정 출처(verdictSource)를 전 구간에 노출하고 자동 확정 감사 리포트 추가"
-    },
-    {
-      "sha": "69b498ada56415b6c5df86418d1adea0dd64f1e7",
-      "shortSha": "69b498ada564",
-      "committedAt": "2026-08-18T08:29:59+09:00",
-      "subject": "feat: polish public artifact hub and dashboard copy (#69)"
     }
   ]
 }
