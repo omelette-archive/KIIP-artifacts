@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "9af2e7598f0d35f4fe98265ecf30f6e97d0647ce",
+  "headSha": "b27da7276e96f80e5b09cfe93b23acdeae3ebb70",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "b27da7276e96f80e5b09cfe93b23acdeae3ebb70",
+      "shortSha": "b27da7276e96",
+      "committedAt": "2026-08-21T13:46:51+09:00",
+      "subject": "fix: 푸터에 \"지역 특산품 상표 출원 현황\" 문구 추가"
+    },
     {
       "sha": "9af2e7598f0d35f4fe98265ecf30f6e97d0647ce",
       "shortSha": "9af2e7598f0d",
@@ -308,12 +314,6 @@
       "shortSha": "b77d083affd8",
       "committedAt": "2026-08-11T15:43:08+09:00",
       "subject": "fix: 미검증 전국 상표의 지역 집계 차단"
-    },
-    {
-      "sha": "e7835267c1018ad273a288cb2c6a745caaee2287",
-      "shortSha": "e7835267c101",
-      "committedAt": "2026-08-11T15:22:26+09:00",
-      "subject": "fix: 전체 알파 파이프라인 실데이터 병목 보강"
     }
   ]
 }
