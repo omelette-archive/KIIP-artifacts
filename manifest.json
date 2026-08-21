@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "928f2bec72cda9f9e72be54ad972a06bb550dc29",
+  "headSha": "e5fa071670b74beca2f3a7284d6a957ad5c966d6",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "e5fa071670b74beca2f3a7284d6a957ad5c966d6",
+      "shortSha": "e5fa071670b7",
+      "committedAt": "2026-08-21T10:21:41+09:00",
+      "subject": "fix: use all collected specialties for application rates"
+    },
     {
       "sha": "928f2bec72cda9f9e72be54ad972a06bb550dc29",
       "shortSha": "928f2bec72cd",
@@ -308,12 +314,6 @@
       "shortSha": "2d3b31fc0a13",
       "committedAt": "2026-08-11T11:09:44+09:00",
       "subject": "fix: 대시보드 \"품목\"을 고시명칭 기준으로 정정 — 브랜드명 노출 버그 수정"
-    },
-    {
-      "sha": "e2c9bb99bc6ca14fba8c953d17c88df7e69fc172",
-      "shortSha": "e2c9bb99bc6c",
-      "committedAt": "2026-08-11T10:49:58+09:00",
-      "subject": "feat: 대시보드에 레퍼런스 구조(탭·랭킹) 반영 — 새 데이터 수집 없이"
     }
   ]
 }
