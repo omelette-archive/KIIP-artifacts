@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "dcee588ce815c0139081e72c86c90d92a5a2f099",
+  "headSha": "5799c0400e223f2607f156add7c9b796dcb59cf2",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "5799c0400e223f2607f156add7c9b796dcb59cf2",
+      "shortSha": "5799c0400e22",
+      "committedAt": "2026-08-21T17:25:38+09:00",
+      "subject": "feat: 등록상표 랭킹을 출원 랭킹/등록 랭킹 두 개로 분리, TOP 10 고정"
+    },
     {
       "sha": "dcee588ce815c0139081e72c86c90d92a5a2f099",
       "shortSha": "dcee588ce815",
@@ -308,12 +314,6 @@
       "shortSha": "2a42b53f0806",
       "committedAt": "2026-08-19T09:29:47+09:00",
       "subject": "fix: 품목별 조회를 고시명칭 기준으로 재그룹 — 미분류 원물명 노출 제거"
-    },
-    {
-      "sha": "b76b9bc9709e5c763cc386ba2ffa11a0a7aeeb44",
-      "shortSha": "b76b9bc9709e",
-      "committedAt": "2026-08-18T09:12:19+09:00",
-      "subject": "chore: 병합 후 단독 대시보드 HTML 재생성"
     }
   ]
 }
