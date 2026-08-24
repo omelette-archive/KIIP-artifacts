@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c228351b4a0a91dbcb2c68b291a3f37bc39effe0",
+  "headSha": "2c8d7c9caee458ed4634fc5ea0fca529df701d60",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "2c8d7c9caee458ed4634fc5ea0fca529df701d60",
+      "shortSha": "2c8d7c9caee4",
+      "committedAt": "2026-08-24T16:26:46+09:00",
+      "subject": "fix: 지도 경계·행정구역 데이터 불일치 시에도 시군구 클릭이 실제 지역으로 연결(#113)"
+    },
     {
       "sha": "e71819ef7fe84754862036ad811a3d8d50528e2e",
       "shortSha": "e71819ef7fe8",
@@ -308,12 +314,6 @@
       "shortSha": "16000974e91f",
       "committedAt": "2026-08-19T14:00:13+09:00",
       "subject": "Add specialty application coverage metrics"
-    },
-    {
-      "sha": "e268ac62a30e14427a9c9b849139696fc2786315",
-      "shortSha": "e268ac62a30e",
-      "committedAt": "2026-08-19T13:58:39+09:00",
-      "subject": "feat: 지도 \"브랜드 공백\"을 \"출원율\" 지표로 교체하고 요약·지역별 출원율 노출"
     }
   ]
 }
