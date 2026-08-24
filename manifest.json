@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "a1947c91fec3ff38b88c0a298b179bcb503f7824",
+  "headSha": "2e5e3e14b6bbad69f4cbc27ef0d5370ff961cf27",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "2e5e3e14b6bbad69f4cbc27ef0d5370ff961cf27",
+      "shortSha": "2e5e3e14b6bb",
+      "committedAt": "2026-08-24T16:40:39+09:00",
+      "subject": "fix: 상단 브랜드와 탭 바 가독성 개선(#115)"
+    },
     {
       "sha": "a1947c91fec3ff38b88c0a298b179bcb503f7824",
       "shortSha": "a1947c91fec3",
@@ -308,12 +314,6 @@
       "shortSha": "d3f9d550bb9b",
       "committedAt": "2026-08-19T15:03:25+09:00",
       "subject": "feat: 알파 테스트 문구를 걷어내고, 지역 확인 전 상표는 잠정치로 표시"
-    },
-    {
-      "sha": "95944a1ffeccec02e452b75d809519808b903051",
-      "shortSha": "95944a1ffecc",
-      "committedAt": "2026-08-19T14:03:09+09:00",
-      "subject": "Reconcile specialty filing rate display"
     }
   ]
 }
