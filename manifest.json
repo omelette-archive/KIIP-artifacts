@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "bfc20004800413027d9a51f579b3e3352f2013db",
+  "headSha": "45efffe0e46132cbe8d65ab347d3f5cb0fa7dc28",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "45efffe0e46132cbe8d65ab347d3f5cb0fa7dc28",
+      "shortSha": "45efffe0e461",
+      "committedAt": "2026-08-24T09:34:33+09:00",
+      "subject": "feat: 대시보드 최신 날짜와 건수 표시 정리"
+    },
     {
       "sha": "bfc20004800413027d9a51f579b3e3352f2013db",
       "shortSha": "bfc200048004",
@@ -308,12 +314,6 @@
       "shortSha": "ffc1efa91a2e",
       "committedAt": "2026-08-19T09:57:19+09:00",
       "subject": "fix: 모호한 상태 문구 \"지역 귀속/상표 검증 중\"을 \"데이터 검토 중\"으로 통일"
-    },
-    {
-      "sha": "826fc015e24498fd1bad5a2538af83a6f33570c7",
-      "shortSha": "826fc015e244",
-      "committedAt": "2026-08-19T09:51:08+09:00",
-      "subject": "fix: 단일 HTML 검색의 한글 IME 조합 보존"
     }
   ]
 }
