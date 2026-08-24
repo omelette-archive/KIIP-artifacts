@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "49d4d73a538bc7cddb516cf2f58c4d0adf886728",
+  "headSha": "24faa011ad2f623c3697253ea5aa0010d9c3acaa",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "24faa011ad2f623c3697253ea5aa0010d9c3acaa",
+      "shortSha": "24faa011ad2f",
+      "committedAt": "2026-08-24T17:03:20+09:00",
+      "subject": "fix: 첫 화면 제목 시각적 무게 조정"
+    },
     {
       "sha": "49d4d73a538bc7cddb516cf2f58c4d0adf886728",
       "shortSha": "49d4d73a538b",
@@ -308,12 +314,6 @@
       "shortSha": "c3e8ffc822ce",
       "committedAt": "2026-08-19T16:11:45+09:00",
       "subject": "fix: 지역 상표 건수 집계에서 고시명칭 미확정 원물명·상호를 제외"
-    },
-    {
-      "sha": "70f4fe97b5af52c8dc39b0e7afb81409f88c03b6",
-      "shortSha": "70f4fe97b5af",
-      "committedAt": "2026-08-19T16:06:24+09:00",
-      "subject": "revert: 전국 검색 건수를 지역 수치로 섞어 보여주던 표시를 되돌림 (v2, PR #97 기준)"
     }
   ]
 }
