@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "45efffe0e46132cbe8d65ab347d3f5cb0fa7dc28",
+  "headSha": "eac8bb17da704d67fd723a5d7f19c0ccd0c433c1",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "eac8bb17da704d67fd723a5d7f19c0ccd0c433c1",
+      "shortSha": "eac8bb17da70",
+      "committedAt": "2026-08-24T09:54:36+09:00",
+      "subject": "fix: 등록 사례 문구 간결화"
+    },
     {
       "sha": "45efffe0e46132cbe8d65ab347d3f5cb0fa7dc28",
       "shortSha": "45efffe0e461",
@@ -308,12 +314,6 @@
       "shortSha": "8b426791d58d",
       "committedAt": "2026-08-19T10:23:39+09:00",
       "subject": "fix: 전국 지도 라벨 크기와 레이어 보완"
-    },
-    {
-      "sha": "ffc1efa91a2e269f568581b89743354b0244f8ed",
-      "shortSha": "ffc1efa91a2e",
-      "committedAt": "2026-08-19T09:57:19+09:00",
-      "subject": "fix: 모호한 상태 문구 \"지역 귀속/상표 검증 중\"을 \"데이터 검토 중\"으로 통일"
     }
   ]
 }
