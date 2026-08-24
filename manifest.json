@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "b8499ea3bef341b2209e34cdf7920f668b65f14f",
+  "headSha": "ad79d69495e001ce22d7b14eca66c0d0bf4bf353",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "ad79d69495e001ce22d7b14eca66c0d0bf4bf353",
+      "shortSha": "ad79d69495e0",
+      "committedAt": "2026-08-25T08:49:19+09:00",
+      "subject": "feat: 데이터 개요에 출처 수집 현황 표 추가"
+    },
     {
       "sha": "b8499ea3bef341b2209e34cdf7920f668b65f14f",
       "shortSha": "b8499ea3bef3",
@@ -308,12 +314,6 @@
       "shortSha": "226817c16aee",
       "committedAt": "2026-08-20T09:26:40+09:00",
       "subject": "data: 사과 등 246개 partial 검색어 중 183개 재수집해 지역 집계 판정 완료 638개로 확대"
-    },
-    {
-      "sha": "2410fbb28187bb220ecb76327737151434133c1d",
-      "shortSha": "2410fbb28187",
-      "committedAt": "2026-08-19T16:21:33+09:00",
-      "subject": "fix: 지자체 상세 특산품 탭에서 검토대기 원물명·상호를 제외"
     }
   ]
 }
