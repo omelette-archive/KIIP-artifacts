@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "326d730d4c08001e03fa9da84c39a97be05718b6",
+  "headSha": "1258f538c6a36bd361754d4f04f661328a1c782e",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,24 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "1258f538c6a36bd361754d4f04f661328a1c782e",
+      "shortSha": "1258f538c6a3",
+      "committedAt": "2026-08-24T16:59:16+09:00",
+      "subject": "chore: standalone HTML를 소스와 동기화"
+    },
+    {
+      "sha": "8821004486100efc11acca3dbfe4be230c518ee6",
+      "shortSha": "882100448610",
+      "committedAt": "2026-08-24T16:57:38+09:00",
+      "subject": "fix: 공개 대시보드 요약 헤더도 컴팩트화"
+    },
+    {
+      "sha": "4af25f5356b6f8ef2f811e39094fc74356f285a8",
+      "shortSha": "4af25f5356b6",
+      "committedAt": "2026-08-24T16:54:25+09:00",
+      "subject": "fix: 첫 화면 헤더와 지표 카드 압축"
+    },
     {
       "sha": "326d730d4c08001e03fa9da84c39a97be05718b6",
       "shortSha": "326d730d4c08",
@@ -296,24 +314,6 @@
       "shortSha": "d6a3a87c71d3",
       "committedAt": "2026-08-19T15:39:10+09:00",
       "subject": "feat(dashboard): improve item and crop comparison readability"
-    },
-    {
-      "sha": "bb39a05d7ba16341dc44194ab84263dcb20d6bda",
-      "shortSha": "bb39a05d7ba1",
-      "committedAt": "2026-08-19T15:38:37+09:00",
-      "subject": "fix: \"잠정치\" 표현 정리, 품목별 조회 상위 100개+지역 접기, 특화작목 비교 수치화"
-    },
-    {
-      "sha": "aba35ded205f907da27019b9b6624087822fbd0d",
-      "shortSha": "aba35ded205f",
-      "committedAt": "2026-08-19T15:21:45+09:00",
-      "subject": "fix: \"사람 검토\" 표현을 \"개별 검토\"로 통일, 품목별 조회 표 가독성 개선"
-    },
-    {
-      "sha": "e9e067fb94121a96d08d9fd063ad0964788760b4",
-      "shortSha": "e9e067fb9412",
-      "committedAt": "2026-08-19T15:12:41+09:00",
-      "subject": "fix: 품목별 조회 표 단순화, 판정 기준 섹션을 데이터 개요 탭으로 이동"
     }
   ]
 }
