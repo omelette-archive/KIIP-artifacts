@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6be97487ffe752e51d2052b78782db9809f0b4e3",
+  "headSha": "23785c051d38d2d15339e40d423528c18b375b68",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "23785c051d38d2d15339e40d423528c18b375b68",
+      "shortSha": "23785c051d38",
+      "committedAt": "2026-08-24T14:57:01+09:00",
+      "subject": "fix: 품목 검색어 범위 확장"
+    },
     {
       "sha": "6be97487ffe752e51d2052b78782db9809f0b4e3",
       "shortSha": "6be97487ffe7",
@@ -308,12 +314,6 @@
       "shortSha": "03a90a0bdcc5",
       "committedAt": "2026-08-19T13:39:20+09:00",
       "subject": "fix: \"지역 소재 출원인 비율\" 지표 제거, 지도 경고 문구 정리"
-    },
-    {
-      "sha": "b9fda9a41c3bf50e088f8435377fe11db0d1ae03",
-      "shortSha": "b9fda9a41c3b",
-      "committedAt": "2026-08-19T13:31:41+09:00",
-      "subject": "fix: 품목별 조회·상표 매칭 결과 지표 라벨을 명확하게 설명"
     }
   ]
 }
