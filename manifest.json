@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "24faa011ad2f623c3697253ea5aa0010d9c3acaa",
+  "headSha": "b8499ea3bef341b2209e34cdf7920f668b65f14f",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "b8499ea3bef341b2209e34cdf7920f668b65f14f",
+      "shortSha": "b8499ea3bef3",
+      "committedAt": "2026-08-24T17:32:57+09:00",
+      "subject": "fix: 상단 탭을 한 줄로, 태그 클라우드에 검증된 4색 배정(#115, #112)"
+    },
     {
       "sha": "24faa011ad2f623c3697253ea5aa0010d9c3acaa",
       "shortSha": "24faa011ad2f",
@@ -308,12 +314,6 @@
       "shortSha": "2410fbb28187",
       "committedAt": "2026-08-19T16:21:33+09:00",
       "subject": "fix: 지자체 상세 특산품 탭에서 검토대기 원물명·상호를 제외"
-    },
-    {
-      "sha": "c3e8ffc822ce068754eeb97027b25baeffb98232",
-      "shortSha": "c3e8ffc822ce",
-      "committedAt": "2026-08-19T16:11:45+09:00",
-      "subject": "fix: 지역 상표 건수 집계에서 고시명칭 미확정 원물명·상호를 제외"
     }
   ]
 }
