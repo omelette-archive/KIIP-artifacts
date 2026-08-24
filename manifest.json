@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "eac8bb17da704d67fd723a5d7f19c0ccd0c433c1",
+  "headSha": "6be97487ffe752e51d2052b78782db9809f0b4e3",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "6be97487ffe752e51d2052b78782db9809f0b4e3",
+      "shortSha": "6be97487ffe7",
+      "committedAt": "2026-08-24T10:21:04+09:00",
+      "subject": "fix: 지역 등록 상표 사례 표시"
+    },
     {
       "sha": "eac8bb17da704d67fd723a5d7f19c0ccd0c433c1",
       "shortSha": "eac8bb17da70",
@@ -308,12 +314,6 @@
       "shortSha": "b9fda9a41c3b",
       "committedAt": "2026-08-19T13:31:41+09:00",
       "subject": "fix: 품목별 조회·상표 매칭 결과 지표 라벨을 명확하게 설명"
-    },
-    {
-      "sha": "8b426791d58da8087679e82972d5e99c246a5c50",
-      "shortSha": "8b426791d58d",
-      "committedAt": "2026-08-19T10:23:39+09:00",
-      "subject": "fix: 전국 지도 라벨 크기와 레이어 보완"
     }
   ]
 }
