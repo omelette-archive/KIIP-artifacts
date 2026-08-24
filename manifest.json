@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "8a10dc15d44d1dec0f5bcdebf9841c5f77d01298",
+  "headSha": "b1141ef27ab5094a00df2b399dff8c9719bdd435",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "b1141ef27ab5094a00df2b399dff8c9719bdd435",
+      "shortSha": "b1141ef27ab5",
+      "committedAt": "2026-08-24T09:16:09+09:00",
+      "subject": "feat: 지자체 상세 조회 구조와 지표 문구 정리"
+    },
     {
       "sha": "8a10dc15d44d1dec0f5bcdebf9841c5f77d01298",
       "shortSha": "8a10dc15d44d",
@@ -308,12 +314,6 @@
       "shortSha": "8f87a9773ffc",
       "committedAt": "2026-08-19T09:45:23+09:00",
       "subject": "fix: 지도 특산품명과 상표 예시 분리"
-    },
-    {
-      "sha": "58e0211ed4e90a9ece0a0bdad7df82acb2c3cae0",
-      "shortSha": "58e0211ed4e9",
-      "committedAt": "2026-08-19T09:43:50+09:00",
-      "subject": "fix: 원물명·검색어를 고시명칭으로 오표시하던 문제 수정, 판정 기준 섹션을 요약 탭에만 노출"
     }
   ]
 }
