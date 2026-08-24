@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "1258f538c6a36bd361754d4f04f661328a1c782e",
+  "headSha": "49d4d73a538bc7cddb516cf2f58c4d0adf886728",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "49d4d73a538bc7cddb516cf2f58c4d0adf886728",
+      "shortSha": "49d4d73a538b",
+      "committedAt": "2026-08-24T17:01:41+09:00",
+      "subject": "fix: 지도 경계 데이터를 2013 KOSTAT에서 admdongkor(2026-07-01)로 최신화(#80, #113)"
+    },
     {
       "sha": "1258f538c6a36bd361754d4f04f661328a1c782e",
       "shortSha": "1258f538c6a3",
@@ -308,12 +314,6 @@
       "shortSha": "70f4fe97b5af",
       "committedAt": "2026-08-19T16:06:24+09:00",
       "subject": "revert: 전국 검색 건수를 지역 수치로 섞어 보여주던 표시를 되돌림 (v2, PR #97 기준)"
-    },
-    {
-      "sha": "d6a3a87c71d3339533b4f1a0004aaa5670501c69",
-      "shortSha": "d6a3a87c71d3",
-      "committedAt": "2026-08-19T15:39:10+09:00",
-      "subject": "feat(dashboard): improve item and crop comparison readability"
     }
   ]
 }
