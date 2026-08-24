@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "d5b947bf66979f2845e450c0349ef90f83569797",
+  "headSha": "e71819ef7fe84754862036ad811a3d8d50528e2e",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "e71819ef7fe84754862036ad811a3d8d50528e2e",
+      "shortSha": "e71819ef7fe8",
+      "committedAt": "2026-08-24T15:37:45+09:00",
+      "subject": "fix: 요약 지도에 전체 수집 특산품 예시 표시"
+    },
     {
       "sha": "d5b947bf66979f2845e450c0349ef90f83569797",
       "shortSha": "d5b947bf6697",
@@ -308,12 +314,6 @@
       "shortSha": "e268ac62a30e",
       "committedAt": "2026-08-19T13:58:39+09:00",
       "subject": "feat: 지도 \"브랜드 공백\"을 \"출원율\" 지표로 교체하고 요약·지역별 출원율 노출"
-    },
-    {
-      "sha": "df7a15c785717dfa1192ecd4a6cbd210ee2d1215",
-      "shortSha": "df7a15c78571",
-      "committedAt": "2026-08-19T13:45:03+09:00",
-      "subject": "Clarify dashboard trademark metrics"
     }
   ]
 }
