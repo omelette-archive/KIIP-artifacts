@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2e5e3e14b6bbad69f4cbc27ef0d5370ff961cf27",
+  "headSha": "326d730d4c08001e03fa9da84c39a97be05718b6",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "326d730d4c08001e03fa9da84c39a97be05718b6",
+      "shortSha": "326d730d4c08",
+      "committedAt": "2026-08-24T16:45:58+09:00",
+      "subject": "fix: 대시보드 상단 요약 영역 컴팩트화"
+    },
     {
       "sha": "2e5e3e14b6bbad69f4cbc27ef0d5370ff961cf27",
       "shortSha": "2e5e3e14b6bb",
@@ -308,12 +314,6 @@
       "shortSha": "e9e067fb9412",
       "committedAt": "2026-08-19T15:12:41+09:00",
       "subject": "fix: 품목별 조회 표 단순화, 판정 기준 섹션을 데이터 개요 탭으로 이동"
-    },
-    {
-      "sha": "d3f9d550bb9b19790abc77bc1798a8489d969a4d",
-      "shortSha": "d3f9d550bb9b",
-      "committedAt": "2026-08-19T15:03:25+09:00",
-      "subject": "feat: 알파 테스트 문구를 걷어내고, 지역 확인 전 상표는 잠정치로 표시"
     }
   ]
 }
