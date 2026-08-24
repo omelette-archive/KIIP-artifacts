@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2c8d7c9caee458ed4634fc5ea0fca529df701d60",
+  "headSha": "a1947c91fec3ff38b88c0a298b179bcb503f7824",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "a1947c91fec3ff38b88c0a298b179bcb503f7824",
+      "shortSha": "a1947c91fec3",
+      "committedAt": "2026-08-24T16:35:49+09:00",
+      "subject": "feat: 지자체별/품목별 조회를 출원건수 기반 태그 클라우드로, 요약→지자체별 이동 시 아코디언 자동 확장 제거(#112)"
+    },
     {
       "sha": "2c8d7c9caee458ed4634fc5ea0fca529df701d60",
       "shortSha": "2c8d7c9caee4",
@@ -308,12 +314,6 @@
       "shortSha": "95944a1ffecc",
       "committedAt": "2026-08-19T14:03:09+09:00",
       "subject": "Reconcile specialty filing rate display"
-    },
-    {
-      "sha": "16000974e91fc7fdbfc44cd7b0949888a8dfc9b6",
-      "shortSha": "16000974e91f",
-      "committedAt": "2026-08-19T14:00:13+09:00",
-      "subject": "Add specialty application coverage metrics"
     }
   ]
 }
