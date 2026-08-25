@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ad79d69495e001ce22d7b14eca66c0d0bf4bf353",
+  "headSha": "ff7efc5fb28311502345b956587a6f3bcfafd508",
   "metadata": {
     "snapshotId": "dashboard-31714f6a28deac93c928",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "ff7efc5fb28311502345b956587a6f3bcfafd508",
+      "shortSha": "ff7efc5fb283",
+      "committedAt": "2026-08-25T09:29:41+09:00",
+      "subject": "fix: #116 UI 개선 1~5, 6번 메뉴명 반영(그래프 제외)"
+    },
     {
       "sha": "ad79d69495e001ce22d7b14eca66c0d0bf4bf353",
       "shortSha": "ad79d69495e0",
@@ -308,12 +314,6 @@
       "shortSha": "37f6f0e48d6d",
       "committedAt": "2026-08-20T10:29:47+09:00",
       "subject": "data: 포도·오리 등 나머지 49개 partial 검색어를 제한적 완료로 재수집(판정 완료 744개)"
-    },
-    {
-      "sha": "226817c16aeeb00f6fc9993a5dbe17a0453df484",
-      "shortSha": "226817c16aee",
-      "committedAt": "2026-08-20T09:26:40+09:00",
-      "subject": "data: 사과 등 246개 partial 검색어 중 183개 재수집해 지역 집계 판정 완료 638개로 확대"
     }
   ]
 }
