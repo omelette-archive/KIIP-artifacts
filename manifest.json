@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "9f1af89bdc0a59e44bb085394e04e7255db47a01",
+  "headSha": "17b8195e70424ddaf2f20e7eefd38b3e98be003f",
   "metadata": {
     "snapshotId": "dashboard-ec170ddeedbeb2890e3c",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "17b8195e70424ddaf2f20e7eefd38b3e98be003f",
+      "shortSha": "17b8195e7042",
+      "committedAt": "2026-08-25T14:39:27+09:00",
+      "subject": "fix: 추이 그래프 프리셋 버튼 선택 상태 표시(#116)"
+    },
     {
       "sha": "9f1af89bdc0a59e44bb085394e04e7255db47a01",
       "shortSha": "9f1af89bdc0a",
@@ -308,12 +314,6 @@
       "shortSha": "f6132f2cc272",
       "committedAt": "2026-08-21T09:28:21+09:00",
       "subject": "fix: clarify dashboard map labels and layout"
-    },
-    {
-      "sha": "6db5b08359ca8d3f657d92c311fe684cc298d16e",
-      "shortSha": "6db5b08359ca",
-      "committedAt": "2026-08-21T09:10:48+09:00",
-      "subject": "fix: hide legacy map callout lines"
     }
   ]
 }
