@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "a0eb82e94f2e2f515e51e925ac525b11e551d013",
+  "headSha": "c2e4d0276e895fcaa01f681dfa14a9b37a673fdb",
   "metadata": {
     "snapshotId": "dashboard-bf61bc01b4708bc354b9",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,24 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "c2e4d0276e895fcaa01f681dfa14a9b37a673fdb",
+      "shortSha": "c2e4d0276e89",
+      "committedAt": "2026-08-25T17:04:15+09:00",
+      "subject": "fix: refine responsive regional dashboard"
+    },
+    {
+      "sha": "09702b3db39c8ac03ac33e2e32d6e93c76dcaf38",
+      "shortSha": "09702b3db39c",
+      "committedAt": "2026-08-25T16:54:46+09:00",
+      "subject": "Revert \"feat: 출원·등록 건수 월별 집계 반영(#116)\""
+    },
+    {
+      "sha": "cf197f964cd218b230247c2b63b99ab7a0660d27",
+      "shortSha": "cf197f964cd2",
+      "committedAt": "2026-08-25T16:54:46+09:00",
+      "subject": "Revert \"feat: 추이 그래프에 연도별/월별 전환 토글 추가(#116)\""
+    },
     {
       "sha": "a0eb82e94f2e2f515e51e925ac525b11e551d013",
       "shortSha": "a0eb82e94f2e",
@@ -296,24 +314,6 @@
       "shortSha": "b27da7276e96",
       "committedAt": "2026-08-21T13:46:51+09:00",
       "subject": "fix: 푸터에 \"지역 특산품 상표 출원 현황\" 문구 추가"
-    },
-    {
-      "sha": "9af2e7598f0d35f4fe98265ecf30f6e97d0647ce",
-      "shortSha": "9af2e7598f0d",
-      "committedAt": "2026-08-21T11:26:33+09:00",
-      "subject": "fix: 문구 formal화, 레이아웃 타이틀 동기화, 미확인 테스트 보강"
-    },
-    {
-      "sha": "d34507dafb615b199602d272343dd1929fb00d18",
-      "shortSha": "d34507dafb61",
-      "committedAt": "2026-08-21T11:10:53+09:00",
-      "subject": "fix: 구/군 정보 없는 광역시 특산품이 드릴다운 시 사라지던 문제 해결"
-    },
-    {
-      "sha": "9b01c567ae06b36547265e8971e41ddf3c4bdf2b",
-      "shortSha": "9b01c567ae06",
-      "committedAt": "2026-08-21T10:49:27+09:00",
-      "subject": "fix: \"시도 > 시군구\" 합쳐진 지역 필드 분리(남양주시 지도 미표시 수정)"
     }
   ]
 }
