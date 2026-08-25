@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6744feff2330cdf089f324210bf920711a726147",
+  "headSha": "798b9cf3d927c1d38700c2b0853806ae1cf397e5",
   "metadata": {
-    "snapshotId": "dashboard-07c318a2b6d0478e78ee",
+    "snapshotId": "dashboard-c2a745a88f670a09f834",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-25T02:18:45.843Z",
+    "generatedAt": "2026-08-25T02:23:05.685Z",
     "sourceMaxFetchedAt": "2026-08-25T02:12:57.769Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 153,
-    "regionItemCount": 1966,
+    "observedRegionCount": 152,
+    "regionItemCount": 1876,
     "nationwideTrademarkCount": 174078,
-    "availableRegionItemCount": 1773,
+    "availableRegionItemCount": 1761,
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "8292cd26f1de33def02ff603a0c57232203c8d14",
+      "shortSha": "8292cd26f1de",
+      "committedAt": "2026-08-25T11:25:08+09:00",
+      "subject": "feat: 수산·임산 최신 데이터를 대시보드에 반영(#114)"
+    },
     {
       "sha": "6744feff2330cdf089f324210bf920711a726147",
       "shortSha": "6744feff2330",
@@ -308,12 +314,6 @@
       "shortSha": "be446213fde9",
       "committedAt": "2026-08-20T17:55:38+09:00",
       "subject": "fix: 특산품 출원율 분모를 판정 완료가 아니라 확인 특산품 전체로 변경"
-    },
-    {
-      "sha": "b8c513c463224360a8fd7db98e5fbec1ead7242d",
-      "shortSha": "b8c513c46322",
-      "committedAt": "2026-08-20T17:42:01+09:00",
-      "subject": "fix: simplify nationwide map label callouts"
     }
   ]
 }
