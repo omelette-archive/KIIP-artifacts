@@ -1,10 +1,10 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "798b9cf3d927c1d38700c2b0853806ae1cf397e5",
+  "headSha": "914d9e54d86256587dc377c1239ccfae61d544a8",
   "metadata": {
-    "snapshotId": "dashboard-c2a745a88f670a09f834",
+    "snapshotId": "dashboard-a51ae669983328ed423b",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-25T02:23:05.685Z",
+    "generatedAt": "2026-08-25T04:54:57.233Z",
     "sourceMaxFetchedAt": "2026-08-25T02:12:57.769Z",
     "stage": "alpha",
     "inputScope": "full",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "914d9e54d86256587dc377c1239ccfae61d544a8",
+      "shortSha": "914d9e54d862",
+      "committedAt": "2026-08-25T13:56:16+09:00",
+      "subject": "feat: attach official forest product regions"
+    },
     {
       "sha": "8292cd26f1de33def02ff603a0c57232203c8d14",
       "shortSha": "8292cd26f1de",
@@ -308,12 +314,6 @@
       "shortSha": "5cd25f669dd1",
       "committedAt": "2026-08-21T09:04:06+09:00",
       "subject": "revert: restore original map callout layout"
-    },
-    {
-      "sha": "be446213fde968c4c6f8be006abaaf831c81a148",
-      "shortSha": "be446213fde9",
-      "committedAt": "2026-08-20T17:55:38+09:00",
-      "subject": "fix: 특산품 출원율 분모를 판정 완료가 아니라 확인 특산품 전체로 변경"
     }
   ]
 }
