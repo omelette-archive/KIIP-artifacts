@@ -1,10 +1,10 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "914d9e54d86256587dc377c1239ccfae61d544a8",
+  "headSha": "e921182b35407391dd1f92efe55f99ae3775c2f7",
   "metadata": {
-    "snapshotId": "dashboard-a51ae669983328ed423b",
+    "snapshotId": "dashboard-ec170ddeedbeb2890e3c",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-25T04:54:57.233Z",
+    "generatedAt": "2026-08-25T05:06:17.932Z",
     "sourceMaxFetchedAt": "2026-08-25T02:12:57.769Z",
     "stage": "alpha",
     "inputScope": "full",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "e921182b35407391dd1f92efe55f99ae3775c2f7",
+      "shortSha": "e921182b3540",
+      "committedAt": "2026-08-25T14:09:20+09:00",
+      "subject": "fix: 임산물 주산지 근거 반영의 리뷰 보완사항 3건 처리(#114)"
+    },
     {
       "sha": "914d9e54d86256587dc377c1239ccfae61d544a8",
       "shortSha": "914d9e54d862",
@@ -308,12 +314,6 @@
       "shortSha": "76006a271ad3",
       "committedAt": "2026-08-21T09:09:16+09:00",
       "subject": "revert: restore direct map labels"
-    },
-    {
-      "sha": "5cd25f669dd1b6f88c483c0d9e3afdd77e108fde",
-      "shortSha": "5cd25f669dd1",
-      "committedAt": "2026-08-21T09:04:06+09:00",
-      "subject": "revert: restore original map callout layout"
     }
   ]
 }
