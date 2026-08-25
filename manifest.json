@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c2e4d0276e895fcaa01f681dfa14a9b37a673fdb",
+  "headSha": "7fecba510d4c92074a2d9279038589c623148a32",
   "metadata": {
     "snapshotId": "dashboard-bf61bc01b4708bc354b9",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "7fecba510d4c92074a2d9279038589c623148a32",
+      "shortSha": "7fecba510d4c",
+      "committedAt": "2026-08-25T17:32:09+09:00",
+      "subject": "fix: restore province accordion toggle"
+    },
     {
       "sha": "c2e4d0276e895fcaa01f681dfa14a9b37a673fdb",
       "shortSha": "c2e4d0276e89",
@@ -308,12 +314,6 @@
       "shortSha": "8f301d3bcbb4",
       "committedAt": "2026-08-21T14:16:14+09:00",
       "subject": "feat: 출원율을 원형 게이지로 시각화, 지역별 출원율 탭을 지도+패널 좌우 배치로 변경"
-    },
-    {
-      "sha": "b27da7276e96f80e5b09cfe93b23acdeae3ebb70",
-      "shortSha": "b27da7276e96",
-      "committedAt": "2026-08-21T13:46:51+09:00",
-      "subject": "fix: 푸터에 \"지역 특산품 상표 출원 현황\" 문구 추가"
     }
   ]
 }
