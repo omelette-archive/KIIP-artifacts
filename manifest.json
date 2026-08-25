@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "88ab9e4bcac65a9477a2f0d37a1e4d7a6e97da6c",
+  "headSha": "be822d73cf3918ee2529e25b1559203aa308ab28",
   "metadata": {
-    "snapshotId": "dashboard-a982f30d9f0a47d5c702",
+    "snapshotId": "dashboard-bf61bc01b4708bc354b9",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-25T05:42:40.735Z",
-    "sourceMaxFetchedAt": "2026-08-25T05:38:28.409Z",
+    "generatedAt": "2026-08-25T06:21:08.107Z",
+    "sourceMaxFetchedAt": "2026-08-25T06:19:47.163Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 157,
-    "regionItemCount": 1897,
+    "observedRegionCount": 131,
+    "regionItemCount": 1713,
     "nationwideTrademarkCount": 174078,
-    "availableRegionItemCount": 1804,
+    "availableRegionItemCount": 1625,
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "be822d73cf3918ee2529e25b1559203aa308ab28",
+      "shortSha": "be822d73cf39",
+      "committedAt": "2026-08-25T15:24:56+09:00",
+      "subject": "fix: separate seafood facility locations from specialties"
+    },
     {
       "sha": "88ab9e4bcac65a9477a2f0d37a1e4d7a6e97da6c",
       "shortSha": "88ab9e4bcac6",
@@ -308,12 +314,6 @@
       "shortSha": "175772f51d89",
       "committedAt": "2026-08-21T10:06:38+09:00",
       "subject": "fix: align specialty application-rate denominator labels"
-    },
-    {
-      "sha": "3e4626119d8aecda78629c48bb9756d6b20b4f00",
-      "shortSha": "3e4626119d8a",
-      "committedAt": "2026-08-21T10:03:34+09:00",
-      "subject": "fix: 법정동코드 미해결 지역을 미출원 특산품 탭에서 제외"
     }
   ]
 }
