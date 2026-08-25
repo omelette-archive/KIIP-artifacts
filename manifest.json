@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "17b8195e70424ddaf2f20e7eefd38b3e98be003f",
+  "headSha": "88ab9e4bcac65a9477a2f0d37a1e4d7a6e97da6c",
   "metadata": {
-    "snapshotId": "dashboard-ec170ddeedbeb2890e3c",
+    "snapshotId": "dashboard-a982f30d9f0a47d5c702",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-25T05:06:17.932Z",
-    "sourceMaxFetchedAt": "2026-08-25T02:12:57.769Z",
+    "generatedAt": "2026-08-25T05:42:40.735Z",
+    "sourceMaxFetchedAt": "2026-08-25T05:38:28.409Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 152,
-    "regionItemCount": 1876,
+    "observedRegionCount": 157,
+    "regionItemCount": 1897,
     "nationwideTrademarkCount": 174078,
-    "availableRegionItemCount": 1761,
+    "availableRegionItemCount": 1804,
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "88ab9e4bcac65a9477a2f0d37a1e4d7a6e97da6c",
+      "shortSha": "88ab9e4bcac6",
+      "committedAt": "2026-08-25T14:44:23+09:00",
+      "subject": "feat: verify supplemental regional trademark data"
+    },
     {
       "sha": "17b8195e70424ddaf2f20e7eefd38b3e98be003f",
       "shortSha": "17b8195e7042",
@@ -308,12 +314,6 @@
       "shortSha": "3e4626119d8a",
       "committedAt": "2026-08-21T10:03:34+09:00",
       "subject": "fix: 법정동코드 미해결 지역을 미출원 특산품 탭에서 제외"
-    },
-    {
-      "sha": "f6132f2cc27231144dd88d2d3028348e1811b9c3",
-      "shortSha": "f6132f2cc272",
-      "committedAt": "2026-08-21T09:28:21+09:00",
-      "subject": "fix: clarify dashboard map labels and layout"
     }
   ]
 }
