@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "be822d73cf3918ee2529e25b1559203aa308ab28",
+  "headSha": "b0351aa88a245d666837243866fd191df64545d7",
   "metadata": {
     "snapshotId": "dashboard-bf61bc01b4708bc354b9",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "b0351aa88a245d666837243866fd191df64545d7",
+      "shortSha": "b0351aa88a24",
+      "committedAt": "2026-08-25T15:32:32+09:00",
+      "subject": "feat: add compact municipality trend view"
+    },
     {
       "sha": "be822d73cf3918ee2529e25b1559203aa308ab28",
       "shortSha": "be822d73cf39",
@@ -308,12 +314,6 @@
       "shortSha": "928f2bec72cd",
       "committedAt": "2026-08-21T10:13:54+09:00",
       "subject": "feat: 지재연 공식 로고 삽입, 헤드라인 서체를 세리프에서 산세리프로 통일"
-    },
-    {
-      "sha": "175772f51d89a94755811e849e2403cfa452071c",
-      "shortSha": "175772f51d89",
-      "committedAt": "2026-08-21T10:06:38+09:00",
-      "subject": "fix: align specialty application-rate denominator labels"
     }
   ]
 }
