@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "e921182b35407391dd1f92efe55f99ae3775c2f7",
+  "headSha": "9f1af89bdc0a59e44bb085394e04e7255db47a01",
   "metadata": {
     "snapshotId": "dashboard-ec170ddeedbeb2890e3c",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "9f1af89bdc0a59e44bb085394e04e7255db47a01",
+      "shortSha": "9f1af89bdc0a",
+      "committedAt": "2026-08-25T14:31:29+09:00",
+      "subject": "fix: 요약 화면 중복 제목 제거·브랜드명 변경·추이 그래프 위치/슬라이더 반영(#116)"
+    },
     {
       "sha": "e921182b35407391dd1f92efe55f99ae3775c2f7",
       "shortSha": "e921182b3540",
@@ -308,12 +314,6 @@
       "shortSha": "6db5b08359ca",
       "committedAt": "2026-08-21T09:10:48+09:00",
       "subject": "fix: hide legacy map callout lines"
-    },
-    {
-      "sha": "76006a271ad3ddff7633e91d235a92a12e2aa30c",
-      "shortSha": "76006a271ad3",
-      "committedAt": "2026-08-21T09:09:16+09:00",
-      "subject": "revert: restore direct map labels"
     }
   ]
 }
