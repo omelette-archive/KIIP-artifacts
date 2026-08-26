@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "fc22b5408ab1904a788cac006f1cd77e973fb0f7",
+  "headSha": "5b77a6e9974ee3fefcc5fb6da58b5413396c254a",
   "metadata": {
     "snapshotId": "dashboard-d0b645dcfc06c721375b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "5b77a6e9974ee3fefcc5fb6da58b5413396c254a",
+      "shortSha": "5b77a6e9974e",
+      "committedAt": "2026-08-26T16:52:09+09:00",
+      "subject": "fix: 요약 화면 랭킹 표 정렬·비즈니스 전략 카드 가독성 개선(#116)"
+    },
     {
       "sha": "fc22b5408ab1904a788cac006f1cd77e973fb0f7",
       "shortSha": "fc22b5408ab1",
@@ -308,12 +314,6 @@
       "shortSha": "4692d06e4f7f",
       "committedAt": "2026-08-21T17:10:15+09:00",
       "subject": "fix: 지정상품 근거 없는 상표 사례는 숨기고, 지역 확인 사례는 표시 구분"
-    },
-    {
-      "sha": "16533942d2432dff14517a4d1b9a5a8191805b8e",
-      "shortSha": "16533942d243",
-      "committedAt": "2026-08-21T16:45:55+09:00",
-      "subject": "fix: '명칭 확인중' 배지 제거 — 고시명칭 미확정은 대개 영구적 상태라 오해 소지"
     }
   ]
 }
