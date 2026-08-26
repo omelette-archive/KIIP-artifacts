@@ -1,20 +1,32 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "668557ab9b566ea26cd74a1c0fc010baa790bb41",
+  "headSha": "164fa65bbb57b458853b7f5dd9a15d01a406b16b",
   "metadata": {
-    "snapshotId": "dashboard-bf61bc01b4708bc354b9",
+    "snapshotId": "dashboard-d0b645dcfc06c721375b",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-25T06:21:08.107Z",
-    "sourceMaxFetchedAt": "2026-08-25T06:19:47.163Z",
+    "generatedAt": "2026-08-26T05:28:53.600Z",
+    "sourceMaxFetchedAt": "2026-08-26T05:26:34.726Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 131,
-    "regionItemCount": 1713,
+    "observedRegionCount": 133,
+    "regionItemCount": 1736,
     "nationwideTrademarkCount": 174078,
-    "availableRegionItemCount": 1625,
+    "availableRegionItemCount": 1648,
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "164fa65bbb57b458853b7f5dd9a15d01a406b16b",
+      "shortSha": "164fa65bbb57",
+      "committedAt": "2026-08-26T14:34:03+09:00",
+      "subject": "build: 비즈니스 전략 독립형 대시보드 갱신 (#116)"
+    },
+    {
+      "sha": "8d845ec2b6dfb260d0de1aad4c827219218dff3d",
+      "shortSha": "8d845ec2b6df",
+      "committedAt": "2026-08-26T14:33:07+09:00",
+      "subject": "feat: NFQS 지리적표시 수산물과 대시보드 후속 반영 (#114 #116)"
+    },
     {
       "sha": "668557ab9b566ea26cd74a1c0fc010baa790bb41",
       "shortSha": "668557ab9b56",
@@ -302,18 +314,6 @@
       "shortSha": "6b77590599d9",
       "committedAt": "2026-08-21T16:20:38+09:00",
       "subject": "fix: 출원 상태 배지를 소블록에만 칠하고, 등록 완료 표현/색상·지도 라벨 정리"
-    },
-    {
-      "sha": "e0df70ab9175e5fe35fedfb83de508bb1d2bb7b7",
-      "shortSha": "e0df70ab9175",
-      "committedAt": "2026-08-21T16:07:13+09:00",
-      "subject": "feat: 지역별 출원 탭 특산품 목록에 출원 여부 색상 구분 추가"
-    },
-    {
-      "sha": "6a2910aeaa03c90e1219e278f0fe998891f99eec",
-      "shortSha": "6a2910aeaa03",
-      "committedAt": "2026-08-21T16:02:23+09:00",
-      "subject": "fix: 지자체별 조회 탭 \"추가 확인 필요\" 표현을 \"검토중\"으로 변경"
     }
   ]
 }
