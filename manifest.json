@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "36f23ee85ef10748019021cb788c7e20964bee06",
+  "headSha": "668557ab9b566ea26cd74a1c0fc010baa790bb41",
   "metadata": {
     "snapshotId": "dashboard-bf61bc01b4708bc354b9",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "668557ab9b566ea26cd74a1c0fc010baa790bb41",
+      "shortSha": "668557ab9b56",
+      "committedAt": "2026-08-26T13:33:00+09:00",
+      "subject": "feat: 지역별 상표 출원·품목 상세에 UI 개선 4건 반영(#116)"
+    },
     {
       "sha": "36f23ee85ef10748019021cb788c7e20964bee06",
       "shortSha": "36f23ee85ef1",
@@ -308,12 +314,6 @@
       "shortSha": "6a2910aeaa03",
       "committedAt": "2026-08-21T16:02:23+09:00",
       "subject": "fix: 지자체별 조회 탭 \"추가 확인 필요\" 표현을 \"검토중\"으로 변경"
-    },
-    {
-      "sha": "eef8ba7546ecfe2df105332f2511a4339584138f",
-      "shortSha": "eef8ba7546ec",
-      "committedAt": "2026-08-21T14:40:51+09:00",
-      "subject": "fix: remove ambiguous trademark sample showcase"
     }
   ]
 }
