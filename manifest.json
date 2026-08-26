@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "164fa65bbb57b458853b7f5dd9a15d01a406b16b",
+  "headSha": "c175f8a3215403c147ef31aa95247ecddda1e72e",
   "metadata": {
     "snapshotId": "dashboard-d0b645dcfc06c721375b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "c175f8a3215403c147ef31aa95247ecddda1e72e",
+      "shortSha": "c175f8a32154",
+      "committedAt": "2026-08-26T14:40:14+09:00",
+      "subject": "fix: 광역별 구성 목록이 추이 그래프와 한 행을 나누며 좁아져 생긴 겹침 수정(#116)"
+    },
     {
       "sha": "164fa65bbb57b458853b7f5dd9a15d01a406b16b",
       "shortSha": "164fa65bbb57",
@@ -308,12 +314,6 @@
       "shortSha": "12dba6535b96",
       "committedAt": "2026-08-21T16:39:57+09:00",
       "subject": "fix: 지역별 출원 탭에서 고시명칭 미확정 원물명도 표시(명칭 확인중 표시로 구분)"
-    },
-    {
-      "sha": "6b77590599d9d3425e2b0157a293a9d88702832f",
-      "shortSha": "6b77590599d9",
-      "committedAt": "2026-08-21T16:20:38+09:00",
-      "subject": "fix: 출원 상태 배지를 소블록에만 칠하고, 등록 완료 표현/색상·지도 라벨 정리"
     }
   ]
 }
