@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5b77a6e9974ee3fefcc5fb6da58b5413396c254a",
+  "headSha": "4c79e12b09782c18f6e21f991a5596a5a519305b",
   "metadata": {
     "snapshotId": "dashboard-d0b645dcfc06c721375b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "4c79e12b09782c18f6e21f991a5596a5a519305b",
+      "shortSha": "4c79e12b0978",
+      "committedAt": "2026-08-27T09:32:11+09:00",
+      "subject": "fix: 요약·지역별 화면 정렬 재수정, 지자체·품목 화면에 그래프 추가(#116)"
+    },
     {
       "sha": "5b77a6e9974ee3fefcc5fb6da58b5413396c254a",
       "shortSha": "5b77a6e9974e",
@@ -308,12 +314,6 @@
       "shortSha": "dcee588ce815",
       "committedAt": "2026-08-21T17:19:24+09:00",
       "subject": "docs: 상표 검색 범위가 품목 매핑 NICE류(원물)만이고 서비스류는 미포함임을 명시"
-    },
-    {
-      "sha": "4692d06e4f7fe242ef5c28916eec81e08ef97c84",
-      "shortSha": "4692d06e4f7f",
-      "committedAt": "2026-08-21T17:10:15+09:00",
-      "subject": "fix: 지정상품 근거 없는 상표 사례는 숨기고, 지역 확인 사례는 표시 구분"
     }
   ]
 }
