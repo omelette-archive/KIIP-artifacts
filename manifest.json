@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "f1ef2032ec61883bb3eaddcf64ea6c0ed5029028",
+  "headSha": "93a310b4d452daf67e0c339d3f73359fa5c73f92",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,18 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "93a310b4d452daf67e0c339d3f73359fa5c73f92",
+      "shortSha": "93a310b4d452",
+      "committedAt": "2026-08-31T15:56:49+09:00",
+      "subject": "fix: standalone dashboard.html을 주석 갱신 후 소스와 다시 맞춤(#116 #74 #110)"
+    },
+    {
+      "sha": "f1f20257a70902bd0e921dd7f2cf4d8b0830a5fb",
+      "shortSha": "f1f20257a709",
+      "committedAt": "2026-08-31T15:55:31+09:00",
+      "subject": "feat: 전국 비즈니스 흐름 단계별 건수를 176개 품목 전체로 확대(#116 #74 #110)"
+    },
     {
       "sha": "f1ef2032ec61883bb3eaddcf64ea6c0ed5029028",
       "shortSha": "f1ef2032ec61",
@@ -302,18 +314,6 @@
       "shortSha": "eac8bb17da70",
       "committedAt": "2026-08-24T09:54:36+09:00",
       "subject": "fix: 등록 사례 문구 간결화"
-    },
-    {
-      "sha": "45efffe0e46132cbe8d65ab347d3f5cb0fa7dc28",
-      "shortSha": "45efffe0e461",
-      "committedAt": "2026-08-24T09:34:33+09:00",
-      "subject": "feat: 대시보드 최신 날짜와 건수 표시 정리"
-    },
-    {
-      "sha": "bfc20004800413027d9a51f579b3e3352f2013db",
-      "shortSha": "bfc200048004",
-      "committedAt": "2026-08-24T09:25:43+09:00",
-      "subject": "feat: 지도 선택 지표에 맞춰 우측 요약 연동"
     }
   ]
 }
