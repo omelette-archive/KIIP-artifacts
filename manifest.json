@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "4c79e12b09782c18f6e21f991a5596a5a519305b",
+  "headSha": "85dba55584c581f43b6c82b051dcf5ca635b256d",
   "metadata": {
     "snapshotId": "dashboard-d0b645dcfc06c721375b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "85dba55584c581f43b6c82b051dcf5ca635b256d",
+      "shortSha": "85dba55584c5",
+      "committedAt": "2026-08-31T11:19:05+09:00",
+      "subject": "feat: 지역특화작목 대표작목 vs 실제 등록 상표 대조 화면 추가(#117)"
+    },
     {
       "sha": "4c79e12b09782c18f6e21f991a5596a5a519305b",
       "shortSha": "4c79e12b0978",
@@ -308,12 +314,6 @@
       "shortSha": "5799c0400e22",
       "committedAt": "2026-08-21T17:25:38+09:00",
       "subject": "feat: 등록상표 랭킹을 출원 랭킹/등록 랭킹 두 개로 분리, TOP 10 고정"
-    },
-    {
-      "sha": "dcee588ce815c0139081e72c86c90d92a5a2f099",
-      "shortSha": "dcee588ce815",
-      "committedAt": "2026-08-21T17:19:24+09:00",
-      "subject": "docs: 상표 검색 범위가 품목 매핑 NICE류(원물)만이고 서비스류는 미포함임을 명시"
     }
   ]
 }
