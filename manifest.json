@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "68aa94b407d53e8bfee9bbd74ded283468d2cc0d",
+  "headSha": "f1ef2032ec61883bb3eaddcf64ea6c0ed5029028",
   "metadata": {
-    "snapshotId": "dashboard-d0b645dcfc06c721375b",
+    "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-26T05:28:53.600Z",
-    "sourceMaxFetchedAt": "2026-08-26T05:26:34.726Z",
+    "generatedAt": "2026-08-31T05:08:06.332Z",
+    "sourceMaxFetchedAt": "2026-08-26T06:08:05.516Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 133,
-    "regionItemCount": 1736,
+    "observedRegionCount": 142,
+    "regionItemCount": 1805,
     "nationwideTrademarkCount": 174078,
-    "availableRegionItemCount": 1648,
+    "availableRegionItemCount": 1688,
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "f1ef2032ec61883bb3eaddcf64ea6c0ed5029028",
+      "shortSha": "f1ef2032ec61",
+      "committedAt": "2026-08-31T14:16:13+09:00",
+      "subject": "feat: 지역특화작목 69개를 라이브 대시보드에 실제 병합(#117)"
+    },
     {
       "sha": "68aa94b407d53e8bfee9bbd74ded283468d2cc0d",
       "shortSha": "68aa94b407d5",
@@ -308,12 +314,6 @@
       "shortSha": "bfc200048004",
       "committedAt": "2026-08-24T09:25:43+09:00",
       "subject": "feat: 지도 선택 지표에 맞춰 우측 요약 연동"
-    },
-    {
-      "sha": "b1141ef27ab5094a00df2b399dff8c9719bdd435",
-      "shortSha": "b1141ef27ab5",
-      "committedAt": "2026-08-24T09:16:09+09:00",
-      "subject": "feat: 지자체 상세 조회 구조와 지표 문구 정리"
     }
   ]
 }
