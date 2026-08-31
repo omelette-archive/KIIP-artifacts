@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "93a310b4d452daf67e0c339d3f73359fa5c73f92",
+  "headSha": "b6680cc20f5d48ff366bbfb9baf4d9299ba848ed",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "b6680cc20f5d48ff366bbfb9baf4d9299ba848ed",
+      "shortSha": "b6680cc20f5d",
+      "committedAt": "2026-08-31T16:11:51+09:00",
+      "subject": "feat: 대표 특산품 1건 완화 기준을 라이브 스냅샷에 반영(#29)"
+    },
     {
       "sha": "93a310b4d452daf67e0c339d3f73359fa5c73f92",
       "shortSha": "93a310b4d452",
@@ -308,12 +314,6 @@
       "shortSha": "6be97487ffe7",
       "committedAt": "2026-08-24T10:21:04+09:00",
       "subject": "fix: 지역 등록 상표 사례 표시"
-    },
-    {
-      "sha": "eac8bb17da704d67fd723a5d7f19c0ccd0c433c1",
-      "shortSha": "eac8bb17da70",
-      "committedAt": "2026-08-24T09:54:36+09:00",
-      "subject": "fix: 등록 사례 문구 간결화"
     }
   ]
 }
