@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "cc88035dc6052ef5db1a55e0ff002310641b9bef",
+  "headSha": "68aa94b407d53e8bfee9bbd74ded283468d2cc0d",
   "metadata": {
     "snapshotId": "dashboard-d0b645dcfc06c721375b",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "68aa94b407d53e8bfee9bbd74ded283468d2cc0d",
+      "shortSha": "68aa94b407d5",
+      "committedAt": "2026-08-31T13:52:27+09:00",
+      "subject": "fix: 지역별 상표 출원 광역 구성 칸 제목·라벨이 폭을 넘어 겹치던 문제 수정(#116)"
+    },
     {
       "sha": "cc88035dc6052ef5db1a55e0ff002310641b9bef",
       "shortSha": "cc88035dc605",
@@ -308,12 +314,6 @@
       "shortSha": "b1141ef27ab5",
       "committedAt": "2026-08-24T09:16:09+09:00",
       "subject": "feat: 지자체 상세 조회 구조와 지표 문구 정리"
-    },
-    {
-      "sha": "8a10dc15d44d1dec0f5bcdebf9841c5f77d01298",
-      "shortSha": "8a10dc15d44d",
-      "committedAt": "2026-08-21T17:46:06+09:00",
-      "subject": "fix: 남양주시 \"깻잎\" raw_item_goods_matched 승격 누락 보정(0건 -> 7건, 등록 7건)"
     }
   ]
 }
