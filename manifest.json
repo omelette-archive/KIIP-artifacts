@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "b6680cc20f5d48ff366bbfb9baf4d9299ba848ed",
+  "headSha": "8832dfc98d9dde8e32a9fa21fc471c675c3a54f2",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "8832dfc98d9dde8e32a9fa21fc471c675c3a54f2",
+      "shortSha": "8832dfc98d9d",
+      "committedAt": "2026-09-01T09:57:29+09:00",
+      "subject": "fix: #116 요약 랭킹표 컬럼 축소·높이 정렬, 지자체별 조회 그래프·표 한 행 배치·크기 조절"
+    },
     {
       "sha": "b6680cc20f5d48ff366bbfb9baf4d9299ba848ed",
       "shortSha": "b6680cc20f5d",
@@ -308,12 +314,6 @@
       "shortSha": "23785c051d38",
       "committedAt": "2026-08-24T14:57:01+09:00",
       "subject": "fix: 품목 검색어 범위 확장"
-    },
-    {
-      "sha": "6be97487ffe752e51d2052b78782db9809f0b4e3",
-      "shortSha": "6be97487ffe7",
-      "committedAt": "2026-08-24T10:21:04+09:00",
-      "subject": "fix: 지역 등록 상표 사례 표시"
     }
   ]
 }
