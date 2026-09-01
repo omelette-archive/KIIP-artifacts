@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "8832dfc98d9dde8e32a9fa21fc471c675c3a54f2",
+  "headSha": "2ddae509e167ebde0c6abac4028175b8b5c9a35d",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "2ddae509e167ebde0c6abac4028175b8b5c9a35d",
+      "shortSha": "2ddae509e167",
+      "committedAt": "2026-09-01T10:23:38+09:00",
+      "subject": "fix: #116 대시보드 특산품 수 모집단 단일화 — 지도 카운터도 지역 귀속 행(1,805) 기준"
+    },
     {
       "sha": "8832dfc98d9dde8e32a9fa21fc471c675c3a54f2",
       "shortSha": "8832dfc98d9d",
@@ -308,12 +314,6 @@
       "shortSha": "d5b947bf6697",
       "committedAt": "2026-08-24T15:15:56+09:00",
       "subject": "feat: 품목별 조회에 유형(과일/채소/곡물 등) 필터 추가"
-    },
-    {
-      "sha": "23785c051d38d2d15339e40d423528c18b375b68",
-      "shortSha": "23785c051d38",
-      "committedAt": "2026-08-24T14:57:01+09:00",
-      "subject": "fix: 품목 검색어 범위 확장"
     }
   ]
 }
