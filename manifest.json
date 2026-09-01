@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "472f41e43c47bc7c2b4a2c7ac28608c7686742f5",
+  "headSha": "ca2acda4678b30846f6669e0cd9794d0f5ff7f82",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "ca2acda4678b30846f6669e0cd9794d0f5ff7f82",
+      "shortSha": "ca2acda4678b",
+      "committedAt": "2026-09-01T13:03:24+09:00",
+      "subject": "fix: #116 \"지역별 상표 출원\" 2×2 그리드로 같은 행 박스 높이 정확히 일치"
+    },
     {
       "sha": "472f41e43c47bc7c2b4a2c7ac28608c7686742f5",
       "shortSha": "472f41e43c47",
@@ -308,12 +314,6 @@
       "shortSha": "1258f538c6a3",
       "committedAt": "2026-08-24T16:59:16+09:00",
       "subject": "chore: standalone HTML를 소스와 동기화"
-    },
-    {
-      "sha": "8821004486100efc11acca3dbfe4be230c518ee6",
-      "shortSha": "882100448610",
-      "committedAt": "2026-08-24T16:57:38+09:00",
-      "subject": "fix: 공개 대시보드 요약 헤더도 컴팩트화"
     }
   ]
 }
