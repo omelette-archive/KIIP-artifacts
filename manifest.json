@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c908e4fb7a880a96e4c81a1b520c694988e5dad8",
+  "headSha": "150bfb5e1c2a87c190c770bf2cb408520b86cc86",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "150bfb5e1c2a87c190c770bf2cb408520b86cc86",
+      "shortSha": "150bfb5e1c2a",
+      "committedAt": "2026-09-01T16:06:32+09:00",
+      "subject": "refactor: #119 탭 이름 명확화 — \"전국 지역 비교\" / \"지역 상세\" (IA 1차)"
+    },
     {
       "sha": "c908e4fb7a880a96e4c81a1b520c694988e5dad8",
       "shortSha": "c908e4fb7a88",
@@ -308,12 +314,6 @@
       "shortSha": "ad79d69495e0",
       "committedAt": "2026-08-25T08:49:19+09:00",
       "subject": "feat: 데이터 개요에 출처 수집 현황 표 추가"
-    },
-    {
-      "sha": "b8499ea3bef341b2209e34cdf7920f668b65f14f",
-      "shortSha": "b8499ea3bef3",
-      "committedAt": "2026-08-24T17:32:57+09:00",
-      "subject": "fix: 상단 탭을 한 줄로, 태그 클라우드에 검증된 4색 배정(#115, #112)"
     }
   ]
 }
