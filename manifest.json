@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "3b2feecde5ae819e0aa8f186f0c873c13ccf77eb",
+  "headSha": "ad27ebb3fb9bd8bb003a05a4021499208e4692bc",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "ad27ebb3fb9bd8bb003a05a4021499208e4692bc",
+      "shortSha": "ad27ebb3fb9b",
+      "committedAt": "2026-09-01T12:45:59+09:00",
+      "subject": "fix: #116 광역 구성 순위의 \"출원/등록\" 숫자가 칸 밖으로 삐져나와 추이 그래프와 겹침"
+    },
     {
       "sha": "3b2feecde5ae819e0aa8f186f0c873c13ccf77eb",
       "shortSha": "3b2feecde5ae",
@@ -308,12 +314,6 @@
       "shortSha": "4af25f5356b6",
       "committedAt": "2026-08-24T16:54:25+09:00",
       "subject": "fix: 첫 화면 헤더와 지표 카드 압축"
-    },
-    {
-      "sha": "326d730d4c08001e03fa9da84c39a97be05718b6",
-      "shortSha": "326d730d4c08",
-      "committedAt": "2026-08-24T16:45:58+09:00",
-      "subject": "fix: 대시보드 상단 요약 영역 컴팩트화"
     }
   ]
 }
