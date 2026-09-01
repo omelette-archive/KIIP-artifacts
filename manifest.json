@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ca2acda4678b30846f6669e0cd9794d0f5ff7f82",
+  "headSha": "a26fca80a08ff1679edc99313729ad7592f9b6da",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "a26fca80a08ff1679edc99313729ad7592f9b6da",
+      "shortSha": "a26fca80a08f",
+      "committedAt": "2026-09-01T13:07:51+09:00",
+      "subject": "fix: #116 지역 선택 시 왼쪽에 추이+요약, 오른쪽에 지도"
+    },
     {
       "sha": "ca2acda4678b30846f6669e0cd9794d0f5ff7f82",
       "shortSha": "ca2acda4678b",
@@ -308,12 +314,6 @@
       "shortSha": "49d4d73a538b",
       "committedAt": "2026-08-24T17:01:41+09:00",
       "subject": "fix: 지도 경계 데이터를 2013 KOSTAT에서 admdongkor(2026-07-01)로 최신화(#80, #113)"
-    },
-    {
-      "sha": "1258f538c6a36bd361754d4f04f661328a1c782e",
-      "shortSha": "1258f538c6a3",
-      "committedAt": "2026-08-24T16:59:16+09:00",
-      "subject": "chore: standalone HTML를 소스와 동기화"
     }
   ]
 }
