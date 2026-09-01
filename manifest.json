@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "a27dead24b352db60a2ce8e6a2e9ac3a0f9f1d86",
+  "headSha": "3b2feecde5ae819e0aa8f186f0c873c13ccf77eb",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "3b2feecde5ae819e0aa8f186f0c873c13ccf77eb",
+      "shortSha": "3b2feecde5ae",
+      "committedAt": "2026-09-01T12:41:11+09:00",
+      "subject": "fix: #116 \"지역별 상표 출원\" 좁은 창 겹침 — 2단 중간단계 제거, 1,280px 이하 바로 1단"
+    },
     {
       "sha": "a27dead24b352db60a2ce8e6a2e9ac3a0f9f1d86",
       "shortSha": "a27dead24b35",
@@ -308,12 +314,6 @@
       "shortSha": "326d730d4c08",
       "committedAt": "2026-08-24T16:45:58+09:00",
       "subject": "fix: 대시보드 상단 요약 영역 컴팩트화"
-    },
-    {
-      "sha": "2e5e3e14b6bbad69f4cbc27ef0d5370ff961cf27",
-      "shortSha": "2e5e3e14b6bb",
-      "committedAt": "2026-08-24T16:40:39+09:00",
-      "subject": "fix: 상단 브랜드와 탭 바 가독성 개선(#115)"
     }
   ]
 }
