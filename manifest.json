@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2ddae509e167ebde0c6abac4028175b8b5c9a35d",
+  "headSha": "8ec0db3212fb01a77c5fa387b4d8f8420032fa1d",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "8ec0db3212fb01a77c5fa387b4d8f8420032fa1d",
+      "shortSha": "8ec0db3212fb",
+      "committedAt": "2026-09-01T10:29:22+09:00",
+      "subject": "fix: #116 \"지역별 상표 출원\" 4단 행 중간 폭에서 겹침 방지"
+    },
     {
       "sha": "2ddae509e167ebde0c6abac4028175b8b5c9a35d",
       "shortSha": "2ddae509e167",
@@ -308,12 +314,6 @@
       "shortSha": "e71819ef7fe8",
       "committedAt": "2026-08-24T15:37:45+09:00",
       "subject": "fix: 요약 지도에 전체 수집 특산품 예시 표시"
-    },
-    {
-      "sha": "d5b947bf66979f2845e450c0349ef90f83569797",
-      "shortSha": "d5b947bf6697",
-      "committedAt": "2026-08-24T15:15:56+09:00",
-      "subject": "feat: 품목별 조회에 유형(과일/채소/곡물 등) 필터 추가"
     }
   ]
 }
