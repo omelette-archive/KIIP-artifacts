@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "f3fe0fb306a4fffafee09e2568f4097f21ac9e61",
+  "headSha": "a27dead24b352db60a2ce8e6a2e9ac3a0f9f1d86",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "a27dead24b352db60a2ce8e6a2e9ac3a0f9f1d86",
+      "shortSha": "a27dead24b35",
+      "committedAt": "2026-09-01T12:35:06+09:00",
+      "subject": "fix: #116 요약 첫 칸을 \"전국 특산품 수\"로, 중복 hero 큰 글씨 제거, 메뉴바 클립 방지"
+    },
     {
       "sha": "f3fe0fb306a4fffafee09e2568f4097f21ac9e61",
       "shortSha": "f3fe0fb306a4",
@@ -308,12 +314,6 @@
       "shortSha": "2e5e3e14b6bb",
       "committedAt": "2026-08-24T16:40:39+09:00",
       "subject": "fix: 상단 브랜드와 탭 바 가독성 개선(#115)"
-    },
-    {
-      "sha": "a1947c91fec3ff38b88c0a298b179bcb503f7824",
-      "shortSha": "a1947c91fec3",
-      "committedAt": "2026-08-24T16:35:49+09:00",
-      "subject": "feat: 지자체별/품목별 조회를 출원건수 기반 태그 클라우드로, 요약→지자체별 이동 시 아코디언 자동 확장 제거(#112)"
     }
   ]
 }
