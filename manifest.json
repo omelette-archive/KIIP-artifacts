@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "a26fca80a08ff1679edc99313729ad7592f9b6da",
+  "headSha": "662bf1876631e06812c87b8c3d5a4d92fb004af7",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "662bf1876631e06812c87b8c3d5a4d92fb004af7",
+      "shortSha": "662bf1876631",
+      "committedAt": "2026-09-01T13:11:05+09:00",
+      "subject": "fix: #116 품목별 조회 \"광역 출원 비중\" — 창 좁아져도 % 숫자가 잘리지 않게"
+    },
     {
       "sha": "a26fca80a08ff1679edc99313729ad7592f9b6da",
       "shortSha": "a26fca80a08f",
@@ -308,12 +314,6 @@
       "shortSha": "24faa011ad2f",
       "committedAt": "2026-08-24T17:03:20+09:00",
       "subject": "fix: 첫 화면 제목 시각적 무게 조정"
-    },
-    {
-      "sha": "49d4d73a538bc7cddb516cf2f58c4d0adf886728",
-      "shortSha": "49d4d73a538b",
-      "committedAt": "2026-08-24T17:01:41+09:00",
-      "subject": "fix: 지도 경계 데이터를 2013 KOSTAT에서 admdongkor(2026-07-01)로 최신화(#80, #113)"
     }
   ]
 }
