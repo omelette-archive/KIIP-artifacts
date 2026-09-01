@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ad27ebb3fb9bd8bb003a05a4021499208e4692bc",
+  "headSha": "472f41e43c47bc7c2b4a2c7ac28608c7686742f5",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "472f41e43c47bc7c2b4a2c7ac28608c7686742f5",
+      "shortSha": "472f41e43c47",
+      "committedAt": "2026-09-01T12:55:55+09:00",
+      "subject": "fix: #116 \"지역별 상표 출원\" 레이아웃 정리 — 4패널을 2열(구성+추이 / 지도+요약)로"
+    },
     {
       "sha": "ad27ebb3fb9bd8bb003a05a4021499208e4692bc",
       "shortSha": "ad27ebb3fb9b",
@@ -308,12 +314,6 @@
       "shortSha": "882100448610",
       "committedAt": "2026-08-24T16:57:38+09:00",
       "subject": "fix: 공개 대시보드 요약 헤더도 컴팩트화"
-    },
-    {
-      "sha": "4af25f5356b6f8ef2f811e39094fc74356f285a8",
-      "shortSha": "4af25f5356b6",
-      "committedAt": "2026-08-24T16:54:25+09:00",
-      "subject": "fix: 첫 화면 헤더와 지표 카드 압축"
     }
   ]
 }
