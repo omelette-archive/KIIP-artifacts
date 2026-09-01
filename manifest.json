@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c1c3bcc9675b6adbd6af1f7e07c5a28f04985881",
+  "headSha": "f3fe0fb306a4fffafee09e2568f4097f21ac9e61",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "f3fe0fb306a4fffafee09e2568f4097f21ac9e61",
+      "shortSha": "f3fe0fb306a4",
+      "committedAt": "2026-09-01T11:28:16+09:00",
+      "subject": "fix: #116 광역자치단체 나열 순서를 행정표준코드 순서로 통일"
+    },
     {
       "sha": "a60be05cb21afe508d838091944a859ba8dab725",
       "shortSha": "a60be05cb21a",
@@ -308,12 +314,6 @@
       "shortSha": "a1947c91fec3",
       "committedAt": "2026-08-24T16:35:49+09:00",
       "subject": "feat: 지자체별/품목별 조회를 출원건수 기반 태그 클라우드로, 요약→지자체별 이동 시 아코디언 자동 확장 제거(#112)"
-    },
-    {
-      "sha": "2c8d7c9caee458ed4634fc5ea0fca529df701d60",
-      "shortSha": "2c8d7c9caee4",
-      "committedAt": "2026-08-24T16:26:46+09:00",
-      "subject": "fix: 지도 경계·행정구역 데이터 불일치 시에도 시군구 클릭이 실제 지역으로 연결(#113)"
     }
   ]
 }
