@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "29fb84385c547ad91806fe002dd003f2dd05f899",
+  "headSha": "d093af186715c264c80bd213461801fa7fb3787e",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "d093af186715c264c80bd213461801fa7fb3787e",
+      "shortSha": "d093af186715",
+      "committedAt": "2026-09-01T18:02:57+09:00",
+      "subject": "feat: KIPRIS 결과 딥링크·품목 상세 도넛 확대·지역색 고정·뒤로가기 처리(#119)"
+    },
     {
       "sha": "29fb84385c547ad91806fe002dd003f2dd05f899",
       "shortSha": "29fb84385c54",
@@ -308,12 +314,6 @@
       "shortSha": "346706bed578",
       "committedAt": "2026-08-25T10:42:04+09:00",
       "subject": "feat: #116 연도별 출원·등록 추이 그래프 — 실 KIPRIS 재실행으로 라이브 데이터까지 반영"
-    },
-    {
-      "sha": "526235ae904039cce8e40bd8044d894f9bf02c08",
-      "shortSha": "526235ae9040",
-      "committedAt": "2026-08-25T10:13:11+09:00",
-      "subject": "fix: #116 제목을 \"지역 특산품 상표 출원\"으로 변경"
     }
   ]
 }
