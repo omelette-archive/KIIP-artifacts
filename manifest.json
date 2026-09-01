@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "8ec0db3212fb01a77c5fa387b4d8f8420032fa1d",
+  "headSha": "c1c3bcc9675b6adbd6af1f7e07c5a28f04985881",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "a60be05cb21afe508d838091944a859ba8dab725",
+      "shortSha": "a60be05cb21a",
+      "committedAt": "2026-09-01T10:49:22+09:00",
+      "subject": "feat: #116 지역 상표 지표 partial 게이트 — 검색 상한만이 원인이면 주소 검증 부분집합 인정"
+    },
     {
       "sha": "8ec0db3212fb01a77c5fa387b4d8f8420032fa1d",
       "shortSha": "8ec0db3212fb",
@@ -308,12 +314,6 @@
       "shortSha": "2c8d7c9caee4",
       "committedAt": "2026-08-24T16:26:46+09:00",
       "subject": "fix: 지도 경계·행정구역 데이터 불일치 시에도 시군구 클릭이 실제 지역으로 연결(#113)"
-    },
-    {
-      "sha": "e71819ef7fe84754862036ad811a3d8d50528e2e",
-      "shortSha": "e71819ef7fe8",
-      "committedAt": "2026-08-24T15:37:45+09:00",
-      "subject": "fix: 요약 지도에 전체 수집 특산품 예시 표시"
     }
   ]
 }
