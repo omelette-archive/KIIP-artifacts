@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "662bf1876631e06812c87b8c3d5a4d92fb004af7",
+  "headSha": "c908e4fb7a880a96e4c81a1b520c694988e5dad8",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "c908e4fb7a880a96e4c81a1b520c694988e5dad8",
+      "shortSha": "c908e4fb7a88",
+      "committedAt": "2026-09-01T16:01:08+09:00",
+      "subject": "fix: #116 요약 화면 랭킹 열이 지도 열보다 짧게 튀는 문제 — height:100% 제거"
+    },
     {
       "sha": "662bf1876631e06812c87b8c3d5a4d92fb004af7",
       "shortSha": "662bf1876631",
@@ -308,12 +314,6 @@
       "shortSha": "b8499ea3bef3",
       "committedAt": "2026-08-24T17:32:57+09:00",
       "subject": "fix: 상단 탭을 한 줄로, 태그 클라우드에 검증된 4색 배정(#115, #112)"
-    },
-    {
-      "sha": "24faa011ad2f623c3697253ea5aa0010d9c3acaa",
-      "shortSha": "24faa011ad2f",
-      "committedAt": "2026-08-24T17:03:20+09:00",
-      "subject": "fix: 첫 화면 제목 시각적 무게 조정"
     }
   ]
 }
