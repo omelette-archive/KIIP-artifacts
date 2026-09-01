@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "150bfb5e1c2a87c190c770bf2cb408520b86cc86",
+  "headSha": "9642fded0864bbd264b9e8087ae0161830e4b841",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "9642fded0864bbd264b9e8087ae0161830e4b841",
+      "shortSha": "9642fded0864",
+      "committedAt": "2026-09-01T17:32:38+09:00",
+      "subject": "fix: 요약 랭킹 열 높이 지도와 정합(#116) + 지역 상세 탭 병합(#119)"
+    },
     {
       "sha": "150bfb5e1c2a87c190c770bf2cb408520b86cc86",
       "shortSha": "150bfb5e1c2a",
@@ -308,12 +314,6 @@
       "shortSha": "ff7efc5fb283",
       "committedAt": "2026-08-25T09:29:41+09:00",
       "subject": "fix: #116 UI 개선 1~5, 6번 메뉴명 반영(그래프 제외)"
-    },
-    {
-      "sha": "ad79d69495e001ce22d7b14eca66c0d0bf4bf353",
-      "shortSha": "ad79d69495e0",
-      "committedAt": "2026-08-25T08:49:19+09:00",
-      "subject": "feat: 데이터 개요에 출처 수집 현황 표 추가"
     }
   ]
 }
