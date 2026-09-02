@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "d63544265c0d5a7da1119b538d78889d56f26240",
+  "headSha": "5c794ad96e5159424314a943f6ac27e89ff930fc",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "5c794ad96e5159424314a943f6ac27e89ff930fc",
+      "shortSha": "5c794ad96e51",
+      "committedAt": "2026-09-02T18:59:37+09:00",
+      "subject": "fix: #116 품목 선택 시 화면 최상단으로 스크롤 + 전국 시도별 출원율 지도 확대"
+    },
     {
       "sha": "d63544265c0d5a7da1119b538d78889d56f26240",
       "shortSha": "d63544265c0d",
@@ -308,12 +314,6 @@
       "shortSha": "914d9e54d862",
       "committedAt": "2026-08-25T13:56:16+09:00",
       "subject": "feat: attach official forest product regions"
-    },
-    {
-      "sha": "8292cd26f1de33def02ff603a0c57232203c8d14",
-      "shortSha": "8292cd26f1de",
-      "committedAt": "2026-08-25T11:25:08+09:00",
-      "subject": "feat: 수산·임산 최신 데이터를 대시보드에 반영(#114)"
     }
   ]
 }
