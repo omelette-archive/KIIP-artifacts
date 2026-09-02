@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "9a70fbef1758da625eae24ab8fbeee6f6ef6a9f1",
+  "headSha": "c0d4552884189061025dacdbf75e0ae5cdf4bfb3",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "c0d4552884189061025dacdbf75e0ae5cdf4bfb3",
+      "shortSha": "c0d455288418",
+      "committedAt": "2026-09-02T22:22:39+09:00",
+      "subject": "feat: #119 비즈니스 확장 흐름 카드에 주요 원산지·단계별 상품류·상위 지역"
+    },
     {
       "sha": "9a70fbef1758da625eae24ab8fbeee6f6ef6a9f1",
       "shortSha": "9a70fbef1758",
@@ -308,12 +314,6 @@
       "shortSha": "c2e4d0276e89",
       "committedAt": "2026-08-25T17:04:15+09:00",
       "subject": "fix: refine responsive regional dashboard"
-    },
-    {
-      "sha": "09702b3db39c8ac03ac33e2e32d6e93c76dcaf38",
-      "shortSha": "09702b3db39c",
-      "committedAt": "2026-08-25T16:54:46+09:00",
-      "subject": "Revert \"feat: 출원·등록 건수 월별 집계 반영(#116)\""
     }
   ]
 }
