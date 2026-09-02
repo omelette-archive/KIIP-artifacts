@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "9a511baaf821c837bc6b2197b2a867c7062a1bcc",
+  "headSha": "6e4714d9a3d09c2bf0840f09d8259ee4b6b6ccf9",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "6e4714d9a3d09c2bf0840f09d8259ee4b6b6ccf9",
+      "shortSha": "6e4714d9a3d0",
+      "committedAt": "2026-09-02T21:46:41+09:00",
+      "subject": "feat: #119 지역별 검색창 + \"16개 시도\" + 지역/품목별 화면 구성 일치"
+    },
     {
       "sha": "9a511baaf821c837bc6b2197b2a867c7062a1bcc",
       "shortSha": "9a511baaf821",
@@ -308,12 +314,6 @@
       "shortSha": "cf197f964cd2",
       "committedAt": "2026-08-25T16:54:46+09:00",
       "subject": "Revert \"feat: 추이 그래프에 연도별/월별 전환 토글 추가(#116)\""
-    },
-    {
-      "sha": "a0eb82e94f2e2f515e51e925ac525b11e551d013",
-      "shortSha": "a0eb82e94f2e",
-      "committedAt": "2026-08-25T15:47:42+09:00",
-      "subject": "feat: 추이 그래프에 연도별/월별 전환 토글 추가(#116)"
     }
   ]
 }
