@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5c794ad96e5159424314a943f6ac27e89ff930fc",
+  "headSha": "9c465cde070349c0b9a2c8ea4c23369cce3f1156",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "9c465cde070349c0b9a2c8ea4c23369cce3f1156",
+      "shortSha": "9c465cde0703",
+      "committedAt": "2026-09-02T19:34:05+09:00",
+      "subject": "fix: #116 지역·품목별 조회 요약 바에서 창 좁을 때 텍스트가 칸 밖으로 튀어나오던 문제"
+    },
     {
       "sha": "5c794ad96e5159424314a943f6ac27e89ff930fc",
       "shortSha": "5c794ad96e51",
@@ -308,12 +314,6 @@
       "shortSha": "e921182b3540",
       "committedAt": "2026-08-25T14:09:20+09:00",
       "subject": "fix: 임산물 주산지 근거 반영의 리뷰 보완사항 3건 처리(#114)"
-    },
-    {
-      "sha": "914d9e54d86256587dc377c1239ccfae61d544a8",
-      "shortSha": "914d9e54d862",
-      "committedAt": "2026-08-25T13:56:16+09:00",
-      "subject": "feat: attach official forest product regions"
     }
   ]
 }
