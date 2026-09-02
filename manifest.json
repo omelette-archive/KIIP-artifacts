@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "3f99c99e183a998e55b18c3cb9d96598403c4911",
+  "headSha": "9a511baaf821c837bc6b2197b2a867c7062a1bcc",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "9a511baaf821c837bc6b2197b2a867c7062a1bcc",
+      "shortSha": "9a511baaf821",
+      "committedAt": "2026-09-02T21:38:24+09:00",
+      "subject": "feat: #118 출원·등록 추이 그래프 부각 + 요약·지역·품목 화면 일치"
+    },
     {
       "sha": "3f99c99e183a998e55b18c3cb9d96598403c4911",
       "shortSha": "3f99c99e183a",
@@ -308,12 +314,6 @@
       "shortSha": "a0eb82e94f2e",
       "committedAt": "2026-08-25T15:47:42+09:00",
       "subject": "feat: 추이 그래프에 연도별/월별 전환 토글 추가(#116)"
-    },
-    {
-      "sha": "271d39d426583e91f539ec52de9343bdfef32c62",
-      "shortSha": "271d39d42658",
-      "committedAt": "2026-08-25T15:40:43+09:00",
-      "subject": "feat: 출원·등록 건수 월별 집계 반영(#116)"
     }
   ]
 }
