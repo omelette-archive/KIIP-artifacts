@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "02b3a4e1fffb558cb1d4e7696280009d489957d6",
+  "headSha": "3f99c99e183a998e55b18c3cb9d96598403c4911",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "3f99c99e183a998e55b18c3cb9d96598403c4911",
+      "shortSha": "3f99c99e183a",
+      "committedAt": "2026-09-02T21:22:30+09:00",
+      "subject": "feat: #117 특화작목 표 재구성 + #119 대표 샘플 10건"
+    },
     {
       "sha": "02b3a4e1fffb558cb1d4e7696280009d489957d6",
       "shortSha": "02b3a4e1fffb",
@@ -308,12 +314,6 @@
       "shortSha": "271d39d42658",
       "committedAt": "2026-08-25T15:40:43+09:00",
       "subject": "feat: 출원·등록 건수 월별 집계 반영(#116)"
-    },
-    {
-      "sha": "b0351aa88a245d666837243866fd191df64545d7",
-      "shortSha": "b0351aa88a24",
-      "committedAt": "2026-08-25T15:32:32+09:00",
-      "subject": "feat: add compact municipality trend view"
     }
   ]
 }
