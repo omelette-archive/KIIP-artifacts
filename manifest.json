@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "261b83290ff921215ef9790f64e0f4c653538d9f",
+  "headSha": "d63544265c0d5a7da1119b538d78889d56f26240",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "d63544265c0d5a7da1119b538d78889d56f26240",
+      "shortSha": "d63544265c0d",
+      "committedAt": "2026-09-02T18:48:27+09:00",
+      "subject": "fix: #116 KIPRIS 링크가 검색 실행 안 되고 검색창만 열리던 문제 + 품목 상세 스크롤"
+    },
     {
       "sha": "261b83290ff921215ef9790f64e0f4c653538d9f",
       "shortSha": "261b83290ff9",
@@ -308,12 +314,6 @@
       "shortSha": "8292cd26f1de",
       "committedAt": "2026-08-25T11:25:08+09:00",
       "subject": "feat: 수산·임산 최신 데이터를 대시보드에 반영(#114)"
-    },
-    {
-      "sha": "6744feff2330cdf089f324210bf920711a726147",
-      "shortSha": "6744feff2330",
-      "committedAt": "2026-08-25T11:21:25+09:00",
-      "subject": "feat: 임산물DB백과(KOFPI) 실데이터를 라이브 대시보드에 추가 반영(#114)"
     }
   ]
 }
