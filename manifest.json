@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "d093af186715c264c80bd213461801fa7fb3787e",
+  "headSha": "261b83290ff921215ef9790f64e0f4c653538d9f",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,18 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "261b83290ff921215ef9790f64e0f4c653538d9f",
+      "shortSha": "261b83290ff9",
+      "committedAt": "2026-09-02T18:21:10+09:00",
+      "subject": "feat: #116 단계별 상표명 예시(대표·이색) 전국 흐름에 추가"
+    },
+    {
+      "sha": "7224f09d8412f120965e3b34534252ff46c8bbb8",
+      "shortSha": "7224f09d8412",
+      "committedAt": "2026-09-02T17:09:07+09:00",
+      "subject": "feat: #116 지역·품목별 조회 탭 병합 · 요약 지표 바 이동 · 비즈니스 전략 복원"
+    },
     {
       "sha": "d093af186715c264c80bd213461801fa7fb3787e",
       "shortSha": "d093af186715",
@@ -302,18 +314,6 @@
       "shortSha": "6744feff2330",
       "committedAt": "2026-08-25T11:21:25+09:00",
       "subject": "feat: 임산물DB백과(KOFPI) 실데이터를 라이브 대시보드에 추가 반영(#114)"
-    },
-    {
-      "sha": "51907455533377cdfcb3f2d76f3ffc8688025fde",
-      "shortSha": "519074555333",
-      "committedAt": "2026-08-25T11:18:46+09:00",
-      "subject": "feat: 품질인증수산물(NFQS) 실데이터 184건을 라이브 대시보드에 반영(#114)"
-    },
-    {
-      "sha": "346706bed578d8f5e968b82ca4eb1d38fe0c240a",
-      "shortSha": "346706bed578",
-      "committedAt": "2026-08-25T10:42:04+09:00",
-      "subject": "feat: #116 연도별 출원·등록 추이 그래프 — 실 KIPRIS 재실행으로 라이브 데이터까지 반영"
     }
   ]
 }
