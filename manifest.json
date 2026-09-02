@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c0d4552884189061025dacdbf75e0ae5cdf4bfb3",
+  "headSha": "3f4a0addf0cb7e41b2dc681417d083a35630c518",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "3f4a0addf0cb7e41b2dc681417d083a35630c518",
+      "shortSha": "3f4a0addf0cb",
+      "committedAt": "2026-09-02T22:41:13+09:00",
+      "subject": "fix: 지역 드릴다운 시 광역 탭바·좌측 아코디언이 엉뚱한 시도를 가리키던 버그"
+    },
     {
       "sha": "c0d4552884189061025dacdbf75e0ae5cdf4bfb3",
       "shortSha": "c0d455288418",
@@ -308,12 +314,6 @@
       "shortSha": "7fecba510d4c",
       "committedAt": "2026-08-25T17:32:09+09:00",
       "subject": "fix: restore province accordion toggle"
-    },
-    {
-      "sha": "c2e4d0276e895fcaa01f681dfa14a9b37a673fdb",
-      "shortSha": "c2e4d0276e89",
-      "committedAt": "2026-08-25T17:04:15+09:00",
-      "subject": "fix: refine responsive regional dashboard"
     }
   ]
 }
