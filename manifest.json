@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "481f83e4a94b961326f501173ec477e6fc251994",
+  "headSha": "ba92b94e1e259a0866c29897e75f8bc7399759fb",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "ba92b94e1e259a0866c29897e75f8bc7399759fb",
+      "shortSha": "ba92b94e1e25",
+      "committedAt": "2026-09-02T20:53:45+09:00",
+      "subject": "fix: #116 지역별 뷰를 2×2 그리드로 되돌림 (요약을 추이 그래프 옆으로)"
+    },
     {
       "sha": "481f83e4a94b961326f501173ec477e6fc251994",
       "shortSha": "481f83e4a94b",
@@ -308,12 +314,6 @@
       "shortSha": "be822d73cf39",
       "committedAt": "2026-08-25T15:24:56+09:00",
       "subject": "fix: separate seafood facility locations from specialties"
-    },
-    {
-      "sha": "88ab9e4bcac65a9477a2f0d37a1e4d7a6e97da6c",
-      "shortSha": "88ab9e4bcac6",
-      "committedAt": "2026-08-25T14:44:23+09:00",
-      "subject": "feat: verify supplemental regional trademark data"
     }
   ]
 }
