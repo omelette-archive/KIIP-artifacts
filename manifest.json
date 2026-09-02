@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ba92b94e1e259a0866c29897e75f8bc7399759fb",
+  "headSha": "02b3a4e1fffb558cb1d4e7696280009d489957d6",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "02b3a4e1fffb558cb1d4e7696280009d489957d6",
+      "shortSha": "02b3a4e1fffb",
+      "committedAt": "2026-09-02T21:04:50+09:00",
+      "subject": "feat: #119 지역별 모드에 17개 시도 칩 + 비즈니스 전략 탭 품목 직접 입력"
+    },
     {
       "sha": "ba92b94e1e259a0866c29897e75f8bc7399759fb",
       "shortSha": "ba92b94e1e25",
@@ -308,12 +314,6 @@
       "shortSha": "b0351aa88a24",
       "committedAt": "2026-08-25T15:32:32+09:00",
       "subject": "feat: add compact municipality trend view"
-    },
-    {
-      "sha": "be822d73cf3918ee2529e25b1559203aa308ab28",
-      "shortSha": "be822d73cf39",
-      "committedAt": "2026-08-25T15:24:56+09:00",
-      "subject": "fix: separate seafood facility locations from specialties"
     }
   ]
 }
