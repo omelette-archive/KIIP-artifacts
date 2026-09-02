@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "9c465cde070349c0b9a2c8ea4c23369cce3f1156",
+  "headSha": "d4784347539763870dbc79aee239b763e907efe4",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "d4784347539763870dbc79aee239b763e907efe4",
+      "shortSha": "d47843475397",
+      "committedAt": "2026-09-02T19:39:44+09:00",
+      "subject": "fix: #116 지역 상세에서 품목·지역 선택 시 화면 최상단으로 스크롤"
+    },
     {
       "sha": "9c465cde070349c0b9a2c8ea4c23369cce3f1156",
       "shortSha": "9c465cde0703",
@@ -308,12 +314,6 @@
       "shortSha": "9f1af89bdc0a",
       "committedAt": "2026-08-25T14:31:29+09:00",
       "subject": "fix: 요약 화면 중복 제목 제거·브랜드명 변경·추이 그래프 위치/슬라이더 반영(#116)"
-    },
-    {
-      "sha": "e921182b35407391dd1f92efe55f99ae3775c2f7",
-      "shortSha": "e921182b3540",
-      "committedAt": "2026-08-25T14:09:20+09:00",
-      "subject": "fix: 임산물 주산지 근거 반영의 리뷰 보완사항 3건 처리(#114)"
     }
   ]
 }
