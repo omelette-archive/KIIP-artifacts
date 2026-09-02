@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6e4714d9a3d09c2bf0840f09d8259ee4b6b6ccf9",
+  "headSha": "9a70fbef1758da625eae24ab8fbeee6f6ef6a9f1",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "9a70fbef1758da625eae24ab8fbeee6f6ef6a9f1",
+      "shortSha": "9a70fbef1758",
+      "committedAt": "2026-09-02T22:05:11+09:00",
+      "subject": "feat: #118 공동출원인 중 생산자 주체형이 해당 지역이면 지역 출원으로 인정"
+    },
     {
       "sha": "6e4714d9a3d09c2bf0840f09d8259ee4b6b6ccf9",
       "shortSha": "6e4714d9a3d0",
@@ -308,12 +314,6 @@
       "shortSha": "09702b3db39c",
       "committedAt": "2026-08-25T16:54:46+09:00",
       "subject": "Revert \"feat: 출원·등록 건수 월별 집계 반영(#116)\""
-    },
-    {
-      "sha": "cf197f964cd218b230247c2b63b99ab7a0660d27",
-      "shortSha": "cf197f964cd2",
-      "committedAt": "2026-08-25T16:54:46+09:00",
-      "subject": "Revert \"feat: 추이 그래프에 연도별/월별 전환 토글 추가(#116)\""
     }
   ]
 }
