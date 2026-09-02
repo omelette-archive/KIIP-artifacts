@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6a9103ff51029f7e78432d46eb17b08e03289b4a",
+  "headSha": "481f83e4a94b961326f501173ec477e6fc251994",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "481f83e4a94b961326f501173ec477e6fc251994",
+      "shortSha": "481f83e4a94b",
+      "committedAt": "2026-09-02T20:41:09+09:00",
+      "subject": "fix: #116 지도는 오른쪽에 크게 두고 요약 텍스트만 칸 안에 가두기"
+    },
     {
       "sha": "6a9103ff51029f7e78432d46eb17b08e03289b4a",
       "shortSha": "6a9103ff5102",
@@ -308,12 +314,6 @@
       "shortSha": "88ab9e4bcac6",
       "committedAt": "2026-08-25T14:44:23+09:00",
       "subject": "feat: verify supplemental regional trademark data"
-    },
-    {
-      "sha": "17b8195e70424ddaf2f20e7eefd38b3e98be003f",
-      "shortSha": "17b8195e7042",
-      "committedAt": "2026-08-25T14:39:27+09:00",
-      "subject": "fix: 추이 그래프 프리셋 버튼 선택 상태 표시(#116)"
     }
   ]
 }
