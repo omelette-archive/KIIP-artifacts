@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "3f4a0addf0cb7e41b2dc681417d083a35630c518",
+  "headSha": "ddd524cbaf87b84563b38c2550e351a7a7872d3e",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "ddd524cbaf87b84563b38c2550e351a7a7872d3e",
+      "shortSha": "ddd524cbaf87",
+      "committedAt": "2026-09-03T14:17:19+09:00",
+      "subject": "fix: 광역 단위 출원 비중 도넛 범례 좁은 화면 가로 오버플로(#119)"
+    },
     {
       "sha": "3f4a0addf0cb7e41b2dc681417d083a35630c518",
       "shortSha": "3f4a0addf0cb",
@@ -308,12 +314,6 @@
       "shortSha": "ba67366aaeec",
       "committedAt": "2026-08-26T09:18:16+09:00",
       "subject": "feat: add Seogwipo specialties and refine dashboard"
-    },
-    {
-      "sha": "7fecba510d4c92074a2d9279038589c623148a32",
-      "shortSha": "7fecba510d4c",
-      "committedAt": "2026-08-25T17:32:09+09:00",
-      "subject": "fix: restore province accordion toggle"
     }
   ]
 }
