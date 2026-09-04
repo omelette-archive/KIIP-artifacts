@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ddd524cbaf87b84563b38c2550e351a7a7872d3e",
+  "headSha": "fadb7e3246e7cd62bec9b290aeed9434252c272c",
   "metadata": {
     "snapshotId": "dashboard-db4e01336ea04d377129",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.4441
   },
   "versions": [
+    {
+      "sha": "fadb7e3246e7cd62bec9b290aeed9434252c272c",
+      "shortSha": "fadb7e3246e7",
+      "committedAt": "2026-09-04T13:34:05+09:00",
+      "subject": "feat: 전국 흐름 재수집으로 단계별 상품류·예시·상위지역 라이브 반영 + #118 producerOrg 실동작 수정"
+    },
     {
       "sha": "ddd524cbaf87b84563b38c2550e351a7a7872d3e",
       "shortSha": "ddd524cbaf87",
@@ -308,12 +314,6 @@
       "shortSha": "36f23ee85ef1",
       "committedAt": "2026-08-26T09:20:17+09:00",
       "subject": "feat: show regional specialty crop badges"
-    },
-    {
-      "sha": "ba67366aaeec73f38855b126237783118c47d45c",
-      "shortSha": "ba67366aaeec",
-      "committedAt": "2026-08-26T09:18:16+09:00",
-      "subject": "feat: add Seogwipo specialties and refine dashboard"
     }
   ]
 }
