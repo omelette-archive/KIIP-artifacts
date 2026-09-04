@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ebdc8897071803e4f0f7b34b489d2666e0f1f84f",
+  "headSha": "147cdf2727fe332aed7cdae9e34d784240ffff35",
   "metadata": {
-    "snapshotId": "dashboard-360d9b7bedbbf59801ea",
+    "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-04T08:26:48.823Z",
-    "sourceMaxFetchedAt": "2026-09-04T08:25:48.693Z",
+    "generatedAt": "2026-09-04T10:00:23.465Z",
+    "sourceMaxFetchedAt": "2026-09-04T09:59:35.017Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 144,
-    "regionItemCount": 1827,
-    "nationwideTrademarkCount": 182238,
-    "availableRegionItemCount": 1812,
-    "addressVerificationRate": 0.5065
+    "regionItemCount": 1826,
+    "nationwideTrademarkCount": 186172,
+    "availableRegionItemCount": 1826,
+    "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "147cdf2727fe332aed7cdae9e34d784240ffff35",
+      "shortSha": "147cdf2727fe",
+      "committedAt": "2026-09-04T19:22:25+09:00",
+      "subject": "data: dashboard.html 재빌드(#70 정식 통합 스냅샷 반영)"
+    },
     {
       "sha": "ebdc8897071803e4f0f7b34b489d2666e0f1f84f",
       "shortSha": "ebdc88970718",
@@ -308,12 +314,6 @@
       "shortSha": "8d845ec2b6df",
       "committedAt": "2026-08-26T14:33:07+09:00",
       "subject": "feat: NFQS 지리적표시 수산물과 대시보드 후속 반영 (#114 #116)"
-    },
-    {
-      "sha": "668557ab9b566ea26cd74a1c0fc010baa790bb41",
-      "shortSha": "668557ab9b56",
-      "committedAt": "2026-08-26T13:33:00+09:00",
-      "subject": "feat: 지역별 상표 출원·품목 상세에 UI 개선 4건 반영(#116)"
     }
   ]
 }
