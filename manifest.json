@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "fadb7e3246e7cd62bec9b290aeed9434252c272c",
+  "headSha": "ebdc8897071803e4f0f7b34b489d2666e0f1f84f",
   "metadata": {
-    "snapshotId": "dashboard-db4e01336ea04d377129",
+    "snapshotId": "dashboard-360d9b7bedbbf59801ea",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-08-31T05:08:06.332Z",
-    "sourceMaxFetchedAt": "2026-08-26T06:08:05.516Z",
+    "generatedAt": "2026-09-04T08:26:48.823Z",
+    "sourceMaxFetchedAt": "2026-09-04T08:25:48.693Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 142,
-    "regionItemCount": 1805,
-    "nationwideTrademarkCount": 174078,
-    "availableRegionItemCount": 1688,
-    "addressVerificationRate": 0.4441
+    "observedRegionCount": 144,
+    "regionItemCount": 1827,
+    "nationwideTrademarkCount": 182238,
+    "availableRegionItemCount": 1812,
+    "addressVerificationRate": 0.5065
   },
   "versions": [
+    {
+      "sha": "ebdc8897071803e4f0f7b34b489d2666e0f1f84f",
+      "shortSha": "ebdc88970718",
+      "committedAt": "2026-09-04T17:54:25+09:00",
+      "subject": "feat: #70 첫 풀 파이프라인 실행 라이브 반영 + #117/#136 UI 개선"
+    },
     {
       "sha": "fadb7e3246e7cd62bec9b290aeed9434252c272c",
       "shortSha": "fadb7e3246e7",
@@ -308,12 +314,6 @@
       "shortSha": "668557ab9b56",
       "committedAt": "2026-08-26T13:33:00+09:00",
       "subject": "feat: 지역별 상표 출원·품목 상세에 UI 개선 4건 반영(#116)"
-    },
-    {
-      "sha": "36f23ee85ef10748019021cb788c7e20964bee06",
-      "shortSha": "36f23ee85ef1",
-      "committedAt": "2026-08-26T09:20:17+09:00",
-      "subject": "feat: show regional specialty crop badges"
     }
   ]
 }
