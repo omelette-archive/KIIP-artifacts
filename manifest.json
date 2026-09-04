@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "147cdf2727fe332aed7cdae9e34d784240ffff35",
+  "headSha": "09d200a97fcd87ae5098f0fd73a38bff4c2b30c3",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "09d200a97fcd87ae5098f0fd73a38bff4c2b30c3",
+      "shortSha": "09d200a97fcd",
+      "committedAt": "2026-09-04T19:38:00+09:00",
+      "subject": "fix: 축소 화면 TOP10 표 소실·판정기준 한 줄 압축·AI 판정 칩 제거(#119)"
+    },
     {
       "sha": "147cdf2727fe332aed7cdae9e34d784240ffff35",
       "shortSha": "147cdf2727fe",
@@ -308,12 +314,6 @@
       "shortSha": "164fa65bbb57",
       "committedAt": "2026-08-26T14:34:03+09:00",
       "subject": "build: 비즈니스 전략 독립형 대시보드 갱신 (#116)"
-    },
-    {
-      "sha": "8d845ec2b6dfb260d0de1aad4c827219218dff3d",
-      "shortSha": "8d845ec2b6df",
-      "committedAt": "2026-08-26T14:33:07+09:00",
-      "subject": "feat: NFQS 지리적표시 수산물과 대시보드 후속 반영 (#114 #116)"
     }
   ]
 }
