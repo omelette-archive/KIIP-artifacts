@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "08b16bd78056d54d697a3e53beb038b45df6ab3a",
+  "headSha": "4cbff37558236984b1e98e94e1f8779973f98c23",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "4cbff37558236984b1e98e94e1f8779973f98c23",
+      "shortSha": "4cbff3755823",
+      "committedAt": "2026-09-05T12:37:56+09:00",
+      "subject": "fix: #136 보조 텍스트 저대비·소형 문제(15) — 최소 11px, --faint 색상 AA 충족 (#148)"
+    },
     {
       "sha": "08b16bd78056d54d697a3e53beb038b45df6ab3a",
       "shortSha": "08b16bd78056",
@@ -308,12 +314,6 @@
       "shortSha": "f1f20257a709",
       "committedAt": "2026-08-31T15:55:31+09:00",
       "subject": "feat: 전국 비즈니스 흐름 단계별 건수를 176개 품목 전체로 확대(#116 #74 #110)"
-    },
-    {
-      "sha": "f1ef2032ec61883bb3eaddcf64ea6c0ed5029028",
-      "shortSha": "f1ef2032ec61",
-      "committedAt": "2026-08-31T14:16:13+09:00",
-      "subject": "feat: 지역특화작목 69개를 라이브 대시보드에 실제 병합(#117)"
     }
   ]
 }
