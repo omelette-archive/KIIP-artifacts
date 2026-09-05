@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "ff70edc76dd3df2e399ddcdf8159edd909c44b27",
+  "headSha": "08b16bd78056d54d697a3e53beb038b45df6ab3a",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "08b16bd78056d54d697a3e53beb038b45df6ab3a",
+      "shortSha": "08b16bd78056",
+      "committedAt": "2026-09-05T12:31:26+09:00",
+      "subject": "fix: #136 코로플레스 색이 순위를 구분 못하던 문제(13) — 분위수 스케일로 전환 (#147)"
+    },
     {
       "sha": "ff70edc76dd3df2e399ddcdf8159edd909c44b27",
       "shortSha": "ff70edc76dd3",
@@ -308,12 +314,6 @@
       "shortSha": "f1ef2032ec61",
       "committedAt": "2026-08-31T14:16:13+09:00",
       "subject": "feat: 지역특화작목 69개를 라이브 대시보드에 실제 병합(#117)"
-    },
-    {
-      "sha": "68aa94b407d53e8bfee9bbd74ded283468d2cc0d",
-      "shortSha": "68aa94b407d5",
-      "committedAt": "2026-08-31T13:52:27+09:00",
-      "subject": "fix: 지역별 상표 출원 광역 구성 칸 제목·라벨이 폭을 넘어 겹치던 문제 수정(#116)"
     }
   ]
 }
