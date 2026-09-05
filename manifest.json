@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "09d200a97fcd87ae5098f0fd73a38bff4c2b30c3",
+  "headSha": "8f1547595e5a8e53b0230b5cf46538a08e574b21",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "8f1547595e5a8e53b0230b5cf46538a08e574b21",
+      "shortSha": "8f1547595e5a",
+      "committedAt": "2026-09-05T11:04:24+09:00",
+      "subject": "fix: 지역·품목별 조회에서 도 단위 미지정 항목이 시군구 카드와 섞여 보이던 문제(#117) (#138)"
+    },
     {
       "sha": "09d200a97fcd87ae5098f0fd73a38bff4c2b30c3",
       "shortSha": "09d200a97fcd",
@@ -308,12 +314,6 @@
       "shortSha": "c175f8a32154",
       "committedAt": "2026-08-26T14:40:14+09:00",
       "subject": "fix: 광역별 구성 목록이 추이 그래프와 한 행을 나누며 좁아져 생긴 겹침 수정(#116)"
-    },
-    {
-      "sha": "164fa65bbb57b458853b7f5dd9a15d01a406b16b",
-      "shortSha": "164fa65bbb57",
-      "committedAt": "2026-08-26T14:34:03+09:00",
-      "subject": "build: 비즈니스 전략 독립형 대시보드 갱신 (#116)"
     }
   ]
 }
