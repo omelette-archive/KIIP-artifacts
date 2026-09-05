@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "83e8b4bca0b119019b443f0c76c27f59e4d42b51",
+  "headSha": "7e596df860b44574a6cef2c4a0c0ee57cd27e25a",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "7e596df860b44574a6cef2c4a0c0ee57cd27e25a",
+      "shortSha": "7e596df860b4",
+      "committedAt": "2026-09-05T12:18:22+09:00",
+      "subject": "fix: #136 파이프라인 내부 용어·반복 각주 정리(05) — 화면당 한 번, 사용자 언어로 (#145)"
+    },
     {
       "sha": "83e8b4bca0b119019b443f0c76c27f59e4d42b51",
       "shortSha": "83e8b4bca0b1",
@@ -308,12 +314,6 @@
       "shortSha": "cc88035dc605",
       "committedAt": "2026-08-31T11:28:02+09:00",
       "subject": "feat: 품목 상세에 전국 비즈니스 확장 흐름 카드 반영(#116 #74 #110)"
-    },
-    {
-      "sha": "85dba55584c581f43b6c82b051dcf5ca635b256d",
-      "shortSha": "85dba55584c5",
-      "committedAt": "2026-08-31T11:19:05+09:00",
-      "subject": "feat: 지역특화작목 대표작목 vs 실제 등록 상표 대조 화면 추가(#117)"
     }
   ]
 }
