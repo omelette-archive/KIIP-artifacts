@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "7e596df860b44574a6cef2c4a0c0ee57cd27e25a",
+  "headSha": "ff70edc76dd3df2e399ddcdf8159edd909c44b27",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "ff70edc76dd3df2e399ddcdf8159edd909c44b27",
+      "shortSha": "ff70edc76dd3",
+      "committedAt": "2026-09-05T12:23:00+09:00",
+      "subject": "fix: #136 공백 알림/양호 판정 기준이 값과 어긋나 보이던 문제(07) (#146)"
+    },
     {
       "sha": "7e596df860b44574a6cef2c4a0c0ee57cd27e25a",
       "shortSha": "7e596df860b4",
@@ -308,12 +314,6 @@
       "shortSha": "68aa94b407d5",
       "committedAt": "2026-08-31T13:52:27+09:00",
       "subject": "fix: 지역별 상표 출원 광역 구성 칸 제목·라벨이 폭을 넘어 겹치던 문제 수정(#116)"
-    },
-    {
-      "sha": "cc88035dc6052ef5db1a55e0ff002310641b9bef",
-      "shortSha": "cc88035dc605",
-      "committedAt": "2026-08-31T11:28:02+09:00",
-      "subject": "feat: 품목 상세에 전국 비즈니스 확장 흐름 카드 반영(#116 #74 #110)"
     }
   ]
 }
