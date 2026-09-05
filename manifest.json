@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "8f1547595e5a8e53b0230b5cf46538a08e574b21",
+  "headSha": "c8f2b1af3d189f5d81ec61f52a33bd962b7920b5",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "c8f2b1af3d189f5d81ec61f52a33bd962b7920b5",
+      "shortSha": "c8f2b1af3d18",
+      "committedAt": "2026-09-05T11:31:36+09:00",
+      "subject": "fix: #136 지역·품목별 조회 전국 목록이 광역당 특산품을 전부 펼쳐 문서 높이 38,000px+였던 문제 (#140)"
+    },
     {
       "sha": "8f1547595e5a8e53b0230b5cf46538a08e574b21",
       "shortSha": "8f1547595e5a",
@@ -308,12 +314,6 @@
       "shortSha": "fc22b5408ab1",
       "committedAt": "2026-08-26T16:38:34+09:00",
       "subject": "build: 커밋된 dashboard.html을 최신 소스와 다시 맞춤"
-    },
-    {
-      "sha": "c175f8a3215403c147ef31aa95247ecddda1e72e",
-      "shortSha": "c175f8a32154",
-      "committedAt": "2026-08-26T14:40:14+09:00",
-      "subject": "fix: 광역별 구성 목록이 추이 그래프와 한 행을 나누며 좁아져 생긴 겹침 수정(#116)"
     }
   ]
 }
