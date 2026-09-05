@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "4cbff37558236984b1e98e94e1f8779973f98c23",
+  "headSha": "968bf22fde45e6d5f1a7aa6fa52c97b16cf9e75e",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "968bf22fde45e6d5f1a7aa6fa52c97b16cf9e75e",
+      "shortSha": "968bf22fde45",
+      "committedAt": "2026-09-05T12:44:05+09:00",
+      "subject": "fix: #136 모바일에서 헤더·탭이 첫 화면을 거의 다 쓰던 문제(16) (#149)"
+    },
     {
       "sha": "4cbff37558236984b1e98e94e1f8779973f98c23",
       "shortSha": "4cbff3755823",
@@ -308,12 +314,6 @@
       "shortSha": "93a310b4d452",
       "committedAt": "2026-08-31T15:56:49+09:00",
       "subject": "fix: standalone dashboard.html을 주석 갱신 후 소스와 다시 맞춤(#116 #74 #110)"
-    },
-    {
-      "sha": "f1f20257a70902bd0e921dd7f2cf4d8b0830a5fb",
-      "shortSha": "f1f20257a709",
-      "committedAt": "2026-08-31T15:55:31+09:00",
-      "subject": "feat: 전국 비즈니스 흐름 단계별 건수를 176개 품목 전체로 확대(#116 #74 #110)"
     }
   ]
 }
