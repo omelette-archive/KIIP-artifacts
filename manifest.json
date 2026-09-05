@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c8f2b1af3d189f5d81ec61f52a33bd962b7920b5",
+  "headSha": "6b39be940412e04a093a771609b3f854774bf648",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "6b39be940412e04a093a771609b3f854774bf648",
+      "shortSha": "6b39be940412",
+      "committedAt": "2026-09-05T11:41:17+09:00",
+      "subject": "feat: #136 탭·지역·품목 선택을 URL에 반영 — 공유·북마크·뒤로가기 지원 (#141)"
+    },
     {
       "sha": "c8f2b1af3d189f5d81ec61f52a33bd962b7920b5",
       "shortSha": "c8f2b1af3d18",
@@ -308,12 +314,6 @@
       "shortSha": "5b77a6e9974e",
       "committedAt": "2026-08-26T16:52:09+09:00",
       "subject": "fix: 요약 화면 랭킹 표 정렬·비즈니스 전략 카드 가독성 개선(#116)"
-    },
-    {
-      "sha": "fc22b5408ab1904a788cac006f1cd77e973fb0f7",
-      "shortSha": "fc22b5408ab1",
-      "committedAt": "2026-08-26T16:38:34+09:00",
-      "subject": "build: 커밋된 dashboard.html을 최신 소스와 다시 맞춤"
     }
   ]
 }
