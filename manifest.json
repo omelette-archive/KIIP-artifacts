@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6491e8b2251ff8438e4e35cea5bcbfb6383881ce",
+  "headSha": "83e8b4bca0b119019b443f0c76c27f59e4d42b51",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "83e8b4bca0b119019b443f0c76c27f59e4d42b51",
+      "shortSha": "83e8b4bca0b1",
+      "committedAt": "2026-09-05T12:04:55+09:00",
+      "subject": "fix: #136 같은 지역이 화면마다 다른 표기로 나오던 문제(09) — 표기 통일 (#143)"
+    },
     {
       "sha": "6491e8b2251ff8438e4e35cea5bcbfb6383881ce",
       "shortSha": "6491e8b2251f",
@@ -308,12 +314,6 @@
       "shortSha": "85dba55584c5",
       "committedAt": "2026-08-31T11:19:05+09:00",
       "subject": "feat: 지역특화작목 대표작목 vs 실제 등록 상표 대조 화면 추가(#117)"
-    },
-    {
-      "sha": "4c79e12b09782c18f6e21f991a5596a5a519305b",
-      "shortSha": "4c79e12b0978",
-      "committedAt": "2026-08-27T09:32:11+09:00",
-      "subject": "fix: 요약·지역별 화면 정렬 재수정, 지자체·품목 화면에 그래프 추가(#116)"
     }
   ]
 }
