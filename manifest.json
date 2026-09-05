@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6b39be940412e04a093a771609b3f854774bf648",
+  "headSha": "6491e8b2251ff8438e4e35cea5bcbfb6383881ce",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "6491e8b2251ff8438e4e35cea5bcbfb6383881ce",
+      "shortSha": "6491e8b2251f",
+      "committedAt": "2026-09-05T11:50:24+09:00",
+      "subject": "feat: #136 CSV 내보내기 + 인쇄 스타일 추가 — 표를 보고서로 옮길 경로가 없던 문제 (#142)"
+    },
     {
       "sha": "6b39be940412e04a093a771609b3f854774bf648",
       "shortSha": "6b39be940412",
@@ -308,12 +314,6 @@
       "shortSha": "4c79e12b0978",
       "committedAt": "2026-08-27T09:32:11+09:00",
       "subject": "fix: 요약·지역별 화면 정렬 재수정, 지자체·품목 화면에 그래프 추가(#116)"
-    },
-    {
-      "sha": "5b77a6e9974ee3fefcc5fb6da58b5413396c254a",
-      "shortSha": "5b77a6e9974e",
-      "committedAt": "2026-08-26T16:52:09+09:00",
-      "subject": "fix: 요약 화면 랭킹 표 정렬·비즈니스 전략 카드 가독성 개선(#116)"
     }
   ]
 }
