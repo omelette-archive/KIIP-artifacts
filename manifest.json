@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "1aaec63caec29f94b7828ef7ecd9129b3b356e56",
+  "headSha": "cc847435d825a7e0aa58963f973aa9a69f44b5de",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "cc847435d825a7e0aa58963f973aa9a69f44b5de",
+      "shortSha": "cc847435d825",
+      "committedAt": "2026-09-06T20:22:04+09:00",
+      "subject": "fix: #119 지역·품목별 조회 전국 뷰의 지도 중복 제거 (#152)"
+    },
     {
       "sha": "1aaec63caec29f94b7828ef7ecd9129b3b356e56",
       "shortSha": "1aaec63caec2",
@@ -308,12 +314,6 @@
       "shortSha": "8832dfc98d9d",
       "committedAt": "2026-09-01T09:57:29+09:00",
       "subject": "fix: #116 요약 랭킹표 컬럼 축소·높이 정렬, 지자체별 조회 그래프·표 한 행 배치·크기 조절"
-    },
-    {
-      "sha": "b6680cc20f5d48ff366bbfb9baf4d9299ba848ed",
-      "shortSha": "b6680cc20f5d",
-      "committedAt": "2026-08-31T16:11:51+09:00",
-      "subject": "feat: 대표 특산품 1건 완화 기준을 라이브 스냅샷에 반영(#29)"
     }
   ]
 }
