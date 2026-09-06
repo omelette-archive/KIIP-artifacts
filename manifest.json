@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "3959e3ff70a9f648fc35dcc028af49a3d3b9bbf6",
+  "headSha": "8c65dc75251ad78c02ed32f0ed37ba5be6ca466e",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "8c65dc75251ad78c02ed32f0ed37ba5be6ca466e",
+      "shortSha": "8c65dc75251a",
+      "committedAt": "2026-09-06T20:51:08+09:00",
+      "subject": "feat(pipeline+ui): 이슈 #137 — 공개 뷰에 collectedCount + cap 표시 (#155)"
+    },
     {
       "sha": "3959e3ff70a9f648fc35dcc028af49a3d3b9bbf6",
       "shortSha": "3959e3ff70a9",
@@ -308,12 +314,6 @@
       "shortSha": "8ec0db3212fb",
       "committedAt": "2026-09-01T10:29:22+09:00",
       "subject": "fix: #116 \"지역별 상표 출원\" 4단 행 중간 폭에서 겹침 방지"
-    },
-    {
-      "sha": "2ddae509e167ebde0c6abac4028175b8b5c9a35d",
-      "shortSha": "2ddae509e167",
-      "committedAt": "2026-09-01T10:23:38+09:00",
-      "subject": "fix: #116 대시보드 특산품 수 모집단 단일화 — 지도 카운터도 지역 귀속 행(1,805) 기준"
     }
   ]
 }
