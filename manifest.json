@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "d9deadebebed9e2fe71ccda9fda066efcb9ccb03",
+  "headSha": "c48fe4dbeee6d4bf9f85c78cba691b5defd2bce3",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "c48fe4dbeee6d4bf9f85c78cba691b5defd2bce3",
+      "shortSha": "c48fe4dbeee6",
+      "committedAt": "2026-09-06T22:15:27+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 시각화(4) — 품목 목록 행에 스파크라인 추가 (#165)"
+    },
     {
       "sha": "d9deadebebed9e2fe71ccda9fda066efcb9ccb03",
       "shortSha": "d9deadebebed",
@@ -308,12 +314,6 @@
       "shortSha": "c908e4fb7a88",
       "committedAt": "2026-09-01T16:01:08+09:00",
       "subject": "fix: #116 요약 화면 랭킹 열이 지도 열보다 짧게 튀는 문제 — height:100% 제거"
-    },
-    {
-      "sha": "662bf1876631e06812c87b8c3d5a4d92fb004af7",
-      "shortSha": "662bf1876631",
-      "committedAt": "2026-09-01T13:11:05+09:00",
-      "subject": "fix: #116 품목별 조회 \"광역 출원 비중\" — 창 좁아져도 % 숫자가 잘리지 않게"
     }
   ]
 }
