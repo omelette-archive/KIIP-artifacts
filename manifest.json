@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "8c65dc75251ad78c02ed32f0ed37ba5be6ca466e",
+  "headSha": "fb336a119b5a2920100a38437d9038b5377c94c2",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "fb336a119b5a2920100a38437d9038b5377c94c2",
+      "shortSha": "fb336a119b5a",
+      "committedAt": "2026-09-06T21:00:09+09:00",
+      "subject": "fix: 이슈 #136 3차 검토 N1 — 분위 경계 없는 지도 범례가 전부 최고로 뜨던 문제 (#156)"
+    },
     {
       "sha": "8c65dc75251ad78c02ed32f0ed37ba5be6ca466e",
       "shortSha": "8c65dc75251a",
@@ -308,12 +314,6 @@
       "shortSha": "a60be05cb21a",
       "committedAt": "2026-09-01T10:49:22+09:00",
       "subject": "feat: #116 지역 상표 지표 partial 게이트 — 검색 상한만이 원인이면 주소 검증 부분집합 인정"
-    },
-    {
-      "sha": "8ec0db3212fb01a77c5fa387b4d8f8420032fa1d",
-      "shortSha": "8ec0db3212fb",
-      "committedAt": "2026-09-01T10:29:22+09:00",
-      "subject": "fix: #116 \"지역별 상표 출원\" 4단 행 중간 폭에서 겹침 방지"
     }
   ]
 }
