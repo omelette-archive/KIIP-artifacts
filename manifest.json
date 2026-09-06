@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "50bdeaf76436811a4afccbe5f6ef4d90925b5905",
+  "headSha": "f6418a155374acf92f0a10f9dfe4273fd35ab51d",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "f6418a155374acf92f0a10f9dfe4273fd35ab51d",
+      "shortSha": "f6418a155374",
+      "committedAt": "2026-09-06T21:45:07+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 시각화(6) — 추이 차트에 값 표 토글 추가 (#163)"
+    },
     {
       "sha": "50bdeaf76436811a4afccbe5f6ef4d90925b5905",
       "shortSha": "50bdeaf76436",
@@ -308,12 +314,6 @@
       "shortSha": "a26fca80a08f",
       "committedAt": "2026-09-01T13:07:51+09:00",
       "subject": "fix: #116 지역 선택 시 왼쪽에 추이+요약, 오른쪽에 지도"
-    },
-    {
-      "sha": "ca2acda4678b30846f6669e0cd9794d0f5ff7f82",
-      "shortSha": "ca2acda4678b",
-      "committedAt": "2026-09-01T13:03:24+09:00",
-      "subject": "fix: #116 \"지역별 상표 출원\" 2×2 그리드로 같은 행 박스 높이 정확히 일치"
     }
   ]
 }
