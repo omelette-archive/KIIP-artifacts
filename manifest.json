@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c48fe4dbeee6d4bf9f85c78cba691b5defd2bce3",
+  "headSha": "6ad36a615263040f6c0114aa66a55a8126276d15",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "6ad36a615263040f6c0114aa66a55a8126276d15",
+      "shortSha": "6ad36a615263",
+      "committedAt": "2026-09-06T22:24:54+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 S5 — 품목별 조회 정렬 4종 + 전체 285개 도달 (#166)"
+    },
     {
       "sha": "c48fe4dbeee6d4bf9f85c78cba691b5defd2bce3",
       "shortSha": "c48fe4dbeee6",
@@ -308,12 +314,6 @@
       "shortSha": "150bfb5e1c2a",
       "committedAt": "2026-09-01T16:06:32+09:00",
       "subject": "refactor: #119 탭 이름 명확화 — \"전국 지역 비교\" / \"지역 상세\" (IA 1차)"
-    },
-    {
-      "sha": "c908e4fb7a880a96e4c81a1b520c694988e5dad8",
-      "shortSha": "c908e4fb7a88",
-      "committedAt": "2026-09-01T16:01:08+09:00",
-      "subject": "fix: #116 요약 화면 랭킹 열이 지도 열보다 짧게 튀는 문제 — height:100% 제거"
     }
   ]
 }
