@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "7b8dba4de9af67a508538a114b24ad6cdf2096f5",
+  "headSha": "2e8eae7169c36ea7b2c816e61be32d1618775670",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "2e8eae7169c36ea7b2c816e61be32d1618775670",
+      "shortSha": "2e8eae7169c3",
+      "committedAt": "2026-09-06T21:35:49+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 시각화(2) — 추이 차트에 모집단 안내 표기 (#161)"
+    },
     {
       "sha": "7b8dba4de9af67a508538a114b24ad6cdf2096f5",
       "shortSha": "7b8dba4de9af",
@@ -308,12 +314,6 @@
       "shortSha": "472f41e43c47",
       "committedAt": "2026-09-01T12:55:55+09:00",
       "subject": "fix: #116 \"지역별 상표 출원\" 레이아웃 정리 — 4패널을 2열(구성+추이 / 지도+요약)로"
-    },
-    {
-      "sha": "ad27ebb3fb9bd8bb003a05a4021499208e4692bc",
-      "shortSha": "ad27ebb3fb9b",
-      "committedAt": "2026-09-01T12:45:59+09:00",
-      "subject": "fix: #116 광역 구성 순위의 \"출원/등록\" 숫자가 칸 밖으로 삐져나와 추이 그래프와 겹침"
     }
   ]
 }
