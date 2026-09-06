@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2e8eae7169c36ea7b2c816e61be32d1618775670",
+  "headSha": "50bdeaf76436811a4afccbe5f6ef4d90925b5905",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "50bdeaf76436811a4afccbe5f6ef4d90925b5905",
+      "shortSha": "50bdeaf76436",
+      "committedAt": "2026-09-06T21:39:23+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 시각화(5) — 지도 범례를 양끝 구간으로 표기 (#162)"
+    },
     {
       "sha": "2e8eae7169c36ea7b2c816e61be32d1618775670",
       "shortSha": "2e8eae7169c3",
@@ -308,12 +314,6 @@
       "shortSha": "ca2acda4678b",
       "committedAt": "2026-09-01T13:03:24+09:00",
       "subject": "fix: #116 \"지역별 상표 출원\" 2×2 그리드로 같은 행 박스 높이 정확히 일치"
-    },
-    {
-      "sha": "472f41e43c47bc7c2b4a2c7ac28608c7686742f5",
-      "shortSha": "472f41e43c47",
-      "committedAt": "2026-09-01T12:55:55+09:00",
-      "subject": "fix: #116 \"지역별 상표 출원\" 레이아웃 정리 — 4패널을 2열(구성+추이 / 지도+요약)로"
     }
   ]
 }
