@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "f6418a155374acf92f0a10f9dfe4273fd35ab51d",
+  "headSha": "d9deadebebed9e2fe71ccda9fda066efcb9ccb03",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "d9deadebebed9e2fe71ccda9fda066efcb9ccb03",
+      "shortSha": "d9deadebebed",
+      "committedAt": "2026-09-06T22:09:55+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 시각화(1) — 연도별 추이를 5년 이동평균으로 (#164)"
+    },
     {
       "sha": "f6418a155374acf92f0a10f9dfe4273fd35ab51d",
       "shortSha": "f6418a155374",
@@ -308,12 +314,6 @@
       "shortSha": "662bf1876631",
       "committedAt": "2026-09-01T13:11:05+09:00",
       "subject": "fix: #116 품목별 조회 \"광역 출원 비중\" — 창 좁아져도 % 숫자가 잘리지 않게"
-    },
-    {
-      "sha": "a26fca80a08ff1679edc99313729ad7592f9b6da",
-      "shortSha": "a26fca80a08f",
-      "committedAt": "2026-09-01T13:07:51+09:00",
-      "subject": "fix: #116 지역 선택 시 왼쪽에 추이+요약, 오른쪽에 지도"
     }
   ]
 }
