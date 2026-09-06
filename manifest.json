@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "cc847435d825a7e0aa58963f973aa9a69f44b5de",
+  "headSha": "3959e3ff70a9f648fc35dcc028af49a3d3b9bbf6",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "3959e3ff70a9f648fc35dcc028af49a3d3b9bbf6",
+      "shortSha": "3959e3ff70a9",
+      "committedAt": "2026-09-06T20:26:29+09:00",
+      "subject": "fix: #117 특화작목 비교 표 컬럼 라벨을 요청대로 정정 (#153)"
+    },
     {
       "sha": "cc847435d825a7e0aa58963f973aa9a69f44b5de",
       "shortSha": "cc847435d825",
@@ -308,12 +314,6 @@
       "shortSha": "2ddae509e167",
       "committedAt": "2026-09-01T10:23:38+09:00",
       "subject": "fix: #116 대시보드 특산품 수 모집단 단일화 — 지도 카운터도 지역 귀속 행(1,805) 기준"
-    },
-    {
-      "sha": "8832dfc98d9dde8e32a9fa21fc471c675c3a54f2",
-      "shortSha": "8832dfc98d9d",
-      "committedAt": "2026-09-01T09:57:29+09:00",
-      "subject": "fix: #116 요약 랭킹표 컬럼 축소·높이 정렬, 지자체별 조회 그래프·표 한 행 배치·크기 조절"
     }
   ]
 }
