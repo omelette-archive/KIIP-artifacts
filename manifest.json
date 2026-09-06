@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6ad36a615263040f6c0114aa66a55a8126276d15",
+  "headSha": "a1b9ad5fe95d1544669a8c275d6224461b65a51c",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "a1b9ad5fe95d1544669a8c275d6224461b65a51c",
+      "shortSha": "a1b9ad5fe95d",
+      "committedAt": "2026-09-06T22:32:32+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 S4 — 특화작목 비교를 도 선택형으로 (#167)"
+    },
     {
       "sha": "6ad36a615263040f6c0114aa66a55a8126276d15",
       "shortSha": "6ad36a615263",
@@ -308,12 +314,6 @@
       "shortSha": "9642fded0864",
       "committedAt": "2026-09-01T17:32:38+09:00",
       "subject": "fix: 요약 랭킹 열 높이 지도와 정합(#116) + 지역 상세 탭 병합(#119)"
-    },
-    {
-      "sha": "150bfb5e1c2a87c190c770bf2cb408520b86cc86",
-      "shortSha": "150bfb5e1c2a",
-      "committedAt": "2026-09-01T16:06:32+09:00",
-      "subject": "refactor: #119 탭 이름 명확화 — \"전국 지역 비교\" / \"지역 상세\" (IA 1차)"
     }
   ]
 }
