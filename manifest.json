@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "fb336a119b5a2920100a38437d9038b5377c94c2",
+  "headSha": "2a8a8ad6c978fb813fd894c10a781142f2911a5e",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "2a8a8ad6c978fb813fd894c10a781142f2911a5e",
+      "shortSha": "2a8a8ad6c978",
+      "committedAt": "2026-09-06T21:14:03+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 S1 — 지역별 조회 전국 뷰를 압축 목록으로 이식 (#157)"
+    },
     {
       "sha": "fb336a119b5a2920100a38437d9038b5377c94c2",
       "shortSha": "fb336a119b5a",
@@ -308,12 +314,6 @@
       "shortSha": "f3fe0fb306a4",
       "committedAt": "2026-09-01T11:28:16+09:00",
       "subject": "fix: #116 광역자치단체 나열 순서를 행정표준코드 순서로 통일"
-    },
-    {
-      "sha": "a60be05cb21afe508d838091944a859ba8dab725",
-      "shortSha": "a60be05cb21a",
-      "committedAt": "2026-09-01T10:49:22+09:00",
-      "subject": "feat: #116 지역 상표 지표 partial 게이트 — 검색 상한만이 원인이면 주소 검증 부분집합 인정"
     }
   ]
 }
