@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "a1b9ad5fe95d1544669a8c275d6224461b65a51c",
+  "headSha": "01fb42bb14a9bbe43f69f3380ee80cdd8c2b446f",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "01fb42bb14a9bbe43f69f3380ee80cdd8c2b446f",
+      "shortSha": "01fb42bb14a9",
+      "committedAt": "2026-09-06T22:46:09+09:00",
+      "subject": "이슈 #136: 요약 화면 재설계(S2) — KPI 4장→2장, 출원/등록 랭킹 통합 토글, 지역 선택 연동 (#168)"
+    },
     {
       "sha": "a1b9ad5fe95d1544669a8c275d6224461b65a51c",
       "shortSha": "a1b9ad5fe95d",
@@ -308,12 +314,6 @@
       "shortSha": "29fb84385c54",
       "committedAt": "2026-09-01T17:44:03+09:00",
       "subject": "fix: 품목별 조회를 마스터-디테일로 개편 — 여러 품목 상세 동시 표시 제거(#119)"
-    },
-    {
-      "sha": "9642fded0864bbd264b9e8087ae0161830e4b841",
-      "shortSha": "9642fded0864",
-      "committedAt": "2026-09-01T17:32:38+09:00",
-      "subject": "fix: 요약 랭킹 열 높이 지도와 정합(#116) + 지역 상세 탭 병합(#119)"
     }
   ]
 }
