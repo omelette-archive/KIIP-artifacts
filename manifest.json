@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "01fb42bb14a9bbe43f69f3380ee80cdd8c2b446f",
+  "headSha": "f774867e4f3bd81d9dbcedcfa8971c6f2fdcaac9",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "f774867e4f3bd81d9dbcedcfa8971c6f2fdcaac9",
+      "shortSha": "f774867e4f3b",
+      "committedAt": "2026-09-07T01:46:17+09:00",
+      "subject": "이슈 #136: 비즈니스 전략 화면 재설계(S3) — 카드 나열 → 지역×품목 표 + 상세 패널 (#169)"
+    },
     {
       "sha": "01fb42bb14a9bbe43f69f3380ee80cdd8c2b446f",
       "shortSha": "01fb42bb14a9",
@@ -308,12 +314,6 @@
       "shortSha": "d093af186715",
       "committedAt": "2026-09-01T18:02:57+09:00",
       "subject": "feat: KIPRIS 결과 딥링크·품목 상세 도넛 확대·지역색 고정·뒤로가기 처리(#119)"
-    },
-    {
-      "sha": "29fb84385c547ad91806fe002dd003f2dd05f899",
-      "shortSha": "29fb84385c54",
-      "committedAt": "2026-09-01T17:44:03+09:00",
-      "subject": "fix: 품목별 조회를 마스터-디테일로 개편 — 여러 품목 상세 동시 표시 제거(#119)"
     }
   ]
 }
