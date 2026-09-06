@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "9eab7d24a354c631b8ee2167305b8a044fc7fcb8",
+  "headSha": "7b8dba4de9af67a508538a114b24ad6cdf2096f5",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "7b8dba4de9af67a508538a114b24ad6cdf2096f5",
+      "shortSha": "7b8dba4de9af",
+      "committedAt": "2026-09-06T21:30:10+09:00",
+      "subject": "feat: 이슈 #136 3차 검토 시각화(3) — 광역 단위 출원 비중을 스택 바로 (#160)"
+    },
     {
       "sha": "9eab7d24a354c631b8ee2167305b8a044fc7fcb8",
       "shortSha": "9eab7d24a354",
@@ -308,12 +314,6 @@
       "shortSha": "ad27ebb3fb9b",
       "committedAt": "2026-09-01T12:45:59+09:00",
       "subject": "fix: #116 광역 구성 순위의 \"출원/등록\" 숫자가 칸 밖으로 삐져나와 추이 그래프와 겹침"
-    },
-    {
-      "sha": "3b2feecde5ae819e0aa8f186f0c873c13ccf77eb",
-      "shortSha": "3b2feecde5ae",
-      "committedAt": "2026-09-01T12:41:11+09:00",
-      "subject": "fix: #116 \"지역별 상표 출원\" 좁은 창 겹침 — 2단 중간단계 제거, 1,280px 이하 바로 1단"
     }
   ]
 }
