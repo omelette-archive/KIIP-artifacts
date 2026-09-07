@@ -1,11 +1,11 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "d345eb3e08ac6c0a3d7fa5b84606b81fdf34762d",
+  "headSha": "608cfb92c9bf6cc8cf6ef26a6af500af092fac75",
   "metadata": {
-    "snapshotId": "dashboard-db82a3fde624f09c5009",
+    "snapshotId": "dashboard-dc249f82afc3c1dff0d5",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-07T04:16:58.375Z",
-    "sourceMaxFetchedAt": "2026-09-07T04:15:58.423Z",
+    "generatedAt": "2026-09-07T05:46:31.642Z",
+    "sourceMaxFetchedAt": "2026-09-07T05:45:35.798Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5093
   },
   "versions": [
+    {
+      "sha": "608cfb92c9bf6cc8cf6ef26a6af500af092fac75",
+      "shortSha": "608cfb92c9bf",
+      "committedAt": "2026-09-07T14:48:57+09:00",
+      "subject": "data: #118 월 단위 집계 반영 스냅샷 (dashboard-dc249f82afc3c1dff0d5)"
+    },
     {
       "sha": "d345eb3e08ac6c0a3d7fa5b84606b81fdf34762d",
       "shortSha": "d345eb3e08ac",
@@ -308,12 +314,6 @@
       "shortSha": "9c465cde0703",
       "committedAt": "2026-09-02T19:34:05+09:00",
       "subject": "fix: #116 지역·품목별 조회 요약 바에서 창 좁을 때 텍스트가 칸 밖으로 튀어나오던 문제"
-    },
-    {
-      "sha": "5c794ad96e5159424314a943f6ac27e89ff930fc",
-      "shortSha": "5c794ad96e51",
-      "committedAt": "2026-09-02T18:59:37+09:00",
-      "subject": "fix: #116 품목 선택 시 화면 최상단으로 스크롤 + 전국 시도별 출원율 지도 확대"
     }
   ]
 }
