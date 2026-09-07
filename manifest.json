@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "f774867e4f3bd81d9dbcedcfa8971c6f2fdcaac9",
+  "headSha": "cb7915400cc458bce325b4e4971ce89b441b9ca5",
   "metadata": {
     "snapshotId": "dashboard-23ab5bc1dace000dcf74",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "cb7915400cc458bce325b4e4971ce89b441b9ca5",
+      "shortSha": "cb7915400cc4",
+      "committedAt": "2026-09-07T10:33:52+09:00",
+      "subject": "fix: 특산품 유형별 비중 원그래프 — 카테고리별 고정색 팔레트 (#136)"
+    },
     {
       "sha": "f774867e4f3bd81d9dbcedcfa8971c6f2fdcaac9",
       "shortSha": "f774867e4f3b",
@@ -308,12 +314,6 @@
       "shortSha": "7224f09d8412",
       "committedAt": "2026-09-02T17:09:07+09:00",
       "subject": "feat: #116 지역·품목별 조회 탭 병합 · 요약 지표 바 이동 · 비즈니스 전략 복원"
-    },
-    {
-      "sha": "d093af186715c264c80bd213461801fa7fb3787e",
-      "shortSha": "d093af186715",
-      "committedAt": "2026-09-01T18:02:57+09:00",
-      "subject": "feat: KIPRIS 결과 딥링크·품목 상세 도넛 확대·지역색 고정·뒤로가기 처리(#119)"
     }
   ]
 }
