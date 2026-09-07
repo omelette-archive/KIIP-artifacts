@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "cb7915400cc458bce325b4e4971ce89b441b9ca5",
+  "headSha": "f90fca1508530917c76af6f1df33beb1034dca2d",
   "metadata": {
-    "snapshotId": "dashboard-23ab5bc1dace000dcf74",
+    "snapshotId": "dashboard-d1ff92e33e558a76b151",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-04T10:00:23.465Z",
-    "sourceMaxFetchedAt": "2026-09-04T09:59:35.017Z",
+    "generatedAt": "2026-09-07T01:37:26.626Z",
+    "sourceMaxFetchedAt": "2026-09-07T01:36:33.404Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 144,
-    "regionItemCount": 1826,
+    "observedRegionCount": 139,
+    "regionItemCount": 1825,
     "nationwideTrademarkCount": 186172,
-    "availableRegionItemCount": 1826,
+    "availableRegionItemCount": 1825,
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "f90fca1508530917c76af6f1df33beb1034dca2d",
+      "shortSha": "f90fca150853",
+      "committedAt": "2026-09-07T10:48:15+09:00",
+      "subject": "data: #137 운영 파이프라인 재실행 스냅샷(dashboard-d1ff92e33e558a76b151)"
+    },
     {
       "sha": "cb7915400cc458bce325b4e4971ce89b441b9ca5",
       "shortSha": "cb7915400cc4",
@@ -308,12 +314,6 @@
       "shortSha": "261b83290ff9",
       "committedAt": "2026-09-02T18:21:10+09:00",
       "subject": "feat: #116 단계별 상표명 예시(대표·이색) 전국 흐름에 추가"
-    },
-    {
-      "sha": "7224f09d8412f120965e3b34534252ff46c8bbb8",
-      "shortSha": "7224f09d8412",
-      "committedAt": "2026-09-02T17:09:07+09:00",
-      "subject": "feat: #116 지역·품목별 조회 탭 병합 · 요약 지표 바 이동 · 비즈니스 전략 복원"
     }
   ]
 }
