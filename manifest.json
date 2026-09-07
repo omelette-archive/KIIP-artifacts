@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "433e950a2a303eff583a7bd92757b1fa561f3121",
+  "headSha": "d345eb3e08ac6c0a3d7fa5b84606b81fdf34762d",
   "metadata": {
-    "snapshotId": "dashboard-d1ff92e33e558a76b151",
+    "snapshotId": "dashboard-db82a3fde624f09c5009",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-07T01:37:26.626Z",
-    "sourceMaxFetchedAt": "2026-09-07T01:36:33.404Z",
+    "generatedAt": "2026-09-07T04:16:58.375Z",
+    "sourceMaxFetchedAt": "2026-09-07T04:15:58.423Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1825,
-    "nationwideTrademarkCount": 186172,
+    "nationwideTrademarkCount": 171437,
     "availableRegionItemCount": 1825,
-    "addressVerificationRate": 0.5109
+    "addressVerificationRate": 0.5093
   },
   "versions": [
+    {
+      "sha": "d345eb3e08ac6c0a3d7fa5b84606b81fdf34762d",
+      "shortSha": "d345eb3e08ac",
+      "committedAt": "2026-09-07T13:25:07+09:00",
+      "subject": "data+fix: #117 특화작목 고시명칭 매칭 스냅샷 + reconcile 방법론 승격 예외"
+    },
     {
       "sha": "433e950a2a303eff583a7bd92757b1fa561f3121",
       "shortSha": "433e950a2a30",
@@ -308,12 +314,6 @@
       "shortSha": "5c794ad96e51",
       "committedAt": "2026-09-02T18:59:37+09:00",
       "subject": "fix: #116 품목 선택 시 화면 최상단으로 스크롤 + 전국 시도별 출원율 지도 확대"
-    },
-    {
-      "sha": "d63544265c0d5a7da1119b538d78889d56f26240",
-      "shortSha": "d63544265c0d",
-      "committedAt": "2026-09-02T18:48:27+09:00",
-      "subject": "fix: #116 KIPRIS 링크가 검색 실행 안 되고 검색창만 열리던 문제 + 품목 상세 스크롤"
     }
   ]
 }
