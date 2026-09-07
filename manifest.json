@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "f90fca1508530917c76af6f1df33beb1034dca2d",
+  "headSha": "433e950a2a303eff583a7bd92757b1fa561f3121",
   "metadata": {
     "snapshotId": "dashboard-d1ff92e33e558a76b151",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5109
   },
   "versions": [
+    {
+      "sha": "433e950a2a303eff583a7bd92757b1fa561f3121",
+      "shortSha": "433e950a2a30",
+      "committedAt": "2026-09-07T11:28:50+09:00",
+      "subject": "fix: 추이 그래프 — 기본 최근 20년 + 광역 상세에도 기간 슬라이더 (#136)"
+    },
     {
       "sha": "f90fca1508530917c76af6f1df33beb1034dca2d",
       "shortSha": "f90fca150853",
@@ -308,12 +314,6 @@
       "shortSha": "d63544265c0d",
       "committedAt": "2026-09-02T18:48:27+09:00",
       "subject": "fix: #116 KIPRIS 링크가 검색 실행 안 되고 검색창만 열리던 문제 + 품목 상세 스크롤"
-    },
-    {
-      "sha": "261b83290ff921215ef9790f64e0f4c653538d9f",
-      "shortSha": "261b83290ff9",
-      "committedAt": "2026-09-02T18:21:10+09:00",
-      "subject": "feat: #116 단계별 상표명 예시(대표·이색) 전국 흐름에 추가"
     }
   ]
 }
