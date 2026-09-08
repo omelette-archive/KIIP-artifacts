@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2f76a55eb88024b00565871c353e0611260ac96d",
+  "headSha": "794e1880dd78896ee275bee50e2030638b55955c",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "d2b9e7dcb334f21fc72761fd35db98271b9ac3c0",
+      "shortSha": "d2b9e7dcb334",
+      "committedAt": "2026-09-08T15:11:44+09:00",
+      "subject": "fix: #175 급증 카드를 가속/신규진입으로 분리 — 배수 독점 문제 해결"
+    },
     {
       "sha": "12140582d3ecedf9378f7a96d6bb4f2b190bdd99",
       "shortSha": "12140582d3ec",
@@ -308,12 +314,6 @@
       "shortSha": "ddd524cbaf87",
       "committedAt": "2026-09-03T14:17:19+09:00",
       "subject": "fix: 광역 단위 출원 비중 도넛 범례 좁은 화면 가로 오버플로(#119)"
-    },
-    {
-      "sha": "3f4a0addf0cb7e41b2dc681417d083a35630c518",
-      "shortSha": "3f4a0addf0cb",
-      "committedAt": "2026-09-02T22:41:13+09:00",
-      "subject": "fix: 지역 드릴다운 시 광역 탭바·좌측 아코디언이 엉뚱한 시도를 가리키던 버그"
     }
   ]
 }
