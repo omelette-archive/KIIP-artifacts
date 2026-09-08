@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "86c231fce73573e8f08e45b8383e6f9807cbc173",
+  "headSha": "59806e3508d1abfa4924df570cf12cba85b05160",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "b326d3ceb09c9be52a0ce9b85156098fbf4a9f99",
+      "shortSha": "b326d3ceb09c",
+      "committedAt": "2026-09-07T15:28:47+09:00",
+      "subject": "fix: #136 추이 그래프 표시 범위를 2000년 하한으로 고정"
+    },
     {
       "sha": "86c231fce73573e8f08e45b8383e6f9807cbc173",
       "shortSha": "86c231fce735",
@@ -308,12 +314,6 @@
       "shortSha": "6a9103ff5102",
       "committedAt": "2026-09-02T20:13:58+09:00",
       "subject": "fix: #116 전국 시도별 출원율 지도 확대 + 요약 텍스트 오버플로 해결"
-    },
-    {
-      "sha": "d4784347539763870dbc79aee239b763e907efe4",
-      "shortSha": "d47843475397",
-      "committedAt": "2026-09-02T19:39:44+09:00",
-      "subject": "fix: #116 지역 상세에서 품목·지역 선택 시 화면 최상단으로 스크롤"
     }
   ]
 }
