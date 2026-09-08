@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2dab65c14533be822f67fe192a5603911984b259",
+  "headSha": "2c3f152399ef4a7b848bfb871f1d51c16fb23070",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "2c3f152399ef4a7b848bfb871f1d51c16fb23070",
+      "shortSha": "2c3f152399ef",
+      "committedAt": "2026-09-08T10:04:22+09:00",
+      "subject": "Revert \"Merge pull request #170 from omelette-archive/feat/118-leaderboard-ui\""
+    },
     {
       "sha": "b326d3ceb09c9be52a0ce9b85156098fbf4a9f99",
       "shortSha": "b326d3ceb09c",
@@ -308,12 +314,6 @@
       "shortSha": "ba92b94e1e25",
       "committedAt": "2026-09-02T20:53:45+09:00",
       "subject": "fix: #116 지역별 뷰를 2×2 그리드로 되돌림 (요약을 추이 그래프 옆으로)"
-    },
-    {
-      "sha": "481f83e4a94b961326f501173ec477e6fc251994",
-      "shortSha": "481f83e4a94b",
-      "committedAt": "2026-09-02T20:41:09+09:00",
-      "subject": "fix: #116 지도는 오른쪽에 크게 두고 요약 텍스트만 칸 안에 가두기"
     }
   ]
 }
