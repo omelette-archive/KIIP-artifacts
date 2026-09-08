@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "59806e3508d1abfa4924df570cf12cba85b05160",
+  "headSha": "2dab65c14533be822f67fe192a5603911984b259",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -20,6 +20,12 @@
       "shortSha": "b326d3ceb09c",
       "committedAt": "2026-09-07T15:28:47+09:00",
       "subject": "fix: #136 추이 그래프 표시 범위를 2000년 하한으로 고정"
+    },
+    {
+      "sha": "78455f277f6c9116af7554bd19399c5b3e10a4b4",
+      "shortSha": "78455f277f6c",
+      "committedAt": "2026-09-07T15:06:44+09:00",
+      "subject": "feat: #118 리더보드 UI — 최근 출원·등록 동향 \"동향\" 탭"
     },
     {
       "sha": "86c231fce73573e8f08e45b8383e6f9807cbc173",
@@ -308,12 +314,6 @@
       "shortSha": "481f83e4a94b",
       "committedAt": "2026-09-02T20:41:09+09:00",
       "subject": "fix: #116 지도는 오른쪽에 크게 두고 요약 텍스트만 칸 안에 가두기"
-    },
-    {
-      "sha": "6a9103ff51029f7e78432d46eb17b08e03289b4a",
-      "shortSha": "6a9103ff5102",
-      "committedAt": "2026-09-02T20:13:58+09:00",
-      "subject": "fix: #116 전국 시도별 출원율 지도 확대 + 요약 텍스트 오버플로 해결"
     }
   ]
 }
