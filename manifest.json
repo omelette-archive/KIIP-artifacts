@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "df7309fb0df3532e135b50bd3cfecdd241f90834",
+  "headSha": "5950204134ca7257584438e83866a678d4b82a0e",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "5950204134ca7257584438e83866a678d4b82a0e",
+      "shortSha": "5950204134ca",
+      "committedAt": "2026-09-08T23:22:46+09:00",
+      "subject": "feat: 공백 진단 재정렬 + 확장 경로 진단 보고서 + 주소 매칭 완화 (#187)"
+    },
     {
       "sha": "df7309fb0df3532e135b50bd3cfecdd241f90834",
       "shortSha": "df7309fb0df3",
@@ -308,12 +314,6 @@
       "shortSha": "968bf22fde45",
       "committedAt": "2026-09-05T12:44:05+09:00",
       "subject": "fix: #136 모바일에서 헤더·탭이 첫 화면을 거의 다 쓰던 문제(16) (#149)"
-    },
-    {
-      "sha": "4cbff37558236984b1e98e94e1f8779973f98c23",
-      "shortSha": "4cbff3755823",
-      "committedAt": "2026-09-05T12:37:56+09:00",
-      "subject": "fix: #136 보조 텍스트 저대비·소형 문제(15) — 최소 11px, --faint 색상 AA 충족 (#148)"
     }
   ]
 }
