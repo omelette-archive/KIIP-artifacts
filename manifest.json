@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "dc0d3134464b566048da2d2abf93bd8b53c22967",
+  "headSha": "2f76a55eb88024b00565871c353e0611260ac96d",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "12140582d3ecedf9378f7a96d6bb4f2b190bdd99",
+      "shortSha": "12140582d3ec",
+      "committedAt": "2026-09-08T14:31:32+09:00",
+      "subject": "fix: #136 리더보드 게이지 바를 맨 오른쪽 고정 열로 — 순위 비교 가능하게"
+    },
     {
       "sha": "b024c1a6dad531cceb1c96350ca06cdb07e6fffc",
       "shortSha": "b024c1a6dad5",
@@ -308,12 +314,6 @@
       "shortSha": "3f4a0addf0cb",
       "committedAt": "2026-09-02T22:41:13+09:00",
       "subject": "fix: 지역 드릴다운 시 광역 탭바·좌측 아코디언이 엉뚱한 시도를 가리키던 버그"
-    },
-    {
-      "sha": "c0d4552884189061025dacdbf75e0ae5cdf4bfb3",
-      "shortSha": "c0d455288418",
-      "committedAt": "2026-09-02T22:22:39+09:00",
-      "subject": "feat: #119 비즈니스 확장 흐름 카드에 주요 원산지·단계별 상품류·상위 지역"
     }
   ]
 }
