@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "284e5a56705b59b4f778720955bbe63cb010ab0d",
+  "headSha": "fb8fd6b41023c89e0e7d42cdedbbb5b93b82050d",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -22,16 +22,52 @@
       "subject": "feat+ui: #119 단계별 지역 도넛 · 비즈니스 전략 탭 흐름 미반영 대응 · 부연 캡션 정리 (#180)"
     },
     {
+      "sha": "d2f524a96d4a04ddf907b77800e991acf0e2572b",
+      "shortSha": "d2f524a96d4a",
+      "committedAt": "2026-09-08T16:47:16+09:00",
+      "subject": "feat: ⑦ 특화작목 대조를 지역별 화면으로 — 최상위 탭 4개 → 3개 (#136 #119 #117)"
+    },
+    {
+      "sha": "77b51e96b0699a520c27a279c3a12fff83861f9f",
+      "shortSha": "77b51e96b069",
+      "committedAt": "2026-09-08T16:34:46+09:00",
+      "subject": "feat: ⑦ 전략 브리핑을 하위 모드로 흡수 + 특화작목 최우선 후보 노출 (#136 #119 #117)"
+    },
+    {
       "sha": "8683edd895120bddfe96e4cbce8510e21060dee1",
       "shortSha": "8683edd89512",
       "committedAt": "2026-09-08T16:32:36+09:00",
       "subject": "feat: #119 특화작목 비교에 \"육성 작목 vs 출원 활발 품목\" 3갈래 대조 추가"
     },
     {
+      "sha": "15cfc7f0199a6e81e1445f6e39fd9bd46758558b",
+      "shortSha": "15cfc7f0199a",
+      "committedAt": "2026-09-08T16:24:07+09:00",
+      "subject": "feat: ⑦ 요약 첫 지표를 권리 상태 네 칸으로 (#136)"
+    },
+    {
       "sha": "8a8367bb00e9fdfce133694d659174839b1bdf82",
       "shortSha": "8a8367bb00e9",
       "committedAt": "2026-09-08T16:04:34+09:00",
       "subject": "feat: #119 비즈니스 전략 탭을 품목 중심 확장 경로 화면으로"
+    },
+    {
+      "sha": "aa0ea7cbb6594834fe7321f1ea2ec5bede22f1c4",
+      "shortSha": "aa0ea7cbb659",
+      "committedAt": "2026-09-08T15:59:51+09:00",
+      "subject": "feat: 광역×품목유형 교차표 + 출원인 수·유형 분포 집계 (#136 #118)"
+    },
+    {
+      "sha": "e00f284084f62e373ca4de23bbbbfc0c53f244b1",
+      "shortSha": "e00f284084f6",
+      "committedAt": "2026-09-08T15:47:53+09:00",
+      "subject": "feat: ⑦ 품목별 지역 칩 → 그 지역 출원 상표 패널 + 지역별 화면 압축 (#136)"
+    },
+    {
+      "sha": "1a3b546ab5135890f0b015692ac0c14b7fd6cfa6",
+      "shortSha": "1a3b546ab513",
+      "committedAt": "2026-09-08T15:22:10+09:00",
+      "subject": "feat: ⑦ 지역·품목별 조회 — 품목 유형별 출원 현황 표 + 화면 재구성 (#136)"
     },
     {
       "sha": "1f3a981f8de5d9e7270cfedd8b19437ce7421198",
@@ -56,6 +92,12 @@
       "shortSha": "b024c1a6dad5",
       "committedAt": "2026-09-08T14:23:06+09:00",
       "subject": "fix: #136 리더보드 기간·기준 토글이 날짜 텍스트 때문에 움직이던 문제"
+    },
+    {
+      "sha": "2df4d969692b760bf27e701c0342bf8c00a4c8fb",
+      "shortSha": "2df4d969692b",
+      "committedAt": "2026-09-08T11:18:31+09:00",
+      "subject": "feat: ⑦ 권리 실사 지표 — 권리 상태·표장 종류·밸류체인 구간 (#136 #116)"
     },
     {
       "sha": "9aa05ba9241f7645bbfaba7905a4710e85728111",
@@ -272,48 +314,6 @@
       "shortSha": "ff70edc76dd3",
       "committedAt": "2026-09-05T12:23:00+09:00",
       "subject": "fix: #136 공백 알림/양호 판정 기준이 값과 어긋나 보이던 문제(07) (#146)"
-    },
-    {
-      "sha": "7e596df860b44574a6cef2c4a0c0ee57cd27e25a",
-      "shortSha": "7e596df860b4",
-      "committedAt": "2026-09-05T12:18:22+09:00",
-      "subject": "fix: #136 파이프라인 내부 용어·반복 각주 정리(05) — 화면당 한 번, 사용자 언어로 (#145)"
-    },
-    {
-      "sha": "83e8b4bca0b119019b443f0c76c27f59e4d42b51",
-      "shortSha": "83e8b4bca0b1",
-      "committedAt": "2026-09-05T12:04:55+09:00",
-      "subject": "fix: #136 같은 지역이 화면마다 다른 표기로 나오던 문제(09) — 표기 통일 (#143)"
-    },
-    {
-      "sha": "6491e8b2251ff8438e4e35cea5bcbfb6383881ce",
-      "shortSha": "6491e8b2251f",
-      "committedAt": "2026-09-05T11:50:24+09:00",
-      "subject": "feat: #136 CSV 내보내기 + 인쇄 스타일 추가 — 표를 보고서로 옮길 경로가 없던 문제 (#142)"
-    },
-    {
-      "sha": "6b39be940412e04a093a771609b3f854774bf648",
-      "shortSha": "6b39be940412",
-      "committedAt": "2026-09-05T11:41:17+09:00",
-      "subject": "feat: #136 탭·지역·품목 선택을 URL에 반영 — 공유·북마크·뒤로가기 지원 (#141)"
-    },
-    {
-      "sha": "c8f2b1af3d189f5d81ec61f52a33bd962b7920b5",
-      "shortSha": "c8f2b1af3d18",
-      "committedAt": "2026-09-05T11:31:36+09:00",
-      "subject": "fix: #136 지역·품목별 조회 전국 목록이 광역당 특산품을 전부 펼쳐 문서 높이 38,000px+였던 문제 (#140)"
-    },
-    {
-      "sha": "8f1547595e5a8e53b0230b5cf46538a08e574b21",
-      "shortSha": "8f1547595e5a",
-      "committedAt": "2026-09-05T11:04:24+09:00",
-      "subject": "fix: 지역·품목별 조회에서 도 단위 미지정 항목이 시군구 카드와 섞여 보이던 문제(#117) (#138)"
-    },
-    {
-      "sha": "09d200a97fcd87ae5098f0fd73a38bff4c2b30c3",
-      "shortSha": "09d200a97fcd",
-      "committedAt": "2026-09-04T19:38:00+09:00",
-      "subject": "fix: 축소 화면 TOP10 표 소실·판정기준 한 줄 압축·AI 판정 칩 제거(#119)"
     }
   ]
 }
