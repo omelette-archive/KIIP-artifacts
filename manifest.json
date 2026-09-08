@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "608cfb92c9bf6cc8cf6ef26a6af500af092fac75",
+  "headSha": "86c231fce73573e8f08e45b8383e6f9807cbc173",
   "metadata": {
-    "snapshotId": "dashboard-dc249f82afc3c1dff0d5",
+    "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-07T05:46:31.642Z",
-    "sourceMaxFetchedAt": "2026-09-07T05:45:35.798Z",
+    "generatedAt": "2026-09-08T00:29:43.771Z",
+    "sourceMaxFetchedAt": "2026-09-08T00:20:29.489Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
-    "regionItemCount": 1825,
-    "nationwideTrademarkCount": 171437,
-    "availableRegionItemCount": 1825,
-    "addressVerificationRate": 0.5093
+    "regionItemCount": 1826,
+    "nationwideTrademarkCount": 168367,
+    "availableRegionItemCount": 1826,
+    "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "86c231fce73573e8f08e45b8383e6f9807cbc173",
+      "shortSha": "86c231fce735",
+      "committedAt": "2026-09-08T09:36:44+09:00",
+      "subject": "data: #70 운영 파이프라인 재실행 스냅샷 dashboard-81ccc8a1 + 승격"
+    },
     {
       "sha": "608cfb92c9bf6cc8cf6ef26a6af500af092fac75",
       "shortSha": "608cfb92c9bf",
@@ -308,12 +314,6 @@
       "shortSha": "d47843475397",
       "committedAt": "2026-09-02T19:39:44+09:00",
       "subject": "fix: #116 지역 상세에서 품목·지역 선택 시 화면 최상단으로 스크롤"
-    },
-    {
-      "sha": "9c465cde070349c0b9a2c8ea4c23369cce3f1156",
-      "shortSha": "9c465cde0703",
-      "committedAt": "2026-09-02T19:34:05+09:00",
-      "subject": "fix: #116 지역·품목별 조회 요약 바에서 창 좁을 때 텍스트가 칸 밖으로 튀어나오던 문제"
     }
   ]
 }
