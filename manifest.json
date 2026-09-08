@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "fb8fd6b41023c89e0e7d42cdedbbb5b93b82050d",
+  "headSha": "b4cf26f841f9a89efd8bca64465dbdc7b27c79ec",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "b4cf26f841f9a89efd8bca64465dbdc7b27c79ec",
+      "shortSha": "b4cf26f841f9",
+      "committedAt": "2026-09-08T18:03:07+09:00",
+      "subject": "fix: #181 머지 회귀 복구 + 급증 카드 게이지 바 제거 (#183)"
+    },
     {
       "sha": "284e5a56705b59b4f778720955bbe63cb010ab0d",
       "shortSha": "284e5a56705b",
@@ -308,12 +314,6 @@
       "shortSha": "08b16bd78056",
       "committedAt": "2026-09-05T12:31:26+09:00",
       "subject": "fix: #136 코로플레스 색이 순위를 구분 못하던 문제(13) — 분위수 스케일로 전환 (#147)"
-    },
-    {
-      "sha": "ff70edc76dd3df2e399ddcdf8159edd909c44b27",
-      "shortSha": "ff70edc76dd3",
-      "committedAt": "2026-09-05T12:23:00+09:00",
-      "subject": "fix: #136 공백 알림/양호 판정 기준이 값과 어긋나 보이던 문제(07) (#146)"
     }
   ]
 }
