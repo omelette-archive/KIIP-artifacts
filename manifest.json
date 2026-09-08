@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5950204134ca7257584438e83866a678d4b82a0e",
+  "headSha": "a8c8d0dd8e14baf276a19c7da1b40fcee1ccabe2",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "a8c8d0dd8e14baf276a19c7da1b40fcee1ccabe2",
+      "shortSha": "a8c8d0dd8e14",
+      "committedAt": "2026-09-08T23:58:47+09:00",
+      "subject": "fix: 지역 귀속 집계 정정 + 폰트 규격 통일 + 유형 조회 게이트 제거 (#188)"
+    },
     {
       "sha": "5950204134ca7257584438e83866a678d4b82a0e",
       "shortSha": "5950204134ca",
@@ -308,12 +314,6 @@
       "shortSha": "1aaec63caec2",
       "committedAt": "2026-09-05T12:51:07+09:00",
       "subject": "fix: #136 탭·표 시맨틱 정비(14) — h1, tablist/tab 역할 + 키보드, th scope (#150)"
-    },
-    {
-      "sha": "968bf22fde45e6d5f1a7aa6fa52c97b16cf9e75e",
-      "shortSha": "968bf22fde45",
-      "committedAt": "2026-09-05T12:44:05+09:00",
-      "subject": "fix: #136 모바일에서 헤더·탭이 첫 화면을 거의 다 쓰던 문제(16) (#149)"
     }
   ]
 }
