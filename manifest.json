@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "82e78c5ead6f40c34b9ee9bc0b92c5c213b159cb",
+  "headSha": "8683edd895120bddfe96e4cbce8510e21060dee1",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "8683edd895120bddfe96e4cbce8510e21060dee1",
+      "shortSha": "8683edd89512",
+      "committedAt": "2026-09-08T16:32:36+09:00",
+      "subject": "feat: #119 특화작목 비교에 \"육성 작목 vs 출원 활발 품목\" 3갈래 대조 추가"
+    },
     {
       "sha": "8a8367bb00e9fdfce133694d659174839b1bdf82",
       "shortSha": "8a8367bb00e9",
@@ -308,12 +314,6 @@
       "shortSha": "147cdf2727fe",
       "committedAt": "2026-09-04T19:22:25+09:00",
       "subject": "data: dashboard.html 재빌드(#70 정식 통합 스냅샷 반영)"
-    },
-    {
-      "sha": "ebdc8897071803e4f0f7b34b489d2666e0f1f84f",
-      "shortSha": "ebdc88970718",
-      "committedAt": "2026-09-04T17:54:25+09:00",
-      "subject": "feat: #70 첫 풀 파이프라인 실행 라이브 반영 + #117/#136 UI 개선"
     }
   ]
 }
