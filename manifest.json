@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5a76b98557e773e6c4f9c91b22ad3514578368a6",
+  "headSha": "82e78c5ead6f40c34b9ee9bc0b92c5c213b159cb",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "8a8367bb00e9fdfce133694d659174839b1bdf82",
+      "shortSha": "8a8367bb00e9",
+      "committedAt": "2026-09-08T16:04:34+09:00",
+      "subject": "feat: #119 비즈니스 전략 탭을 품목 중심 확장 경로 화면으로"
+    },
     {
       "sha": "1f3a981f8de5d9e7270cfedd8b19437ce7421198",
       "shortSha": "1f3a981f8de5",
@@ -308,12 +314,6 @@
       "shortSha": "ebdc88970718",
       "committedAt": "2026-09-04T17:54:25+09:00",
       "subject": "feat: #70 첫 풀 파이프라인 실행 라이브 반영 + #117/#136 UI 개선"
-    },
-    {
-      "sha": "fadb7e3246e7cd62bec9b290aeed9434252c272c",
-      "shortSha": "fadb7e3246e7",
-      "committedAt": "2026-09-04T13:34:05+09:00",
-      "subject": "feat: 전국 흐름 재수집으로 단계별 상품류·예시·상위지역 라이브 반영 + #118 producerOrg 실동작 수정"
     }
   ]
 }
