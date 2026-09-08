@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "8683edd895120bddfe96e4cbce8510e21060dee1",
+  "headSha": "284e5a56705b59b4f778720955bbe63cb010ab0d",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "284e5a56705b59b4f778720955bbe63cb010ab0d",
+      "shortSha": "284e5a56705b",
+      "committedAt": "2026-09-08T16:54:33+09:00",
+      "subject": "feat+ui: #119 단계별 지역 도넛 · 비즈니스 전략 탭 흐름 미반영 대응 · 부연 캡션 정리 (#180)"
+    },
     {
       "sha": "8683edd895120bddfe96e4cbce8510e21060dee1",
       "shortSha": "8683edd89512",
@@ -308,12 +314,6 @@
       "shortSha": "09d200a97fcd",
       "committedAt": "2026-09-04T19:38:00+09:00",
       "subject": "fix: 축소 화면 TOP10 표 소실·판정기준 한 줄 압축·AI 판정 칩 제거(#119)"
-    },
-    {
-      "sha": "147cdf2727fe332aed7cdae9e34d784240ffff35",
-      "shortSha": "147cdf2727fe",
-      "committedAt": "2026-09-04T19:22:25+09:00",
-      "subject": "data: dashboard.html 재빌드(#70 정식 통합 스냅샷 반영)"
     }
   ]
 }
