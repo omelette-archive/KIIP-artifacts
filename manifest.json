@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5196896211b91b4413a536a48e03386a8c41cd57",
+  "headSha": "dc0d3134464b566048da2d2abf93bd8b53c22967",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "b024c1a6dad531cceb1c96350ca06cdb07e6fffc",
+      "shortSha": "b024c1a6dad5",
+      "committedAt": "2026-09-08T14:23:06+09:00",
+      "subject": "fix: #136 리더보드 기간·기준 토글이 날짜 텍스트 때문에 움직이던 문제"
+    },
     {
       "sha": "9aa05ba9241f7645bbfaba7905a4710e85728111",
       "shortSha": "9aa05ba9241f",
@@ -308,12 +314,6 @@
       "shortSha": "c0d455288418",
       "committedAt": "2026-09-02T22:22:39+09:00",
       "subject": "feat: #119 비즈니스 확장 흐름 카드에 주요 원산지·단계별 상품류·상위 지역"
-    },
-    {
-      "sha": "9a70fbef1758da625eae24ab8fbeee6f6ef6a9f1",
-      "shortSha": "9a70fbef1758",
-      "committedAt": "2026-09-02T22:05:11+09:00",
-      "subject": "feat: #118 공동출원인 중 생산자 주체형이 해당 지역이면 지역 출원으로 인정"
     }
   ]
 }
