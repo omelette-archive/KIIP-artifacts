@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "40c5458eb362529c1dc43ba9cfd0c5fbe89c1754",
+  "headSha": "5196896211b91b4413a536a48e03386a8c41cd57",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "9aa05ba9241f7645bbfaba7905a4710e85728111",
+      "shortSha": "9aa05ba9241f",
+      "committedAt": "2026-09-08T13:49:46+09:00",
+      "subject": "fix: #136 리더보드 행 정렬 통일 — 게이지 바·값 열 고정"
+    },
     {
       "sha": "db7711e74f92032129e26ebdb23ea3f6a70beac2",
       "shortSha": "db7711e74f92",
@@ -308,12 +314,6 @@
       "shortSha": "9a70fbef1758",
       "committedAt": "2026-09-02T22:05:11+09:00",
       "subject": "feat: #118 공동출원인 중 생산자 주체형이 해당 지역이면 지역 출원으로 인정"
-    },
-    {
-      "sha": "6e4714d9a3d09c2bf0840f09d8259ee4b6b6ccf9",
-      "shortSha": "6e4714d9a3d0",
-      "committedAt": "2026-09-02T21:46:41+09:00",
-      "subject": "feat: #119 지역별 검색창 + \"16개 시도\" + 지역/품목별 화면 구성 일치"
     }
   ]
 }
