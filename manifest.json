@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "d5a2cd897e7ad0ed8bbb3097c555edb9bb09c821",
+  "headSha": "eaeeb59265abbd72e981fb4023e0598bde0028ee",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "eaeeb59265abbd72e981fb4023e0598bde0028ee",
+      "shortSha": "eaeeb59265ab",
+      "committedAt": "2026-09-09T08:22:05+09:00",
+      "subject": "fix: 급증 품목 카드가 출원/등록 토글을 따르지 않던 문제 (#118) (#190)"
+    },
     {
       "sha": "d5a2cd897e7ad0ed8bbb3097c555edb9bb09c821",
       "shortSha": "d5a2cd897e7a",
@@ -308,12 +314,6 @@
       "shortSha": "3959e3ff70a9",
       "committedAt": "2026-09-06T20:26:29+09:00",
       "subject": "fix: #117 특화작목 비교 표 컬럼 라벨을 요청대로 정정 (#153)"
-    },
-    {
-      "sha": "cc847435d825a7e0aa58963f973aa9a69f44b5de",
-      "shortSha": "cc847435d825",
-      "committedAt": "2026-09-06T20:22:04+09:00",
-      "subject": "fix: #119 지역·품목별 조회 전국 뷰의 지도 중복 제거 (#152)"
     }
   ]
 }
