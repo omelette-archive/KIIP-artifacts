@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "eaeeb59265abbd72e981fb4023e0598bde0028ee",
+  "headSha": "9998aba380e2f233f477426c3cc3199ba6f6ec2a",
   "metadata": {
     "snapshotId": "dashboard-81ccc8a10422d3eadc52",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5235
   },
   "versions": [
+    {
+      "sha": "9998aba380e2f233f477426c3cc3199ba6f6ec2a",
+      "shortSha": "9998aba380e2",
+      "committedAt": "2026-09-09T09:11:16+09:00",
+      "subject": "fix: 지역별 화면 전국 뷰의 두 카드를 한 행으로 (#191)"
+    },
     {
       "sha": "eaeeb59265abbd72e981fb4023e0598bde0028ee",
       "shortSha": "eaeeb59265ab",
@@ -308,12 +314,6 @@
       "shortSha": "8c65dc75251a",
       "committedAt": "2026-09-06T20:51:08+09:00",
       "subject": "feat(pipeline+ui): 이슈 #137 — 공개 뷰에 collectedCount + cap 표시 (#155)"
-    },
-    {
-      "sha": "3959e3ff70a9f648fc35dcc028af49a3d3b9bbf6",
-      "shortSha": "3959e3ff70a9",
-      "committedAt": "2026-09-06T20:26:29+09:00",
-      "subject": "fix: #117 특화작목 비교 표 컬럼 라벨을 요청대로 정정 (#153)"
     }
   ]
 }
