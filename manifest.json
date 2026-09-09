@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "a08d80450c1ba0d3a30185996eedd118e886b8f9",
+  "headSha": "1d2546ae753abf389c54e94e77299ecdceafa501",
   "metadata": {
     "snapshotId": "dashboard-d8ff509dee4a77b51044",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.5236
   },
   "versions": [
+    {
+      "sha": "1d2546ae753abf389c54e94e77299ecdceafa501",
+      "shortSha": "1d2546ae753a",
+      "committedAt": "2026-09-09T14:16:48+09:00",
+      "subject": "fix: 등록률 상위·하위를 지역 확인 확정 건수 기준으로 — 전국 검색 노이즈 제거"
+    },
     {
       "sha": "ce8c6dc9f84b80d698257319e0408a0405a36e18",
       "shortSha": "ce8c6dc9f84b",
@@ -308,12 +314,6 @@
       "shortSha": "2a8a8ad6c978",
       "committedAt": "2026-09-06T21:14:03+09:00",
       "subject": "feat: 이슈 #136 3차 검토 S1 — 지역별 조회 전국 뷰를 압축 목록으로 이식 (#157)"
-    },
-    {
-      "sha": "fb336a119b5a2920100a38437d9038b5377c94c2",
-      "shortSha": "fb336a119b5a",
-      "committedAt": "2026-09-06T21:00:09+09:00",
-      "subject": "fix: 이슈 #136 3차 검토 N1 — 분위 경계 없는 지도 범례가 전부 최고로 뜨던 문제 (#156)"
     }
   ]
 }
