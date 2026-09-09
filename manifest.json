@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "9998aba380e2f233f477426c3cc3199ba6f6ec2a",
+  "headSha": "ce8c6dc9f84b80d698257319e0408a0405a36e18",
   "metadata": {
-    "snapshotId": "dashboard-81ccc8a10422d3eadc52",
+    "snapshotId": "dashboard-d8ff509dee4a77b51044",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-08T00:29:43.771Z",
-    "sourceMaxFetchedAt": "2026-09-08T00:20:29.489Z",
+    "generatedAt": "2026-09-09T01:07:59.187Z",
+    "sourceMaxFetchedAt": "2026-09-09T01:06:18.552Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
-    "regionItemCount": 1826,
-    "nationwideTrademarkCount": 168367,
-    "availableRegionItemCount": 1826,
-    "addressVerificationRate": 0.5235
+    "regionItemCount": 1846,
+    "nationwideTrademarkCount": 168355,
+    "availableRegionItemCount": 1844,
+    "addressVerificationRate": 0.5236
   },
   "versions": [
+    {
+      "sha": "ce8c6dc9f84b80d698257319e0408a0405a36e18",
+      "shortSha": "ce8c6dc9f84b",
+      "committedAt": "2026-09-09T10:09:46+09:00",
+      "subject": "chore(pipeline): 공동출원인 완화 기준 재집계 스냅샷 게시"
+    },
     {
       "sha": "9998aba380e2f233f477426c3cc3199ba6f6ec2a",
       "shortSha": "9998aba380e2",
@@ -308,12 +314,6 @@
       "shortSha": "fb336a119b5a",
       "committedAt": "2026-09-06T21:00:09+09:00",
       "subject": "fix: 이슈 #136 3차 검토 N1 — 분위 경계 없는 지도 범례가 전부 최고로 뜨던 문제 (#156)"
-    },
-    {
-      "sha": "8c65dc75251ad78c02ed32f0ed37ba5be6ca466e",
-      "shortSha": "8c65dc75251a",
-      "committedAt": "2026-09-06T20:51:08+09:00",
-      "subject": "feat(pipeline+ui): 이슈 #137 — 공개 뷰에 collectedCount + cap 표시 (#155)"
     }
   ]
 }
