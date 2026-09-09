@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "1d2546ae753abf389c54e94e77299ecdceafa501",
+  "headSha": "11165e703ad3e3e1b477d528f5ab2e6ff9216e46",
   "metadata": {
-    "snapshotId": "dashboard-d8ff509dee4a77b51044",
+    "snapshotId": "dashboard-582c49c836e20adf42ae",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-09T01:07:59.187Z",
-    "sourceMaxFetchedAt": "2026-09-09T01:06:18.552Z",
+    "generatedAt": "2026-09-09T05:28:13.147Z",
+    "sourceMaxFetchedAt": "2026-09-09T05:18:58.458Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1846,
     "nationwideTrademarkCount": 168355,
     "availableRegionItemCount": 1844,
-    "addressVerificationRate": 0.5236
+    "addressVerificationRate": 0.5276
   },
   "versions": [
+    {
+      "sha": "11165e703ad3e3e1b477d528f5ab2e6ff9216e46",
+      "shortSha": "11165e703ad3",
+      "committedAt": "2026-09-09T14:29:38+09:00",
+      "subject": "chore(pipeline): 전체 재실행 스냅샷 게시 — 등록원부 3,000건 신규 수집"
+    },
     {
       "sha": "1d2546ae753abf389c54e94e77299ecdceafa501",
       "shortSha": "1d2546ae753a",
@@ -308,12 +314,6 @@
       "shortSha": "2c8e131e0445",
       "committedAt": "2026-09-06T21:18:32+09:00",
       "subject": "fix: 이슈 #136 3차 검토 N2 — 요약 랭킹에 기초·광역 단위가 섞이던 문제 (#158)"
-    },
-    {
-      "sha": "2a8a8ad6c978fb813fd894c10a781142f2911a5e",
-      "shortSha": "2a8a8ad6c978",
-      "committedAt": "2026-09-06T21:14:03+09:00",
-      "subject": "feat: 이슈 #136 3차 검토 S1 — 지역별 조회 전국 뷰를 압축 목록으로 이식 (#157)"
     }
   ]
 }
