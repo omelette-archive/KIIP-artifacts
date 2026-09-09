@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "1d78fe1bdf9791a3044d8778d017b5a217b96260",
+  "headSha": "a53cc06efe30f0c5e105a6fc004deadf85a1428b",
   "metadata": {
-    "snapshotId": "dashboard-582c49c836e20adf42ae",
+    "snapshotId": "dashboard-833fa3aada9f8716cda1",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-09T05:28:13.147Z",
-    "sourceMaxFetchedAt": "2026-09-09T05:18:58.458Z",
+    "generatedAt": "2026-09-09T06:21:08.411Z",
+    "sourceMaxFetchedAt": "2026-09-09T06:19:31.692Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1846,
     "nationwideTrademarkCount": 168355,
-    "availableRegionItemCount": 1844,
-    "addressVerificationRate": 0.5276
+    "availableRegionItemCount": 1845,
+    "addressVerificationRate": 0.538
   },
   "versions": [
+    {
+      "sha": "a53cc06efe30f0c5e105a6fc004deadf85a1428b",
+      "shortSha": "a53cc06efe30",
+      "committedAt": "2026-09-09T15:24:11+09:00",
+      "subject": "chore(pipeline): 등록원부 백로그 배치 반영 — 신규 6,900건 스냅샷 게시"
+    },
     {
       "sha": "11165e703ad3e3e1b477d528f5ab2e6ff9216e46",
       "shortSha": "11165e703ad3",
@@ -308,12 +314,6 @@
       "shortSha": "9eab7d24a354",
       "committedAt": "2026-09-06T21:24:10+09:00",
       "subject": "fix: 이슈 #136 3차 검토 N3 — 지역별 화면 연도 범위를 URL에 반영 (#159)"
-    },
-    {
-      "sha": "2c8e131e0445f1cca77503be5f4f7a69cc41b326",
-      "shortSha": "2c8e131e0445",
-      "committedAt": "2026-09-06T21:18:32+09:00",
-      "subject": "fix: 이슈 #136 3차 검토 N2 — 요약 랭킹에 기초·광역 단위가 섞이던 문제 (#158)"
     }
   ]
 }
