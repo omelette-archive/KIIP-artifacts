@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "cce6e7b3e350eaec5171ebd80fd1d993a71dede8",
+  "headSha": "7661ef65f1ec5af87fbccf13a3a08a3af6f62eee",
   "metadata": {
-    "snapshotId": "dashboard-c283368fa571fbeaa70d",
+    "snapshotId": "dashboard-efe041e327b97c777b6d",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-11T05:09:22.413Z",
-    "sourceMaxFetchedAt": "2026-09-11T04:40:24.669Z",
+    "generatedAt": "2026-09-11T05:19:27.756Z",
+    "sourceMaxFetchedAt": "2026-09-11T05:18:08.642Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1846,
-    "nationwideTrademarkCount": 168492,
+    "nationwideTrademarkCount": 166076,
     "availableRegionItemCount": 1846,
-    "addressVerificationRate": 0.5932
+    "addressVerificationRate": 0.5927
   },
   "versions": [
+    {
+      "sha": "7661ef65f1ec5af87fbccf13a3a08a3af6f62eee",
+      "shortSha": "7661ef65f1ec",
+      "committedAt": "2026-09-11T14:22:55+09:00",
+      "subject": "chore(pipeline): PR #194 반영해 04-07 재계산 스냅샷 게시"
+    },
     {
       "sha": "cce6e7b3e350eaec5171ebd80fd1d993a71dede8",
       "shortSha": "cce6e7b3e350",
@@ -308,12 +314,6 @@
       "shortSha": "50bdeaf76436",
       "committedAt": "2026-09-06T21:39:23+09:00",
       "subject": "feat: 이슈 #136 3차 검토 시각화(5) — 지도 범례를 양끝 구간으로 표기 (#162)"
-    },
-    {
-      "sha": "2e8eae7169c36ea7b2c816e61be32d1618775670",
-      "shortSha": "2e8eae7169c3",
-      "committedAt": "2026-09-06T21:35:49+09:00",
-      "subject": "feat: 이슈 #136 3차 검토 시각화(2) — 추이 차트에 모집단 안내 표기 (#161)"
     }
   ]
 }
