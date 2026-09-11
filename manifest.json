@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "1077a41164024c92589516147f692890fcc74221",
+  "headSha": "cce6e7b3e350eaec5171ebd80fd1d993a71dede8",
   "metadata": {
-    "snapshotId": "dashboard-3d923a32d2652fc9c45f",
+    "snapshotId": "dashboard-c283368fa571fbeaa70d",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-10T07:56:14.662Z",
-    "sourceMaxFetchedAt": "2026-09-10T07:27:30.515Z",
+    "generatedAt": "2026-09-11T05:09:22.413Z",
+    "sourceMaxFetchedAt": "2026-09-11T04:40:24.669Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1846,
     "nationwideTrademarkCount": 168492,
     "availableRegionItemCount": 1846,
-    "addressVerificationRate": 0.5596
+    "addressVerificationRate": 0.5932
   },
   "versions": [
+    {
+      "sha": "cce6e7b3e350eaec5171ebd80fd1d993a71dede8",
+      "shortSha": "cce6e7b3e350",
+      "committedAt": "2026-09-11T14:11:50+09:00",
+      "subject": "chore(pipeline): 일일 자동 실행 daily-20260911 스냅샷 게시(구코드) [자동]"
+    },
     {
       "sha": "1077a41164024c92589516147f692890fcc74221",
       "shortSha": "1077a4116402",
@@ -308,12 +314,6 @@
       "shortSha": "2e8eae7169c3",
       "committedAt": "2026-09-06T21:35:49+09:00",
       "subject": "feat: 이슈 #136 3차 검토 시각화(2) — 추이 차트에 모집단 안내 표기 (#161)"
-    },
-    {
-      "sha": "7b8dba4de9af67a508538a114b24ad6cdf2096f5",
-      "shortSha": "7b8dba4de9af",
-      "committedAt": "2026-09-06T21:30:10+09:00",
-      "subject": "feat: 이슈 #136 3차 검토 시각화(3) — 광역 단위 출원 비중을 스택 바로 (#160)"
     }
   ]
 }
