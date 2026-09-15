@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "7661ef65f1ec5af87fbccf13a3a08a3af6f62eee",
+  "headSha": "3a0174bda9992d5c34a798a8cce61dafd907afe8",
   "metadata": {
-    "snapshotId": "dashboard-efe041e327b97c777b6d",
+    "snapshotId": "dashboard-f7c833f5e371b1021970",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-11T05:19:27.756Z",
-    "sourceMaxFetchedAt": "2026-09-11T05:18:08.642Z",
+    "generatedAt": "2026-09-15T01:25:13.954Z",
+    "sourceMaxFetchedAt": "2026-09-15T00:55:57.963Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1846,
-    "nationwideTrademarkCount": 166076,
+    "nationwideTrademarkCount": 166241,
     "availableRegionItemCount": 1846,
-    "addressVerificationRate": 0.5927
+    "addressVerificationRate": 0.6251
   },
   "versions": [
+    {
+      "sha": "3a0174bda9992d5c34a798a8cce61dafd907afe8",
+      "shortSha": "3a0174bda999",
+      "committedAt": "2026-09-15T10:43:17+09:00",
+      "subject": "chore(pipeline): 일일 자동 실행 daily-20260915 스냅샷 게시 [자동]"
+    },
     {
       "sha": "7661ef65f1ec5af87fbccf13a3a08a3af6f62eee",
       "shortSha": "7661ef65f1ec",
@@ -308,12 +314,6 @@
       "shortSha": "f6418a155374",
       "committedAt": "2026-09-06T21:45:07+09:00",
       "subject": "feat: 이슈 #136 3차 검토 시각화(6) — 추이 차트에 값 표 토글 추가 (#163)"
-    },
-    {
-      "sha": "50bdeaf76436811a4afccbe5f6ef4d90925b5905",
-      "shortSha": "50bdeaf76436",
-      "committedAt": "2026-09-06T21:39:23+09:00",
-      "subject": "feat: 이슈 #136 3차 검토 시각화(5) — 지도 범례를 양끝 구간으로 표기 (#162)"
     }
   ]
 }
