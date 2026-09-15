@@ -1,11 +1,11 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6e039c891bb9c635fdd8210610cf06c6f287a46e",
+  "headSha": "d6708374b36e042a0f153d0820c90e0625bbc1ba",
   "metadata": {
-    "snapshotId": "dashboard-f1228e3efd8dc45d88d8",
+    "snapshotId": "dashboard-6d8da1b70cffe57e44ed",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-15T01:54:31.583Z",
-    "sourceMaxFetchedAt": "2026-09-15T01:53:06.208Z",
+    "generatedAt": "2026-09-15T05:43:53.719Z",
+    "sourceMaxFetchedAt": "2026-09-15T05:42:16.126Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6251
   },
   "versions": [
+    {
+      "sha": "d6708374b36e042a0f153d0820c90e0625bbc1ba",
+      "shortSha": "d6708374b36e",
+      "committedAt": "2026-09-15T14:51:01+09:00",
+      "subject": "chore(pipeline): businessFlow(전국 흐름) 재생성 반영 — 2/1953 -> 30/1953"
+    },
     {
       "sha": "6e039c891bb9c635fdd8210610cf06c6f287a46e",
       "shortSha": "6e039c891bb9",
@@ -308,12 +314,6 @@
       "shortSha": "c48fe4dbeee6",
       "committedAt": "2026-09-06T22:15:27+09:00",
       "subject": "feat: 이슈 #136 3차 검토 시각화(4) — 품목 목록 행에 스파크라인 추가 (#165)"
-    },
-    {
-      "sha": "d9deadebebed9e2fe71ccda9fda066efcb9ccb03",
-      "shortSha": "d9deadebebed",
-      "committedAt": "2026-09-06T22:09:55+09:00",
-      "subject": "feat: 이슈 #136 3차 검토 시각화(1) — 연도별 추이를 5년 이동평균으로 (#164)"
     }
   ]
 }
