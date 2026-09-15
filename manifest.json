@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "3a0174bda9992d5c34a798a8cce61dafd907afe8",
+  "headSha": "6e039c891bb9c635fdd8210610cf06c6f287a46e",
   "metadata": {
-    "snapshotId": "dashboard-f7c833f5e371b1021970",
+    "snapshotId": "dashboard-f1228e3efd8dc45d88d8",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-15T01:25:13.954Z",
-    "sourceMaxFetchedAt": "2026-09-15T00:55:57.963Z",
+    "generatedAt": "2026-09-15T01:54:31.583Z",
+    "sourceMaxFetchedAt": "2026-09-15T01:53:06.208Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1846,
-    "nationwideTrademarkCount": 166241,
+    "nationwideTrademarkCount": 166269,
     "availableRegionItemCount": 1846,
     "addressVerificationRate": 0.6251
   },
   "versions": [
+    {
+      "sha": "6e039c891bb9c635fdd8210610cf06c6f287a46e",
+      "shortSha": "6e039c891bb9",
+      "committedAt": "2026-09-15T10:55:52+09:00",
+      "subject": "chore(pipeline): 수동 실행 manual-20260915 스냅샷 게시"
+    },
     {
       "sha": "3a0174bda9992d5c34a798a8cce61dafd907afe8",
       "shortSha": "3a0174bda999",
@@ -308,12 +314,6 @@
       "shortSha": "d9deadebebed",
       "committedAt": "2026-09-06T22:09:55+09:00",
       "subject": "feat: 이슈 #136 3차 검토 시각화(1) — 연도별 추이를 5년 이동평균으로 (#164)"
-    },
-    {
-      "sha": "f6418a155374acf92f0a10f9dfe4273fd35ab51d",
-      "shortSha": "f6418a155374",
-      "committedAt": "2026-09-06T21:45:07+09:00",
-      "subject": "feat: 이슈 #136 3차 검토 시각화(6) — 추이 차트에 값 표 토글 추가 (#163)"
     }
   ]
 }
