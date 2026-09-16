@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "d6708374b36e042a0f153d0820c90e0625bbc1ba",
+  "headSha": "1ecd8330f2597701265928ce9169ff05ed96ca03",
   "metadata": {
-    "snapshotId": "dashboard-6d8da1b70cffe57e44ed",
+    "snapshotId": "dashboard-104a60289c933f2f720e",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-15T05:43:53.719Z",
-    "sourceMaxFetchedAt": "2026-09-15T05:42:16.126Z",
+    "generatedAt": "2026-09-16T02:19:24.747Z",
+    "sourceMaxFetchedAt": "2026-09-16T02:17:47.802Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1846,
     "nationwideTrademarkCount": 166269,
     "availableRegionItemCount": 1846,
-    "addressVerificationRate": 0.6251
+    "addressVerificationRate": 0.6614
   },
   "versions": [
+    {
+      "sha": "1ecd8330f2597701265928ce9169ff05ed96ca03",
+      "shortSha": "1ecd8330f259",
+      "committedAt": "2026-09-16T11:20:57+09:00",
+      "subject": "chore(pipeline): 등록원부 신규 10,000건 + businessFlow 52개 품목 반영"
+    },
     {
       "sha": "d6708374b36e042a0f153d0820c90e0625bbc1ba",
       "shortSha": "d6708374b36e",
@@ -308,12 +314,6 @@
       "shortSha": "6ad36a615263",
       "committedAt": "2026-09-06T22:24:54+09:00",
       "subject": "feat: 이슈 #136 3차 검토 S5 — 품목별 조회 정렬 4종 + 전체 285개 도달 (#166)"
-    },
-    {
-      "sha": "c48fe4dbeee6d4bf9f85c78cba691b5defd2bce3",
-      "shortSha": "c48fe4dbeee6",
-      "committedAt": "2026-09-06T22:15:27+09:00",
-      "subject": "feat: 이슈 #136 3차 검토 시각화(4) — 품목 목록 행에 스파크라인 추가 (#165)"
     }
   ]
 }
