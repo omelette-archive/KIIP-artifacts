@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "1ecd8330f2597701265928ce9169ff05ed96ca03",
+  "headSha": "bb7bd3451b3f7fd0dc1e2dfc3aab59c1fd569a85",
   "metadata": {
-    "snapshotId": "dashboard-104a60289c933f2f720e",
+    "snapshotId": "dashboard-9e62f4869fb8495dd52d",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-16T02:19:24.747Z",
-    "sourceMaxFetchedAt": "2026-09-16T02:17:47.802Z",
+    "generatedAt": "2026-09-18T05:12:56.195Z",
+    "sourceMaxFetchedAt": "2026-09-18T05:11:26.500Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
     "regionItemCount": 1846,
     "nationwideTrademarkCount": 166269,
     "availableRegionItemCount": 1846,
-    "addressVerificationRate": 0.6614
+    "addressVerificationRate": 0.6947
   },
   "versions": [
+    {
+      "sha": "bb7bd3451b3f7fd0dc1e2dfc3aab59c1fd569a85",
+      "shortSha": "bb7bd3451b3f",
+      "committedAt": "2026-09-18T14:14:27+09:00",
+      "subject": "chore(pipeline): 등록원부 신규 10,000건 + businessFlow 1개 품목 반영"
+    },
     {
       "sha": "1ecd8330f2597701265928ce9169ff05ed96ca03",
       "shortSha": "1ecd8330f259",
@@ -308,12 +314,6 @@
       "shortSha": "a1b9ad5fe95d",
       "committedAt": "2026-09-06T22:32:32+09:00",
       "subject": "feat: 이슈 #136 3차 검토 S4 — 특화작목 비교를 도 선택형으로 (#167)"
-    },
-    {
-      "sha": "6ad36a615263040f6c0114aa66a55a8126276d15",
-      "shortSha": "6ad36a615263",
-      "committedAt": "2026-09-06T22:24:54+09:00",
-      "subject": "feat: 이슈 #136 3차 검토 S5 — 품목별 조회 정렬 4종 + 전체 285개 도달 (#166)"
     }
   ]
 }
