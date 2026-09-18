@@ -1,11 +1,11 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "5022849442548c93d63740d320f2f84f2a77fe5c",
+  "headSha": "2ac5e3213cd6efc01dccf51592674096de109901",
   "metadata": {
-    "snapshotId": "dashboard-9e62f4869fb8495dd52d",
+    "snapshotId": "dashboard-fbb32eeedb150d10a284",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-18T05:12:56.195Z",
-    "sourceMaxFetchedAt": "2026-09-18T05:11:26.500Z",
+    "generatedAt": "2026-09-18T05:49:00.717Z",
+    "sourceMaxFetchedAt": "2026-09-18T05:47:26.319Z",
     "stage": "alpha",
     "inputScope": "full",
     "observedRegionCount": 139,
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6947
   },
   "versions": [
+    {
+      "sha": "2ac5e3213cd6efc01dccf51592674096de109901",
+      "shortSha": "2ac5e3213cd6",
+      "committedAt": "2026-09-18T14:50:22+09:00",
+      "subject": "chore(pipeline): #12 경로C(서지상세) 캐시 300건 적용 — 확정 394건·검토후보 611건 반영"
+    },
     {
       "sha": "5022849442548c93d63740d320f2f84f2a77fe5c",
       "shortSha": "502284944254",
@@ -308,12 +314,6 @@
       "shortSha": "f774867e4f3b",
       "committedAt": "2026-09-07T01:46:17+09:00",
       "subject": "이슈 #136: 비즈니스 전략 화면 재설계(S3) — 카드 나열 → 지역×품목 표 + 상세 패널 (#169)"
-    },
-    {
-      "sha": "01fb42bb14a9bbe43f69f3380ee80cdd8c2b446f",
-      "shortSha": "01fb42bb14a9",
-      "committedAt": "2026-09-06T22:46:09+09:00",
-      "subject": "이슈 #136: 요약 화면 재설계(S2) — KPI 4장→2장, 출원/등록 랭킹 통합 토글, 지역 선택 연동 (#168)"
     }
   ]
 }
