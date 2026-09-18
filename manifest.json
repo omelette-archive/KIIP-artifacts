@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "2ac5e3213cd6efc01dccf51592674096de109901",
+  "headSha": "056d55096061fba2dc3f61d49a0562bd3045231b",
   "metadata": {
     "snapshotId": "dashboard-fbb32eeedb150d10a284",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6947
   },
   "versions": [
+    {
+      "sha": "056d55096061fba2dc3f61d49a0562bd3045231b",
+      "shortSha": "056d55096061",
+      "committedAt": "2026-09-18T16:30:43+09:00",
+      "subject": "feat: 비즈니스 확장 방법론에 '저효율(출원 활발·등록 저조)' 신호 추가 + 지역외 비중 판정 정확화"
+    },
     {
       "sha": "2ac5e3213cd6efc01dccf51592674096de109901",
       "shortSha": "2ac5e3213cd6",
@@ -308,12 +314,6 @@
       "shortSha": "cb7915400cc4",
       "committedAt": "2026-09-07T10:33:52+09:00",
       "subject": "fix: 특산품 유형별 비중 원그래프 — 카테고리별 고정색 팔레트 (#136)"
-    },
-    {
-      "sha": "f774867e4f3bd81d9dbcedcfa8971c6f2fdcaac9",
-      "shortSha": "f774867e4f3b",
-      "committedAt": "2026-09-07T01:46:17+09:00",
-      "subject": "이슈 #136: 비즈니스 전략 화면 재설계(S3) — 카드 나열 → 지역×품목 표 + 상세 패널 (#169)"
     }
   ]
 }
