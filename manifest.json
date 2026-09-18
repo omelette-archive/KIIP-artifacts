@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "056d55096061fba2dc3f61d49a0562bd3045231b",
+  "headSha": "7340e5bf2b141e52f0d3aad40898da24ec2b98f7",
   "metadata": {
     "snapshotId": "dashboard-fbb32eeedb150d10a284",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.6947
   },
   "versions": [
+    {
+      "sha": "7340e5bf2b141e52f0d3aad40898da24ec2b98f7",
+      "shortSha": "7340e5bf2b14",
+      "committedAt": "2026-09-18T18:04:21+09:00",
+      "subject": "fix: 확장 방향 제안 \"가공품 브랜딩 부족\" 경고가 businessFlow 완료 품목의 98.2%에서 발동"
+    },
     {
       "sha": "056d55096061fba2dc3f61d49a0562bd3045231b",
       "shortSha": "056d55096061",
@@ -308,12 +314,6 @@
       "shortSha": "f90fca150853",
       "committedAt": "2026-09-07T10:48:15+09:00",
       "subject": "data: #137 운영 파이프라인 재실행 스냅샷(dashboard-d1ff92e33e558a76b151)"
-    },
-    {
-      "sha": "cb7915400cc458bce325b4e4971ce89b441b9ca5",
-      "shortSha": "cb7915400cc4",
-      "committedAt": "2026-09-07T10:33:52+09:00",
-      "subject": "fix: 특산품 유형별 비중 원그래프 — 카테고리별 고정색 팔레트 (#136)"
     }
   ]
 }
