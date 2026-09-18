@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "7340e5bf2b141e52f0d3aad40898da24ec2b98f7",
+  "headSha": "1d8b1140a0474841c9412a1a5a5a1ee5bdca72a0",
   "metadata": {
-    "snapshotId": "dashboard-fbb32eeedb150d10a284",
+    "snapshotId": "dashboard-90482a076b0b45e904a7",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-18T05:49:00.717Z",
-    "sourceMaxFetchedAt": "2026-09-18T05:47:26.319Z",
+    "generatedAt": "2026-09-18T09:33:53.724Z",
+    "sourceMaxFetchedAt": "2026-09-18T09:32:48.450Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 139,
-    "regionItemCount": 1846,
-    "nationwideTrademarkCount": 166269,
-    "availableRegionItemCount": 1846,
-    "addressVerificationRate": 0.6947
+    "observedRegionCount": 138,
+    "regionItemCount": 1763,
+    "nationwideTrademarkCount": 104291,
+    "availableRegionItemCount": 1763,
+    "addressVerificationRate": 0.7378
   },
   "versions": [
+    {
+      "sha": "1d8b1140a0474841c9412a1a5a5a1ee5bdca72a0",
+      "shortSha": "1d8b1140a047",
+      "committedAt": "2026-09-18T18:36:28+09:00",
+      "subject": "chore(pipeline): 재승격 — 회사명 74건 첫 실제 제외, 정규화 7~10차 반영"
+    },
     {
       "sha": "7340e5bf2b141e52f0d3aad40898da24ec2b98f7",
       "shortSha": "7340e5bf2b14",
@@ -308,12 +314,6 @@
       "shortSha": "433e950a2a30",
       "committedAt": "2026-09-07T11:28:50+09:00",
       "subject": "fix: 추이 그래프 — 기본 최근 20년 + 광역 상세에도 기간 슬라이더 (#136)"
-    },
-    {
-      "sha": "f90fca1508530917c76af6f1df33beb1034dca2d",
-      "shortSha": "f90fca150853",
-      "committedAt": "2026-09-07T10:48:15+09:00",
-      "subject": "data: #137 운영 파이프라인 재실행 스냅샷(dashboard-d1ff92e33e558a76b151)"
     }
   ]
 }
