@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "0128867041908102534c494306a633264365604c",
+  "headSha": "d6506145b6493fb0e77becd8028982a6b46397c4",
   "metadata": {
-    "snapshotId": "dashboard-fbb32eeedb150d10a284",
+    "snapshotId": "dashboard-98e47a6da91602394ed6",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-18T05:49:00.717Z",
-    "sourceMaxFetchedAt": "2026-09-18T05:47:26.319Z",
+    "generatedAt": "2026-09-21T02:04:26.994Z",
+    "sourceMaxFetchedAt": "2026-09-21T01:35:01.038Z",
     "stage": "alpha",
     "inputScope": "full",
-    "observedRegionCount": 139,
-    "regionItemCount": 1846,
-    "nationwideTrademarkCount": 166269,
-    "availableRegionItemCount": 1846,
-    "addressVerificationRate": 0.6947
+    "observedRegionCount": 138,
+    "regionItemCount": 1763,
+    "nationwideTrademarkCount": 164747,
+    "availableRegionItemCount": 1763,
+    "addressVerificationRate": 0.7273
   },
   "versions": [
+    {
+      "sha": "d6506145b6493fb0e77becd8028982a6b46397c4",
+      "shortSha": "d6506145b649",
+      "committedAt": "2026-09-21T11:12:40+09:00",
+      "subject": "chore(pipeline): 재승격 — #196 수정 후 회사명 74건 실제 제외 확인"
+    },
     {
       "sha": "0128867041908102534c494306a633264365604c",
       "shortSha": "012886704190",
@@ -308,12 +314,6 @@
       "shortSha": "608cfb92c9bf",
       "committedAt": "2026-09-07T14:48:57+09:00",
       "subject": "data: #118 월 단위 집계 반영 스냅샷 (dashboard-dc249f82afc3c1dff0d5)"
-    },
-    {
-      "sha": "d345eb3e08ac6c0a3d7fa5b84606b81fdf34762d",
-      "shortSha": "d345eb3e08ac",
-      "committedAt": "2026-09-07T13:25:07+09:00",
-      "subject": "data+fix: #117 특화작목 고시명칭 매칭 스냅샷 + reconcile 방법론 승격 예외"
     }
   ]
 }
