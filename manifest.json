@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "cc1c0e7b8af6fcbeb2e67dbb56d5f51b5d550e28",
+  "headSha": "1fb28a14c30e9357ddb95e1bbcae33f27f2544eb",
   "metadata": {
-    "snapshotId": "dashboard-8f208d2de24adc5295eb",
+    "snapshotId": "dashboard-064a58fb116336ea8dab",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-21T07:45:21.584Z",
-    "sourceMaxFetchedAt": "2026-09-21T07:43:36.009Z",
+    "generatedAt": "2026-09-22T07:26:06.883Z",
+    "sourceMaxFetchedAt": "2026-09-22T07:06:07.667Z",
     "stage": "production",
     "inputScope": "full",
     "observedRegionCount": 138,
-    "regionItemCount": 1763,
-    "nationwideTrademarkCount": 163868,
-    "availableRegionItemCount": 1750,
-    "addressVerificationRate": 0.7288
+    "regionItemCount": 1762,
+    "nationwideTrademarkCount": 166596,
+    "availableRegionItemCount": 1762,
+    "addressVerificationRate": 0.7443
   },
   "versions": [
+    {
+      "sha": "1fb28a14c30e9357ddb95e1bbcae33f27f2544eb",
+      "shortSha": "1fb28a14c30e",
+      "committedAt": "2026-09-22T16:31:59+09:00",
+      "subject": "chore(pipeline): 재승격 — 등록원부 백로그 사상 첫 완전 소진"
+    },
     {
       "sha": "cc1c0e7b8af6fcbeb2e67dbb56d5f51b5d550e28",
       "shortSha": "cc1c0e7b8af6",
@@ -308,12 +314,6 @@
       "shortSha": "78455f277f6c",
       "committedAt": "2026-09-07T15:06:44+09:00",
       "subject": "feat: #118 리더보드 UI — 최근 출원·등록 동향 \"동향\" 탭"
-    },
-    {
-      "sha": "86c231fce73573e8f08e45b8383e6f9807cbc173",
-      "shortSha": "86c231fce735",
-      "committedAt": "2026-09-08T09:36:44+09:00",
-      "subject": "data: #70 운영 파이프라인 재실행 스냅샷 dashboard-81ccc8a1 + 승격"
     }
   ]
 }
