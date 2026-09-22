@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "1fb28a14c30e9357ddb95e1bbcae33f27f2544eb",
+  "headSha": "b75db32cbca9519bd2fe602981bb35a55287583a",
   "metadata": {
-    "snapshotId": "dashboard-064a58fb116336ea8dab",
+    "snapshotId": "dashboard-809ef1f29149cf94600a",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-22T07:26:06.883Z",
-    "sourceMaxFetchedAt": "2026-09-22T07:06:07.667Z",
+    "generatedAt": "2026-09-22T07:49:24.751Z",
+    "sourceMaxFetchedAt": "2026-09-22T07:47:40.888Z",
     "stage": "production",
     "inputScope": "full",
     "observedRegionCount": 138,
     "regionItemCount": 1762,
-    "nationwideTrademarkCount": 166596,
-    "availableRegionItemCount": 1762,
-    "addressVerificationRate": 0.7443
+    "nationwideTrademarkCount": 165757,
+    "availableRegionItemCount": 1755,
+    "addressVerificationRate": 0.7462
   },
   "versions": [
+    {
+      "sha": "b75db32cbca9519bd2fe602981bb35a55287583a",
+      "shortSha": "b75db32cbca9",
+      "committedAt": "2026-09-22T16:56:19+09:00",
+      "subject": "chore(pipeline): 등록원부 만료예정일 기반 재검증(#81) 2,744건 반영"
+    },
     {
       "sha": "1fb28a14c30e9357ddb95e1bbcae33f27f2544eb",
       "shortSha": "1fb28a14c30e",
@@ -308,12 +314,6 @@
       "shortSha": "b326d3ceb09c",
       "committedAt": "2026-09-07T15:28:47+09:00",
       "subject": "fix: #136 추이 그래프 표시 범위를 2000년 하한으로 고정"
-    },
-    {
-      "sha": "78455f277f6c9116af7554bd19399c5b3e10a4b4",
-      "shortSha": "78455f277f6c",
-      "committedAt": "2026-09-07T15:06:44+09:00",
-      "subject": "feat: #118 리더보드 UI — 최근 출원·등록 동향 \"동향\" 탭"
     }
   ]
 }
