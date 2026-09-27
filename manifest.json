@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "b75db32cbca9519bd2fe602981bb35a55287583a",
+  "headSha": "95bc1101e68ffb910b9609977db9a083c92fd8e9",
   "metadata": {
     "snapshotId": "dashboard-809ef1f29149cf94600a",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.7462
   },
   "versions": [
+    {
+      "sha": "95bc1101e68ffb910b9609977db9a083c92fd8e9",
+      "shortSha": "95bc1101e68f",
+      "committedAt": "2026-09-28T08:47:54+09:00",
+      "subject": "copy: 권리 현황 진단 문구 간결화 — 서비스 개시 관점으로 축소"
+    },
     {
       "sha": "b75db32cbca9519bd2fe602981bb35a55287583a",
       "shortSha": "b75db32cbca9",
@@ -308,12 +314,6 @@
       "shortSha": "2c3f152399ef",
       "committedAt": "2026-09-08T10:04:22+09:00",
       "subject": "Revert \"Merge pull request #170 from omelette-archive/feat/118-leaderboard-ui\""
-    },
-    {
-      "sha": "b326d3ceb09c9be52a0ce9b85156098fbf4a9f99",
-      "shortSha": "b326d3ceb09c",
-      "committedAt": "2026-09-07T15:28:47+09:00",
-      "subject": "fix: #136 추이 그래프 표시 범위를 2000년 하한으로 고정"
     }
   ]
 }
