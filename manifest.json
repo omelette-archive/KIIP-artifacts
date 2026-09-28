@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "95bc1101e68ffb910b9609977db9a083c92fd8e9",
+  "headSha": "38efdfa563ba6d58fe2d4710c78144e326484231",
   "metadata": {
-    "snapshotId": "dashboard-809ef1f29149cf94600a",
+    "snapshotId": "dashboard-6cb733e60415f1483049",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-09-22T07:49:24.751Z",
-    "sourceMaxFetchedAt": "2026-09-22T07:47:40.888Z",
+    "generatedAt": "2026-09-28T00:00:18.421Z",
+    "sourceMaxFetchedAt": "2026-09-27T23:57:03.337Z",
     "stage": "production",
     "inputScope": "full",
     "observedRegionCount": 138,
     "regionItemCount": 1762,
-    "nationwideTrademarkCount": 165757,
-    "availableRegionItemCount": 1755,
-    "addressVerificationRate": 0.7462
+    "nationwideTrademarkCount": 167506,
+    "availableRegionItemCount": 1762,
+    "addressVerificationRate": 0.7439
   },
   "versions": [
+    {
+      "sha": "38efdfa563ba6d58fe2d4710c78144e326484231",
+      "shortSha": "38efdfa563ba",
+      "committedAt": "2026-09-28T09:05:20+09:00",
+      "subject": "chore(pipeline): 재승격 — 신규 확정 고시명칭 7건 지역 집계대기 해소"
+    },
     {
       "sha": "95bc1101e68ffb910b9609977db9a083c92fd8e9",
       "shortSha": "95bc1101e68f",
@@ -308,12 +314,6 @@
       "shortSha": "320349429529",
       "committedAt": "2026-09-08T10:11:10+09:00",
       "subject": "feat: #118 리더보드를 요약 탭 하단에 compact로 통합 (동향 탭 없이)"
-    },
-    {
-      "sha": "2c3f152399ef4a7b848bfb871f1d51c16fb23070",
-      "shortSha": "2c3f152399ef",
-      "committedAt": "2026-09-08T10:04:22+09:00",
-      "subject": "Revert \"Merge pull request #170 from omelette-archive/feat/118-leaderboard-ui\""
     }
   ]
 }
