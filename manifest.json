@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "cbc0aa1f7654f1895d155279fe9859a6db5da50b",
+  "headSha": "6cfd05aefdc1e036c7964d71c5702133f58b7e62",
   "metadata": {
-    "snapshotId": "dashboard-a106f48a037a5d46fb87",
+    "snapshotId": "dashboard-a9fef453b801c94b9c90",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-10-08T07:37:37.496Z",
-    "sourceMaxFetchedAt": "2026-10-08T07:35:35.332Z",
+    "generatedAt": "2026-10-12T07:57:11.918Z",
+    "sourceMaxFetchedAt": "2026-10-12T07:55:11.406Z",
     "stage": "production",
     "inputScope": "full",
     "observedRegionCount": 138,
     "regionItemCount": 1729,
-    "nationwideTrademarkCount": 167453,
-    "availableRegionItemCount": 1559,
-    "addressVerificationRate": 0.7438
+    "nationwideTrademarkCount": 169863,
+    "availableRegionItemCount": 1679,
+    "addressVerificationRate": 0.7423
   },
   "versions": [
+    {
+      "sha": "6cfd05aefdc1e036c7964d71c5702133f58b7e62",
+      "shortSha": "6cfd05aefdc1",
+      "committedAt": "2026-10-12T17:03:16+09:00",
+      "subject": "chore(pipeline): daily-20261012 재승격 — 체크포인트 복구·확장 진단 반영"
+    },
     {
       "sha": "32662a886457f562756519eb72ed2d636bb27209",
       "shortSha": "32662a886457",
@@ -308,12 +314,6 @@
       "shortSha": "2df4d969692b",
       "committedAt": "2026-09-08T11:18:31+09:00",
       "subject": "feat: ⑦ 권리 실사 지표 — 권리 상태·표장 종류·밸류체인 구간 (#136 #116)"
-    },
-    {
-      "sha": "9aa05ba9241f7645bbfaba7905a4710e85728111",
-      "shortSha": "9aa05ba9241f",
-      "committedAt": "2026-09-08T13:49:46+09:00",
-      "subject": "fix: #136 리더보드 행 정렬 통일 — 게이지 바·값 열 고정"
     }
   ]
 }
