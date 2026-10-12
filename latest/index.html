@@ -698,6 +698,13 @@ footer { display: flex; align-items: center; justify-content: space-between; gap
 .expansion-list { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
 .expansion-list li { position: relative; padding-left: 18px; color: var(--ink); font-size: 12.5px; line-height: 1.6; }
 .expansion-dot { position: absolute; left: 2px; top: 7px; width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+.cluster-chip { padding: 3px 9px; border-radius: 999px; background: var(--green-soft); color: var(--green); font-size: 11px; font-weight: 600; white-space: nowrap; }
+.roadmap-track { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; list-style: none; margin: 12px 0 0; padding: 0; }
+.roadmap-track li { padding: 6px 4px; border-radius: 6px; background: var(--line); color: var(--muted); font-size: 11px; text-align: center; overflow-wrap: anywhere; }
+.roadmap-track li.done { background: var(--green-soft); color: var(--green); }
+.roadmap-track li.current { background: var(--green); color: #fff; font-weight: 700; }
+.expansion-list li.deferred { color: var(--muted); }
+.deferred-tag { margin-right: 6px; padding: 1px 6px; border-radius: 4px; background: var(--line); color: var(--muted); font-size: 10.5px; font-weight: 600; }
 .business-strategy { margin-top: 18px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--green-soft); }
 .business-strategy.alert { border-color: #e2c59b; background: var(--amber-soft); }
 .strategy-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
@@ -2089,6 +2096,19 @@ function dashboardClient(snapshot, geometry, registrationExamples) {
     if (s.length === 0) return "";
     return `<section class="expansion-card"><div class="section-heading"><div><h2>${esc(itemLabel)} 확장 방향 제안</h2></div><span>전국 흐름 데이터 기반</span></div><ul class="expansion-list">${s.map((x) => `<li><span class="expansion-dot" aria-hidden="true"></span>${esc(x.text)}</li>`).join("")}</ul></section>`;
   };
+  // 2026-10-12: Dashboard.tsx ExpansionRoadmapCard와 동일 구조 — 07c expansionDiagnosis가 있으면
+  // 지역 단계 트랙 + 실행 순서를, 앞 단계가 남은 지역의 확장 제안은 "다음 단계"로 표시한다.
+  const EXPANSION_ROADMAP_STEPS = ["기반 구축", "등록 보완", "권리 보호", "확장"];
+  const expansionRoadmapHtml = (diagnosis, itemLabel) => {
+    if (!diagnosis || !Array.isArray(diagnosis.actions) || diagnosis.actions.length === 0) return "";
+    const order = diagnosis.rightsStageOrder;
+    const track = typeof order === "number"
+      ? `<ol class="roadmap-track">${EXPANSION_ROADMAP_STEPS.map((label, index) => `<li${index + 1 === order ? ' class="current"' : index + 1 < order ? ' class="done"' : ""}>${esc(label)}</li>`).join("")}</ol>`
+      : "";
+    const chip = diagnosis.cluster ? `<span class="cluster-chip">${esc(diagnosis.cluster.label)}</span>` : "";
+    const items = diagnosis.actions.map((a) => `<li${a.deferred ? ' class="deferred"' : ""}><span class="expansion-dot" aria-hidden="true"></span>${a.deferred ? '<b class="deferred-tag">다음 단계</b>' : ""}${esc(a.text)}</li>`).join("");
+    return `<section class="expansion-card expansion-roadmap"><div class="section-heading"><div><h2>${esc(itemLabel)} 확장 로드맵</h2></div>${chip}</div>${track}<ul class="expansion-list">${items}</ul></section>`;
+  };
   // 이슈 #116(2026-08-26) 사용자 재요청: 상태 아이콘·배지, 근거 수치 스탯 줄, 문장별 도트
   // 마커로 가독성을 높였다 — Dashboard.tsx의 BusinessStrategyCard와 동일 구조.
   // UI 검토(#136) 07번: "고유 상표 1건·등록률 100%는 공백 알림, 6건·등록률 17%는 양호"처럼
@@ -2773,7 +2793,7 @@ function dashboardClient(snapshot, geometry, registrationExamples) {
         <article><span>등록 건수</span><strong>${regionalAvailable ? `${number(registeredCount)}건` : "지역별 집계 대기"}</strong><small>${regionalAvailable ? localCount ? `출원 ${number(localCount)}건 중 등록 ${number(registeredCount)}건 · 등록률 ${percent(item.metrics.registrationRate.value)}` : "출원 0건 · 등록률 계산 불가" : "지역 출원 건수가 확인된 뒤 계산합니다."}</small></article>
         ${typeof item.metrics.localApplicantCount?.value === "number" ? `<article><span>권리주체</span><strong>${number(item.metrics.localApplicantCount.value)}곳</strong><small>${typeof item.metrics.producerApplicantShare?.value === "number" ? `생산자단체·지자체 ${percent(item.metrics.producerApplicantShare.value)}` : "지역 확인된 출원의 고유 출원인 수"}</small></article>` : ""}${(() => { const rights = rightsStatusOf(item); return `<article class="rights-status rights-status-${rights.key}"><span>권리 상태</span><strong>${esc(rights.label)}</strong><small>${esc(rights.note)}</small></article>`; })()}<article><span>출원 여부</span><strong>${regionalAvailable ? localCount > 0 ? "출원 확인" : "출원 없음" : "집계 대기"}</strong><small>${regionalAvailable ? localCount > 0 ? "특산품 출원율 계산에서 출원 확인 1개로 집계" : "전체 특산품 수에는 포함되며 출원 확인 수에는 포함되지 않음" : "전체 특산품 수에는 포함되며 출원 확인 전까지 분자에는 넣지 않습니다"}</small></article>
       </div>
-      ${localExamples.length > 0 ? `<div class="mark-type-row" title="${esc(MARK_TYPE_HINT)}"><strong>표장 종류</strong><span class="mark-type-chips">${markTypeBreakdown(localExamples).map(([label, count]) => `<em class="mark-type-chip mark-type-${markTypeChipClass(label)}">${esc(label)} ${number(count)}</em>`).join("")}</span><small>이 지역 확인 출원 ${number(localExamples.length)}건 표본에서 확인 · 전체 건수가 아닙니다</small></div>` : examples.length > 0 ? `<div class="mark-type-row"><strong>표장 종류</strong><small>이 지역 주소로 확인된 출원이 표본에 없어 표장 종류를 셀 수 없습니다 — 표본 ${number(examples.length)}건은 전국 검색 후보라 이 지역 것이 아닙니다.</small></div>` : ""}${giHoldingsHtml(item, localExamples)}${item.businessFlow ? nationwideFlowCardHtml(item.businessFlow, itemName(item) || "이 품목") + expansionSuggestionsHtml(item.businessFlow, itemName(item) || "이 품목") : ""}
+      ${localExamples.length > 0 ? `<div class="mark-type-row" title="${esc(MARK_TYPE_HINT)}"><strong>표장 종류</strong><span class="mark-type-chips">${markTypeBreakdown(localExamples).map(([label, count]) => `<em class="mark-type-chip mark-type-${markTypeChipClass(label)}">${esc(label)} ${number(count)}</em>`).join("")}</span><small>이 지역 확인 출원 ${number(localExamples.length)}건 표본에서 확인 · 전체 건수가 아닙니다</small></div>` : examples.length > 0 ? `<div class="mark-type-row"><strong>표장 종류</strong><small>이 지역 주소로 확인된 출원이 표본에 없어 표장 종류를 셀 수 없습니다 — 표본 ${number(examples.length)}건은 전국 검색 후보라 이 지역 것이 아닙니다.</small></div>` : ""}${giHoldingsHtml(item, localExamples)}${item.businessFlow ? nationwideFlowCardHtml(item.businessFlow, itemName(item) || "이 품목") : ""}${item.expansionDiagnosis ? expansionRoadmapHtml(item.expansionDiagnosis, itemName(item) || "이 품목") : item.businessFlow ? expansionSuggestionsHtml(item.businessFlow, itemName(item) || "이 품목") : ""}
       ${item.briefing && item.briefing.sentences.length > 0 ? `${businessStrategyCardHtml(item.briefing, "비즈니스 확장 전략", "", nationwideReach(item))}${businessStrategyDisclaimerHtml(item.briefing.templateVersion)}` : ""}
       <section class="trademark-examples"><div class="example-heading"><strong>${esc(itemName(item))} 등록 사례</strong><span>등록 ${number(registeredCount)}건 중 사례 ${number(registeredExamples.length)}건</span></div>${registeredExamples.length ? `<div class="example-list">${registeredExamples.map((example) => `<article><div><strong>${esc(example.title || "상표명 미기록")}</strong><small>${[example.applicationNumber, example.applicant, example.niceClass ? `${example.niceClass}류` : null].filter(Boolean).map(esc).join(" · ")}</small></div><span class="goods-chip">등록</span>${giMarkLabel(example.applicationNumber) ? `<span class="gi-mark-chip">${esc(giMarkLabel(example.applicationNumber))}</span>` : ""}${goodsStageLabel(example.goodsEvidence) ? `<span class="goods-stage-chip" title="${esc("지정상품 명칭으로 판정한 밸류체인 단계입니다. 류가 아니라 지정상품 기준입니다.")}">${esc(goodsStageLabel(example.goodsEvidence))}</span>` : ""}${example.goodsEvidence.length > 0 ? `<p>지정상품: ${example.goodsEvidence.map((row) => `${esc(row.designatedProductName || "명칭 미기록")}${row.classCode ? ` (${esc(row.classCode)}류)` : ""}`).join(", ")}</p>` : ""}<small class="example-region-note">지역 주소 일치</small>${example.applicationNumber ? `<button type="button" class="kipris-link" title="KIPRIS에서 이 상표(출원번호 ${esc(example.applicationNumber)})의 검색 결과를 새 창으로 엽니다" data-kipris-application="${esc(example.applicationNumber)}">KIPRIS에서 결과 보기 ↗</button>` : ""}</article>`).join("")}</div>` : '<p class="empty">등록 항목이 확인되지 않았습니다.</p>'}</section>
     </div>`;
