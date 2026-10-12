@@ -1213,7 +1213,9 @@ footer { display: flex; align-items: center; justify-content: space-between; gap
   .topbar { min-height: auto; flex-wrap: wrap; align-items: flex-start; gap: 8px; padding: 12px 0; }
   .brand { flex: 1 1 100%; }
   .brand h1 { font-size: 18px; }
-  .snapshot-meta { flex: 1 1 100%; flex-wrap: wrap; }
+  .snapshot-meta { flex: 1 1 100%; width: 100%; min-width: 0; flex-wrap: wrap; }
+  .snapshot-meta > span:not(.sample-badge) { min-width: 0; overflow-wrap: anywhere; }
+  .snapshot-meta .copy-link-button { flex: 0 0 auto; margin-right: auto; }
   .snapshot-meta > span:last-child { display: none; }
   .hero { padding-top: 18px; }
   .metrics { grid-template-columns: 1fr; }
@@ -1242,6 +1244,11 @@ footer { display: flex; align-items: center; justify-content: space-between; gap
   .map-stage { min-height: 390px; }
   .map-metric-description { height: calc(5 * 1.55em); }
   .expansion-grid { grid-template-columns: 1fr; }
+  .strategy-item-picker, .strategy-picker-group, .strategy-picker-inputs { width: 100%; min-width: 0; }
+  .strategy-item-picker { align-items: stretch; }
+  .strategy-item-chips { max-width: 100%; }
+  .strategy-item-search, .strategy-region-select { flex: 1 1 100%; width: 100%; min-width: 0; margin: 0; }
+  .strategy-region-select select { width: 100%; min-width: 0; }
   .map-label { font-size: 11px; }
   .map-label-province { font-size: 11px; }
   .coverage-kpis { grid-template-columns: 1fr; }
