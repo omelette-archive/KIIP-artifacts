@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c40f386e2da7a4e5fb69e778ee571bd5e6c2fb7e",
+  "headSha": "cd85f3c4efc51c16465accf8a9ab61c390b6bbe3",
   "metadata": {
-    "snapshotId": "dashboard-f0478f0c20aefe71f051",
+    "snapshotId": "dashboard-a106f48a037a5d46fb87",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-10-06T01:16:27.896Z",
-    "sourceMaxFetchedAt": "2026-10-06T01:14:39.189Z",
+    "generatedAt": "2026-10-08T07:37:37.496Z",
+    "sourceMaxFetchedAt": "2026-10-08T07:35:35.332Z",
     "stage": "production",
     "inputScope": "full",
     "observedRegionCount": 138,
-    "regionItemCount": 1762,
+    "regionItemCount": 1729,
     "nationwideTrademarkCount": 167453,
-    "availableRegionItemCount": 1762,
+    "availableRegionItemCount": 1559,
     "addressVerificationRate": 0.7438
   },
   "versions": [
+    {
+      "sha": "cd85f3c4efc51c16465accf8a9ab61c390b6bbe3",
+      "shortSha": "cd85f3c4efc5",
+      "committedAt": "2026-10-12T14:51:47+09:00",
+      "subject": "fix(pipeline): 03_match 체크포인트 오염 쿼리 복구 + 좀비 복귀 33건 tombstone + floor 은폐 감사"
+    },
     {
       "sha": "c40f386e2da7a4e5fb69e778ee571bd5e6c2fb7e",
       "shortSha": "c40f386e2da7",
@@ -308,12 +314,6 @@
       "shortSha": "7bf97221668b",
       "committedAt": "2026-09-08T10:39:17+09:00",
       "subject": "feat: #136 확장 방향 제안 카드 — 전국 흐름에서 규칙 파생"
-    },
-    {
-      "sha": "2109c7525d0a24df7e2581bd2ffe3715dca29e76",
-      "shortSha": "2109c7525d0a",
-      "committedAt": "2026-09-08T10:25:37+09:00",
-      "subject": "feat: #118 요약 \"최근 동향\" 재정리 — 추이+리더보드 한 묶음, 모멘텀/전환 분리"
     }
   ]
 }
