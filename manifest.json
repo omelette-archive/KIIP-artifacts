@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "c56dcf03fa1416f58b0e86dc1a3e5bba2e2919d8",
+  "headSha": "af5cda45db740130a6f3f6ed3eed6580dc3c61e6",
   "metadata": {
     "snapshotId": "dashboard-222e0ac2945d384c1568",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.7418
   },
   "versions": [
+    {
+      "sha": "af5cda45db740130a6f3f6ed3eed6580dc3c61e6",
+      "shortSha": "af5cda45db74",
+      "committedAt": "2026-10-13T17:20:14+09:00",
+      "subject": "fix(dashboard): 태블릿·휴대폰 지역별 상세 화면 가로 스크롤(폭 약 2,500px) 수정"
+    },
     {
       "sha": "c56dcf03fa1416f58b0e86dc1a3e5bba2e2919d8",
       "shortSha": "c56dcf03fa14",
@@ -308,12 +314,6 @@
       "shortSha": "1a3b546ab513",
       "committedAt": "2026-09-08T15:22:10+09:00",
       "subject": "feat: ⑦ 지역·품목별 조회 — 품목 유형별 출원 현황 표 + 화면 재구성 (#136)"
-    },
-    {
-      "sha": "1f3a981f8de5d9e7270cfedd8b19437ce7421198",
-      "shortSha": "1f3a981f8de5",
-      "committedAt": "2026-09-08T15:18:48+09:00",
-      "subject": "fix: #110 확장 방향 제안의 지역 클러스터 문장을 hasRegionalSignal로 게이트"
     }
   ]
 }
