@@ -1,6 +1,6 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "6cfd05aefdc1e036c7964d71c5702133f58b7e62",
+  "headSha": "bd88ac864fae4e0ec93e1af4c8f43efb416c512a",
   "metadata": {
     "snapshotId": "dashboard-a9fef453b801c94b9c90",
     "schemaVersion": "dashboard-snapshot-v1",
@@ -15,6 +15,12 @@
     "addressVerificationRate": 0.7423
   },
   "versions": [
+    {
+      "sha": "e8a6ae73d3c20078e6d6237e2d00463bb6842ddd",
+      "shortSha": "e8a6ae73d3c2",
+      "committedAt": "2026-10-13T09:45:23+09:00",
+      "subject": "fix: 실데이터 대시보드 문구와 운영 원칙 정리"
+    },
     {
       "sha": "6cfd05aefdc1e036c7964d71c5702133f58b7e62",
       "shortSha": "6cfd05aefdc1",
@@ -308,12 +314,6 @@
       "shortSha": "b024c1a6dad5",
       "committedAt": "2026-09-08T14:23:06+09:00",
       "subject": "fix: #136 리더보드 기간·기준 토글이 날짜 텍스트 때문에 움직이던 문제"
-    },
-    {
-      "sha": "2df4d969692b760bf27e701c0342bf8c00a4c8fb",
-      "shortSha": "2df4d969692b",
-      "committedAt": "2026-09-08T11:18:31+09:00",
-      "subject": "feat: ⑦ 권리 실사 지표 — 권리 상태·표장 종류·밸류체인 구간 (#136 #116)"
     }
   ]
 }
