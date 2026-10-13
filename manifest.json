@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "8afad1269cc3d414dc1f54d6572cd8cbbebd5e0b",
+  "headSha": "e247e9d0c9419cc91cb68b0309299b1274f0778b",
   "metadata": {
-    "snapshotId": "dashboard-794cd4779a9479bec55b",
+    "snapshotId": "dashboard-387cfcf0b27cc7a11893",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-10-13T02:43:02.806Z",
-    "sourceMaxFetchedAt": "2026-10-13T02:31:57.440Z",
+    "generatedAt": "2026-10-13T06:17:52.508Z",
+    "sourceMaxFetchedAt": "2026-10-13T06:00:12.630Z",
     "stage": "production",
     "inputScope": "full",
     "observedRegionCount": 138,
     "regionItemCount": 1729,
     "nationwideTrademarkCount": 183570,
-    "availableRegionItemCount": 1679,
-    "addressVerificationRate": 0.7348
+    "availableRegionItemCount": 1729,
+    "addressVerificationRate": 0.7418
   },
   "versions": [
+    {
+      "sha": "e247e9d0c9419cc91cb68b0309299b1274f0778b",
+      "shortSha": "e247e9d0c941",
+      "committedAt": "2026-10-13T15:19:37+09:00",
+      "subject": "data: 등록원부 보강 완료 스냅샷 반영"
+    },
     {
       "sha": "8afad1269cc3d414dc1f54d6572cd8cbbebd5e0b",
       "shortSha": "8afad1269cc3",
@@ -308,12 +314,6 @@
       "shortSha": "d2b9e7dcb334",
       "committedAt": "2026-09-08T15:11:44+09:00",
       "subject": "fix: #175 급증 카드를 가속/신규진입으로 분리 — 배수 독점 문제 해결"
-    },
-    {
-      "sha": "12140582d3ecedf9378f7a96d6bb4f2b190bdd99",
-      "shortSha": "12140582d3ec",
-      "committedAt": "2026-09-08T14:31:32+09:00",
-      "subject": "fix: #136 리더보드 게이지 바를 맨 오른쪽 고정 열로 — 순위 비교 가능하게"
     }
   ]
 }
