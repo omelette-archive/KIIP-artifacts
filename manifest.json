@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "bd88ac864fae4e0ec93e1af4c8f43efb416c512a",
+  "headSha": "8afad1269cc3d414dc1f54d6572cd8cbbebd5e0b",
   "metadata": {
-    "snapshotId": "dashboard-a9fef453b801c94b9c90",
+    "snapshotId": "dashboard-794cd4779a9479bec55b",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-10-12T07:57:11.918Z",
-    "sourceMaxFetchedAt": "2026-10-12T07:55:11.406Z",
+    "generatedAt": "2026-10-13T02:43:02.806Z",
+    "sourceMaxFetchedAt": "2026-10-13T02:31:57.440Z",
     "stage": "production",
     "inputScope": "full",
     "observedRegionCount": 138,
     "regionItemCount": 1729,
-    "nationwideTrademarkCount": 169863,
+    "nationwideTrademarkCount": 183570,
     "availableRegionItemCount": 1679,
-    "addressVerificationRate": 0.7423
+    "addressVerificationRate": 0.7348
   },
   "versions": [
+    {
+      "sha": "8afad1269cc3d414dc1f54d6572cd8cbbebd5e0b",
+      "shortSha": "8afad1269cc3",
+      "committedAt": "2026-10-13T13:48:59+09:00",
+      "subject": "data: 검증된 10월 13일 운영 스냅샷 반영"
+    },
     {
       "sha": "e8a6ae73d3c20078e6d6237e2d00463bb6842ddd",
       "shortSha": "e8a6ae73d3c2",
@@ -308,12 +314,6 @@
       "shortSha": "12140582d3ec",
       "committedAt": "2026-09-08T14:31:32+09:00",
       "subject": "fix: #136 리더보드 게이지 바를 맨 오른쪽 고정 열로 — 순위 비교 가능하게"
-    },
-    {
-      "sha": "b024c1a6dad531cceb1c96350ca06cdb07e6fffc",
-      "shortSha": "b024c1a6dad5",
-      "committedAt": "2026-09-08T14:23:06+09:00",
-      "subject": "fix: #136 리더보드 기간·기준 토글이 날짜 텍스트 때문에 움직이던 문제"
     }
   ]
 }
