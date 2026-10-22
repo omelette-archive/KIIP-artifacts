@@ -1,20 +1,26 @@
 {
   "artifact": "07-dashboard/dashboard.html",
-  "headSha": "decff1356bf65145349f7fb9c306589bf009a64e",
+  "headSha": "b0f0bfb934690d639010e8e7d7b59c3d43198ad3",
   "metadata": {
-    "snapshotId": "dashboard-ed2d41b278fb50758e07",
+    "snapshotId": "dashboard-2ed6818ab9b4eefa4614",
     "schemaVersion": "dashboard-snapshot-v1",
-    "generatedAt": "2026-10-14T00:09:57.206Z",
-    "sourceMaxFetchedAt": "2026-10-14T00:07:41.831Z",
+    "generatedAt": "2026-10-22T04:16:14.504Z",
+    "sourceMaxFetchedAt": "2026-10-22T02:16:51.193Z",
     "stage": "production",
     "inputScope": "full",
     "observedRegionCount": 138,
-    "regionItemCount": 1729,
-    "nationwideTrademarkCount": 183570,
-    "availableRegionItemCount": 1622,
-    "addressVerificationRate": 0.7418
+    "regionItemCount": 1725,
+    "nationwideTrademarkCount": 182283,
+    "availableRegionItemCount": 1628,
+    "addressVerificationRate": 0.7423
   },
   "versions": [
+    {
+      "sha": "80de5ebf7d14be984104fe376880c212bf76ae7f",
+      "shortSha": "80de5ebf7d14",
+      "committedAt": "2026-10-22T14:29:13+09:00",
+      "subject": "promote: 구 단위 주소 판정 수정(ab11711) 반영 대시보드 승격"
+    },
     {
       "sha": "6ae69e020e61c88310c8d4054805921f07b50d67",
       "shortSha": "6ae69e020e61",
@@ -308,12 +314,6 @@
       "shortSha": "8a8367bb00e9",
       "committedAt": "2026-09-08T16:04:34+09:00",
       "subject": "feat: #119 비즈니스 전략 탭을 품목 중심 확장 경로 화면으로"
-    },
-    {
-      "sha": "aa0ea7cbb6594834fe7321f1ea2ec5bede22f1c4",
-      "shortSha": "aa0ea7cbb659",
-      "committedAt": "2026-09-08T15:59:51+09:00",
-      "subject": "feat: 광역×품목유형 교차표 + 출원인 수·유형 분포 집계 (#136 #118)"
     }
   ]
 }
